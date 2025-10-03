@@ -1,0 +1,27 @@
+name: Publish JSON
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # tous les jours à minuit
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run scrapers
+        run: |
+          python3 script1.py
+          python3 script2.py
+          python3 script3.py
+
+      - name: Commit JSON
+        run: |
+          git config --local user.email "you@example.com"
+          git config --local user.name "GitHub Actions"
+          git add *.json
+          git commit -m "Update classement JSON"
+          git push
