@@ -1,34 +1,44 @@
-name: Daily Scraper
+name: Daily AJ Auxerre Scrapers
 
+# Déclenche le cron à minuit tous les jours
 on:
   schedule:
     - cron: "0 0 * * *" # tous les jours à minuit UTC
-  workflow_dispatch: # pour lancer manuellement
+  workflow_dispatch: # permet de lancer manuellement
 
 jobs:
-  scrape:
+  run-scrapers:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Récupérer le repo
       - name: Checkout repo
         uses: actions/checkout@v3
 
+      # 2️⃣ Installer Python
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.12"
 
+      # 3️⃣ Installer les dépendances
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
+      # 4️⃣ Lancer les scripts Python
       - name: Run scrapers
         run: |
           python public/scripts/ligue1_ranking_scrape.py
           python public/scripts/aja_calendrier_scrape.py
           python public/scripts/aja_statistics_scrape.py
 
-      - name: Upload JSON artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: scraper-data
-          path: public/data/
+      # 5️⃣ Commit et push des JSON mis à jour pour GitHub Pages
+      - name: Commit JSON updates
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add public/data/*.json
+          git commit -m "Update scraped JSON [skip ci]" || echo "No changes"
+          git push
