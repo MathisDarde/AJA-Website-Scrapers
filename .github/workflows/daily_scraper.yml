@@ -1,27 +1,34 @@
-name: Publish JSON
+name: Daily Scraper
 
 on:
   schedule:
-    - cron: "0 0 * * *" # tous les jours à minuit
-  workflow_dispatch:
+    - cron: "0 0 * * *" # tous les jours à minuit UTC
+  workflow_dispatch: # pour lancer manuellement
 
 jobs:
-  build:
+  scrape:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
       - name: Run scrapers
         run: |
-          python3 script1.py
-          python3 script2.py
-          python3 script3.py
+          python public/scripts/ligue1_ranking_scrape.py
+          python public/scripts/aja_calendrier_scrape.py
+          python public/scripts/aja_statistics_scrape.py
 
-      - name: Commit JSON
-        run: |
-          git config --local user.email "you@example.com"
-          git config --local user.name "GitHub Actions"
-          git add *.json
-          git commit -m "Update classement JSON"
-          git push
+      - name: Upload JSON artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: scraper-data
+          path: public/data/
