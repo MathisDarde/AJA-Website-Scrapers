@@ -9,8 +9,8 @@ HEADERS = {
 }
 
 URL = "https://www.transfermarkt.fr/ligue-1/tabelle/wettbewerb/FR1/saison_id/2025"
-OUTPUT_FILE = "./public/data/classementligue1.json"
-
+OUTPUT_FILE = "./data/classementligue1.json"
+os.makedirs("./data", exist_ok=True)
 
 def get_position_status(position: int) -> str:
     """Retourne le statut européen/relégation selon la position"""

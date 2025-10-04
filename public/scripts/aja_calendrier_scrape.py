@@ -6,7 +6,8 @@ import os
 # URL du calendrier AJ Auxerre 2025-2026
 URL = "https://www.transfermarkt.fr/aj-auxerre/spielplan/verein/290/saison_id/2025#FR1"
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
-OUTPUT_FILE = "./public/data/aja_calendrier.json"
+OUTPUT_FILE = "./data/aja_calendrier.json"
+os.makedirs("./data", exist_ok=True)
 
 def get_soup(url):
     res = requests.get(url, headers=HEADERS)

@@ -7,7 +7,9 @@ BASE_URL = "https://www.transfermarkt.fr/aj-auxerre/leistungsdaten/verein/290/re
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 }
-OUTPUT_FILE = "./public/data/aja_statistics.json"
+OUTPUT_FILE = "./data/aja_statistics.json"
+os.makedirs("./data", exist_ok=True)
+
 
 
 def get_soup(url, timeout=10):
