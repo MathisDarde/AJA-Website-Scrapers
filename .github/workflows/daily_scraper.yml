@@ -32,7 +32,7 @@ jobs:
         run: |
           python public/scripts/ligue1_ranking_scrape.py
           python public/scripts/aja_calendrier_scrape.py
-          python public/scripts/aja_statistics_scrape.py
+          python public/scripts/aja_players_stats_scrape.py
 
       # 5️⃣ Commit et push des JSON mis à jour pour GitHub Pages
       - name: Commit JSON updates
