@@ -1,6 +1,19 @@
 [
   {
     "position": 1,
+    "equipe": "Marseille",
+    "matchs_joues": 7,
+    "gagnes": 5,
+    "nuls": 0,
+    "perdus": 2,
+    "buts_marques": 15,
+    "buts_encaisses": 5,
+    "difference": 10,
+    "points": 15,
+    "positionStatus": "UEFA Champions League"
+  },
+  {
+    "position": 2,
     "equipe": "Paris SG",
     "matchs_joues": 6,
     "gagnes": 5,
@@ -13,7 +26,7 @@
     "positionStatus": "UEFA Champions League"
   },
   {
-    "position": 2,
+    "position": 3,
     "equipe": "Ol. Lyonnais",
     "matchs_joues": 6,
     "gagnes": 5,
@@ -26,20 +39,20 @@
     "positionStatus": "UEFA Champions League"
   },
   {
-    "position": 3,
-    "equipe": "Marseille",
-    "matchs_joues": 6,
+    "position": 4,
+    "equipe": "RC Lens",
+    "matchs_joues": 7,
     "gagnes": 4,
-    "nuls": 0,
+    "nuls": 1,
     "perdus": 2,
-    "buts_marques": 12,
-    "buts_encaisses": 5,
-    "difference": 7,
-    "points": 12,
-    "positionStatus": "UEFA Champions League"
+    "buts_marques": 10,
+    "buts_encaisses": 6,
+    "difference": 4,
+    "points": 13,
+    "positionStatus": "Barrages Champions League"
   },
   {
-    "position": 4,
+    "position": 5,
     "equipe": "Monaco",
     "matchs_joues": 6,
     "gagnes": 4,
@@ -49,10 +62,10 @@
     "buts_encaisses": 10,
     "difference": 4,
     "points": 12,
-    "positionStatus": "Barrages Champions League"
+    "positionStatus": "UEFA Europa League"
   },
   {
-    "position": 5,
+    "position": 6,
     "equipe": "R. Strasbourg",
     "matchs_joues": 6,
     "gagnes": 4,
@@ -62,10 +75,10 @@
     "buts_encaisses": 7,
     "difference": 2,
     "points": 12,
-    "positionStatus": "UEFA Europa League"
+    "positionStatus": "Barrages Conference League"
   },
   {
-    "position": 6,
+    "position": 7,
     "equipe": "LOSC Lille",
     "matchs_joues": 6,
     "gagnes": 3,
@@ -74,19 +87,6 @@
     "buts_marques": 13,
     "buts_encaisses": 9,
     "difference": 4,
-    "points": 10,
-    "positionStatus": "Barrages Conference League"
-  },
-  {
-    "position": 7,
-    "equipe": "RC Lens",
-    "matchs_joues": 6,
-    "gagnes": 3,
-    "nuls": 1,
-    "perdus": 2,
-    "buts_marques": 8,
-    "buts_encaisses": 5,
-    "difference": 3,
     "points": 10,
     "positionStatus": ""
   },
@@ -119,14 +119,14 @@
   {
     "position": 10,
     "equipe": "Stade Brestois",
-    "matchs_joues": 6,
+    "matchs_joues": 7,
     "gagnes": 2,
-    "nuls": 1,
+    "nuls": 2,
     "perdus": 3,
     "buts_marques": 11,
     "buts_encaisses": 11,
     "difference": 0,
-    "points": 7,
+    "points": 8,
     "positionStatus": ""
   },
   {
@@ -170,19 +170,32 @@
   },
   {
     "position": 14,
-    "equipe": "AJ Auxerre",
-    "matchs_joues": 6,
-    "gagnes": 2,
-    "nuls": 0,
-    "perdus": 4,
-    "buts_marques": 4,
-    "buts_encaisses": 8,
-    "difference": -4,
+    "equipe": "FC Nantes",
+    "matchs_joues": 7,
+    "gagnes": 1,
+    "nuls": 3,
+    "perdus": 3,
+    "buts_marques": 5,
+    "buts_encaisses": 7,
+    "difference": -2,
     "points": 6,
     "positionStatus": ""
   },
   {
     "position": 15,
+    "equipe": "AJ Auxerre",
+    "matchs_joues": 7,
+    "gagnes": 2,
+    "nuls": 0,
+    "perdus": 5,
+    "buts_marques": 5,
+    "buts_encaisses": 10,
+    "difference": -5,
+    "points": 6,
+    "positionStatus": ""
+  },
+  {
+    "position": 16,
     "equipe": "Le Havre AC",
     "matchs_joues": 6,
     "gagnes": 1,
@@ -190,19 +203,6 @@
     "perdus": 3,
     "buts_marques": 6,
     "buts_encaisses": 8,
-    "difference": -2,
-    "points": 5,
-    "positionStatus": ""
-  },
-  {
-    "position": 16,
-    "equipe": "FC Nantes",
-    "matchs_joues": 6,
-    "gagnes": 1,
-    "nuls": 2,
-    "perdus": 3,
-    "buts_marques": 5,
-    "buts_encaisses": 7,
     "difference": -2,
     "points": 5,
     "positionStatus": "Barrages Ligue 2"
@@ -223,13 +223,13 @@
   {
     "position": 18,
     "equipe": "FC Metz",
-    "matchs_joues": 6,
+    "matchs_joues": 7,
     "gagnes": 0,
     "nuls": 2,
-    "perdus": 4,
+    "perdus": 5,
     "buts_marques": 5,
-    "buts_encaisses": 13,
-    "difference": -8,
+    "buts_encaisses": 16,
+    "difference": -11,
     "points": 2,
     "positionStatus": "Ligue 2"
   }
