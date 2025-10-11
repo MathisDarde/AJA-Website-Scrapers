@@ -64,22 +64,6 @@
     "minutes": "-"
   },
   {
-    "numero": "20",
-    "nom": "Sinaly Diomandé",
-    "age": "24",
-    "position": "Défenseur central",
-    "matches": "-",
-    "titularisations": "Pas dans l'effectif cette saison",
-    "goals": null,
-    "assists": null,
-    "yellow_cards": "0",
-    "red_cards": 0,
-    "substitutions_in": "-",
-    "substitutions_out": "-",
-    "points_per_match": "0",
-    "minutes": "-"
-  },
-  {
     "numero": "92",
     "nom": "Clément Akpa",
     "age": "23",
@@ -94,6 +78,22 @@
     "substitutions_out": "1",
     "points_per_match": "1,00",
     "minutes": "450'"
+  },
+  {
+    "numero": "20",
+    "nom": "Sinaly Diomandé",
+    "age": "24",
+    "position": "Défenseur central",
+    "matches": "-",
+    "titularisations": "Pas dans l'effectif cette saison",
+    "goals": null,
+    "assists": null,
+    "yellow_cards": "0",
+    "red_cards": 0,
+    "substitutions_in": "-",
+    "substitutions_out": "-",
+    "points_per_match": "0",
+    "minutes": "-"
   },
   {
     "numero": "14",
@@ -158,6 +158,22 @@
     "substitutions_out": "2",
     "points_per_match": "1,00",
     "minutes": "516'"
+  },
+  {
+    "numero": "13",
+    "nom": "Telli Siwe",
+    "age": "20",
+    "position": "Défenseur central",
+    "matches": "3",
+    "titularisations": "3",
+    "goals": null,
+    "assists": null,
+    "yellow_cards": "0",
+    "red_cards": 0,
+    "substitutions_in": "-",
+    "substitutions_out": "1",
+    "points_per_match": "1,00",
+    "minutes": "225'"
   },
   {
     "numero": "22",
@@ -240,22 +256,6 @@
     "minutes": "-"
   },
   {
-    "numero": "13",
-    "nom": "Telli Siwe",
-    "age": "20",
-    "position": "Défenseur central",
-    "matches": "3",
-    "titularisations": "3",
-    "goals": null,
-    "assists": null,
-    "yellow_cards": "0",
-    "red_cards": 0,
-    "substitutions_in": "-",
-    "substitutions_out": "1",
-    "points_per_match": "1,00",
-    "minutes": "225'"
-  },
-  {
     "numero": "35",
     "nom": "Elikya Legros",
     "age": "17",
@@ -304,6 +304,22 @@
     "minutes": "611'"
   },
   {
+    "numero": "34",
+    "nom": "Rudy Matondo",
+    "age": "17",
+    "position": "Milieu central",
+    "matches": "7",
+    "titularisations": "5",
+    "goals": null,
+    "assists": null,
+    "yellow_cards": "1",
+    "red_cards": 0,
+    "substitutions_in": "5",
+    "substitutions_out": "-",
+    "points_per_match": "0,60",
+    "minutes": "52'"
+  },
+  {
     "numero": "17",
     "nom": "Oussama El Azzouzi",
     "age": "24",
@@ -334,22 +350,6 @@
     "substitutions_out": "-",
     "points_per_match": "1,50",
     "minutes": "8'"
-  },
-  {
-    "numero": "34",
-    "nom": "Rudy Matondo",
-    "age": "17",
-    "position": "Milieu central",
-    "matches": "7",
-    "titularisations": "5",
-    "goals": null,
-    "assists": null,
-    "yellow_cards": "1",
-    "red_cards": 0,
-    "substitutions_in": "5",
-    "substitutions_out": "-",
-    "points_per_match": "0,60",
-    "minutes": "52'"
   },
   {
     "numero": "8",
@@ -400,6 +400,22 @@
     "minutes": "255'"
   },
   {
+    "numero": "10",
+    "nom": "Lassine Sinayoko",
+    "age": "25",
+    "position": "Avant-centre",
+    "matches": "7",
+    "titularisations": "7",
+    "goals": "2",
+    "assists": "1",
+    "yellow_cards": "1",
+    "red_cards": 0,
+    "substitutions_in": "-",
+    "substitutions_out": "5",
+    "points_per_match": "0,86",
+    "minutes": "572'"
+  },
+  {
     "numero": "9",
     "nom": "Sékou Mara",
     "age": "23",
@@ -430,22 +446,6 @@
     "substitutions_out": "2",
     "points_per_match": "0,50",
     "minutes": "492'"
-  },
-  {
-    "numero": "10",
-    "nom": "Lassine Sinayoko",
-    "age": "25",
-    "position": "Avant-centre",
-    "matches": "7",
-    "titularisations": "7",
-    "goals": "2",
-    "assists": "1",
-    "yellow_cards": "1",
-    "red_cards": 0,
-    "substitutions_in": "-",
-    "substitutions_out": "5",
-    "points_per_match": "0,86",
-    "minutes": "572'"
   },
   {
     "numero": "19",
