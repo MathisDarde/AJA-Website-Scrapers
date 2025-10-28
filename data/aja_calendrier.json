@@ -4,8 +4,8 @@
     "date": "dim. 17 août 2025",
     "horaire": "17:15",
     "dom_ext": "D",
-    "classement": "(15.)",
-    "contre": "FC Lorient (14.)",
+    "classement": "(17.)",
+    "contre": "FC Lorient (16.)",
     "formation": "5-4-1 plat",
     "spectateurs": "16.090",
     "resultat": "1:0"
@@ -94,17 +94,17 @@
     "dom_ext": "D",
     "classement": "(14.)",
     "contre": "Le Havre AC (16.)",
-    "formation": "",
-    "spectateurs": "",
-    "resultat": "-:-"
+    "formation": "5-4-1 plat",
+    "spectateurs": "16.729",
+    "resultat": "0:1"
   },
   {
     "journee": "10",
     "date": "mer. 29 oct. 2025",
     "horaire": "21:05",
     "dom_ext": "E",
-    "classement": "",
-    "contre": "R. Strasbourg (3.)",
+    "classement": "(17.)",
+    "contre": "R. Strasbourg (7.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -115,7 +115,7 @@
     "horaire": "21:05",
     "dom_ext": "D",
     "classement": "",
-    "contre": "Marseille (1.)",
+    "contre": "Marseille (3.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -126,7 +126,7 @@
     "horaire": "17:15",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Angers SCO (17.)",
+    "contre": "Angers SCO (15.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -137,7 +137,7 @@
     "horaire": "15:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "Ol. Lyonnais (5.)",
+    "contre": "Ol. Lyonnais (4.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -170,7 +170,7 @@
     "horaire": "17:15",
     "dom_ext": "D",
     "classement": "",
-    "contre": "LOSC Lille (6.)",
+    "contre": "LOSC Lille (5.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -192,7 +192,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "RC Lens (4.)",
+    "contre": "RC Lens (2.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -203,7 +203,7 @@
     "horaire": "00:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "Paris SG (2.)",
+    "contre": "Paris SG (1.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -214,7 +214,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Toulouse (8.)",
+    "contre": "Toulouse (9.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -247,7 +247,7 @@
     "horaire": "00:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "Stade Rennais (9.)",
+    "contre": "Stade Rennais (10.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -258,7 +258,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "FC Lorient (14.)",
+    "contre": "FC Lorient (16.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -269,7 +269,7 @@
     "horaire": "00:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "R. Strasbourg (3.)",
+    "contre": "R. Strasbourg (7.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -280,7 +280,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Marseille (1.)",
+    "contre": "Marseille (3.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -302,7 +302,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Le Havre AC (16.)",
+    "contre": "Le Havre AC (14.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -324,7 +324,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Monaco (7.)",
+    "contre": "Monaco (6.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -335,7 +335,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Ol. Lyonnais (5.)",
+    "contre": "Ol. Lyonnais (4.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -346,7 +346,7 @@
     "horaire": "00:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "Angers SCO (17.)",
+    "contre": "Angers SCO (15.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -357,7 +357,7 @@
     "horaire": "00:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "OGC Nice (10.)",
+    "contre": "OGC Nice (8.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -368,7 +368,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "LOSC Lille (6.)",
+    "contre": "LOSC Lille (5.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
