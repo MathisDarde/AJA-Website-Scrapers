@@ -4,7 +4,7 @@
     "date": "dim. 17 août 2025",
     "horaire": "17:15",
     "dom_ext": "D",
-    "classement": "(17.)",
+    "classement": "(18.)",
     "contre": "FC Lorient (16.)",
     "formation": "5-4-1 plat",
     "spectateurs": "16.090",
@@ -116,17 +116,17 @@
     "dom_ext": "D",
     "classement": "(17.)",
     "contre": "Marseille (3.)",
-    "formation": "",
-    "spectateurs": "",
-    "resultat": "-:-"
+    "formation": "5-4-1 plat",
+    "spectateurs": "16.529",
+    "resultat": "0:1"
   },
   {
     "journee": "12",
     "date": "dim. 9 nov. 2025",
     "horaire": "17:15",
     "dom_ext": "E",
-    "classement": "",
-    "contre": "Angers SCO (13.)",
+    "classement": "(18.)",
+    "contre": "Angers SCO (14.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -137,7 +137,7 @@
     "horaire": "15:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "Ol. Lyonnais (5.)",
+    "contre": "Ol. Lyonnais (6.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -148,7 +148,7 @@
     "horaire": "19:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Paris FC (12.)",
+    "contre": "Paris FC (11.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -159,7 +159,7 @@
     "horaire": "17:15",
     "dom_ext": "D",
     "classement": "",
-    "contre": "FC Metz (18.)",
+    "contre": "FC Metz (17.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -170,7 +170,7 @@
     "horaire": "17:15",
     "dom_ext": "D",
     "classement": "",
-    "contre": "LOSC Lille (7.)",
+    "contre": "LOSC Lille (4.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -181,7 +181,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Stade Brestois (14.)",
+    "contre": "Stade Brestois (13.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -192,7 +192,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "RC Lens (6.)",
+    "contre": "RC Lens (3.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -225,7 +225,7 @@
     "horaire": "00:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "Paris FC (12.)",
+    "contre": "Paris FC (11.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -236,7 +236,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "FC Metz (18.)",
+    "contre": "FC Metz (17.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -269,7 +269,7 @@
     "horaire": "00:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "R. Strasbourg (4.)",
+    "contre": "R. Strasbourg (7.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -280,7 +280,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Marseille (3.)",
+    "contre": "Marseille (2.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -291,7 +291,7 @@
     "horaire": "00:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "Stade Brestois (14.)",
+    "contre": "Stade Brestois (13.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -302,7 +302,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Le Havre AC (11.)",
+    "contre": "Le Havre AC (12.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -324,7 +324,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Monaco (2.)",
+    "contre": "Monaco (5.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -335,7 +335,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Ol. Lyonnais (5.)",
+    "contre": "Ol. Lyonnais (6.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -346,7 +346,7 @@
     "horaire": "00:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "Angers SCO (13.)",
+    "contre": "Angers SCO (14.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -368,7 +368,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "LOSC Lille (7.)",
+    "contre": "LOSC Lille (4.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
