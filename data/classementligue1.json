@@ -92,6 +92,19 @@
   },
   {
     "position": 8,
+    "equipe": "Stade Rennais",
+    "matchs_joues": 12,
+    "gagnes": 4,
+    "nuls": 6,
+    "perdus": 2,
+    "buts_marques": 19,
+    "buts_encaisses": 17,
+    "difference": 2,
+    "points": 18,
+    "positionStatus": ""
+  },
+  {
+    "position": 9,
     "equipe": "OGC Nice",
     "matchs_joues": 11,
     "gagnes": 5,
@@ -104,7 +117,7 @@
     "positionStatus": ""
   },
   {
-    "position": 9,
+    "position": 10,
     "equipe": "Toulouse",
     "matchs_joues": 11,
     "gagnes": 4,
@@ -117,28 +130,15 @@
     "positionStatus": ""
   },
   {
-    "position": 10,
-    "equipe": "Stade Rennais",
-    "matchs_joues": 11,
-    "gagnes": 3,
-    "nuls": 6,
-    "perdus": 2,
-    "buts_marques": 18,
-    "buts_encaisses": 17,
-    "difference": 1,
-    "points": 15,
-    "positionStatus": ""
-  },
-  {
     "position": 11,
     "equipe": "Paris FC",
-    "matchs_joues": 11,
+    "matchs_joues": 12,
     "gagnes": 4,
     "nuls": 2,
-    "perdus": 5,
+    "perdus": 6,
     "buts_marques": 18,
-    "buts_encaisses": 20,
-    "difference": -2,
+    "buts_encaisses": 21,
+    "difference": -3,
     "points": 14,
     "positionStatus": ""
   },
