@@ -1,6 +1,19 @@
 [
   {
     "position": 1,
+    "equipe": "Marseille",
+    "matchs_joues": 13,
+    "gagnes": 9,
+    "nuls": 1,
+    "perdus": 3,
+    "buts_marques": 33,
+    "buts_encaisses": 12,
+    "difference": 21,
+    "points": 28,
+    "positionStatus": "UEFA Champions League"
+  },
+  {
+    "position": 2,
     "equipe": "Paris SG",
     "matchs_joues": 12,
     "gagnes": 8,
@@ -10,19 +23,6 @@
     "buts_encaisses": 11,
     "difference": 13,
     "points": 27,
-    "positionStatus": "UEFA Champions League"
-  },
-  {
-    "position": 2,
-    "equipe": "Marseille",
-    "matchs_joues": 12,
-    "gagnes": 8,
-    "nuls": 1,
-    "perdus": 3,
-    "buts_marques": 28,
-    "buts_encaisses": 11,
-    "difference": 17,
-    "points": 25,
     "positionStatus": "UEFA Champions League"
   },
   {
@@ -106,13 +106,13 @@
   {
     "position": 9,
     "equipe": "OGC Nice",
-    "matchs_joues": 12,
+    "matchs_joues": 13,
     "gagnes": 5,
     "nuls": 2,
-    "perdus": 5,
-    "buts_marques": 17,
-    "buts_encaisses": 18,
-    "difference": -1,
+    "perdus": 6,
+    "buts_marques": 18,
+    "buts_encaisses": 23,
+    "difference": -5,
     "points": 17,
     "positionStatus": ""
   },
