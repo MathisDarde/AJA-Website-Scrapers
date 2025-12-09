@@ -1,22 +1,35 @@
-import requests
+import cloudscraper
 from bs4 import BeautifulSoup
 import json
 import os
+import time
+import random
+from fake_useragent import UserAgent
 
 BASE_URL = "https://www.transfermarkt.fr/aj-auxerre/leistungsdaten/verein/290/reldata/%262025/plus/1"
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-}
 OUTPUT_FILE = "./data/aja_statistics.json"
-os.makedirs("./data", exist_ok=True)
 
+def get_soup(url):
+    ua = UserAgent()
+    scraper = cloudscraper.create_scraper(
+        browser={'browser': 'chrome', 'platform': 'windows', 'desktop': True}
+    )
+    headers = {
+        "User-Agent": ua.random,
+        "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+    }
+    time.sleep(random.uniform(2, 5))
 
-
-def get_soup(url, timeout=10):
-    res = requests.get(url, headers=HEADERS, timeout=timeout)
-    res.raise_for_status()
-    return BeautifulSoup(res.text, "html.parser")
-
+    try:
+        print(f"📡 Connexion à {url}...")
+        res = scraper.get(url, headers=headers)
+        if res.status_code != 200:
+            print(f"⚠️ Erreur HTTP {res.status_code}")
+            return None
+        return BeautifulSoup(res.text, "html.parser")
+    except Exception as e:
+        print(f"❌ Exception réseau : {e}")
+        return None
 
 def parse_players_table(soup):
     players = []
@@ -31,50 +44,49 @@ def parse_players_table(soup):
         if len(tds) < 15:
             continue
 
-        # numéro
         numero = tds[0].get_text(strip=True)
-
-        # nom et poste
+        
+        # Nom et poste
         nom, position = "", ""
         nom_poste_table = tds[1].find("table")
         if nom_poste_table:
             nom_el = nom_poste_table.select_one(".hauptlink a")
             nom = nom_el.get_text(strip=True) if nom_el else ""
-            poste_el = nom_poste_table.find_all("tr")[1].find("td")
-            position = poste_el.get_text(strip=True) if poste_el else ""
+            try:
+                # Parfois la structure change légèrement
+                trs_sub = nom_poste_table.find_all("tr")
+                if len(trs_sub) > 1:
+                    position = trs_sub[1].find("td").get_text(strip=True)
+            except:
+                pass
 
-        # age
         age = tds[5].get_text(strip=True)
-
-        # matches & titularisations
         matches = tds[7].get_text(strip=True)
         titularisations = tds[8].get_text(strip=True)
 
-        # goals & assists
         goals = tds[9].get_text(strip=True)
-        goals = goals if goals != "-" else None
+        goals = goals if goals != "-" else "0"
+        
         assists = tds[10].get_text(strip=True)
-        assists = assists if assists != "-" else None
+        assists = assists if assists != "-" else "0"
 
-        # cards
         yellow_cards = tds[11].get_text(strip=True)
         yellow_cards = yellow_cards if yellow_cards != "-" else "0"
 
         two_yellows = tds[12].get_text(strip=True)
-        two_yellows_val = int(two_yellows) if two_yellows != "-" else 0
+        two_yellows_val = int(two_yellows) if two_yellows != "-" and two_yellows.isdigit() else 0
 
         red_cards = tds[13].get_text(strip=True)
-        red_cards_val = int(red_cards) if red_cards != "-" else 0
+        red_cards_val = int(red_cards) if red_cards != "-" and red_cards.isdigit() else 0
 
         total_red_cards = two_yellows_val + red_cards_val
 
-        # substitutions in / out
         sub_in = tds[14].get_text(strip=True)
-        sub_in = sub_in if sub_in != "-" else "-"
+        sub_in = sub_in if sub_in != "-" else "0"
+        
         sub_out = tds[15].get_text(strip=True)
-        sub_out = sub_out if sub_out != "-" else "-"
+        sub_out = sub_out if sub_out != "-" else "0"
 
-        # points per match & minutes
         points_per_match = tds[16].get_text(strip=True)
         minutes = tds[17].get_text(strip=True)
 
@@ -99,12 +111,17 @@ def parse_players_table(soup):
 
 def main():
     os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+    
     soup = get_soup(BASE_URL)
+    if not soup:
+        print("❌ Arrêt du script : page non chargée.")
+        exit(1)
+
     data = parse_players_table(soup)
+    
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
     print(f"✅ {len(data)} joueurs enregistrés → {OUTPUT_FILE}")
-
 
 if __name__ == "__main__":
     main()

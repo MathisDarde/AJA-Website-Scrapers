@@ -1,10 +1,9 @@
 name: Daily AJ Auxerre Scrapers
 
-# Déclenche le cron à minuit tous les jours
 on:
   schedule:
-    - cron: "0 0 * * *" # tous les jours à minuit UTC
-  workflow_dispatch: # permet de lancer manuellement
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -14,34 +13,52 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Récupérer le repo
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      # 2️⃣ Installer Python
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.12"
 
-      # 3️⃣ Installer les dépendances
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # 4️⃣ Lancer les scripts Python
-      - name: Run scrapers
-        run: |
-          python public/scripts/ligue1_ranking_scrape.py
-          python public/scripts/aja_calendrier_scrape.py
-          python public/scripts/aja_players_stats_scrape.py
+      # --- Séparation des scripts ---
 
-      # 5️⃣ Commit et push des JSON mis à jour pour GitHub Pages
+      - name: Scrape Ligue 1 Ranking
+        id: scrape_ranking
+        continue-on-error: true # <-- Si ça plante, on passe à la suite
+        run: python public/scripts/ligue1_ranking_scrape.py
+
+      - name: Scrape AJA Calendrier
+        id: scrape_calendrier
+        continue-on-error: true # <-- Idem
+        run: python public/scripts/aja_calendrier_scrape.py
+
+      - name: Scrape AJA Players Stats
+        id: scrape_stats
+        continue-on-error: true # <-- Idem
+        run: python public/scripts/aja_players_stats_scrape.py
+
+      # --- Commit conditionnel ---
+
+      - name: Check for changes
+        id: git_status
+        run: |
+          if [[ -n $(git status --porcelain data/*.json) ]]; then
+            echo "changes_exist=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes_exist=false" >> $GITHUB_OUTPUT
+          fi
+
       - name: Commit JSON updates
+        if: steps.git_status.outputs.changes_exist == 'true' # Commit seulement s'il y a des modifs
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -f data/*.json           # <- nouveau chemin
-          git commit -m "Update scraped JSON [skip ci]" || echo "No changes"
+          git add data/*.json
+          git commit -m "Update scraped JSON [skip ci]"
           git push "https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:main

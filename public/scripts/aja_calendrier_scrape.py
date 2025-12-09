@@ -1,24 +1,47 @@
-import requests
+import cloudscraper
 from bs4 import BeautifulSoup
 import json
 import os
+import time
+import random
+from fake_useragent import UserAgent
 
 # URL du calendrier AJ Auxerre 2025-2026
 URL = "https://www.transfermarkt.fr/aj-auxerre/spielplan/verein/290/saison_id/2025#FR1"
-HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 OUTPUT_FILE = "./data/aja_calendrier.json"
-os.makedirs("./data", exist_ok=True)
 
 def get_soup(url):
-    res = requests.get(url, headers=HEADERS)
-    res.raise_for_status()
-    return BeautifulSoup(res.text, "html.parser")
+    """
+    Récupère le soup via Cloudscraper pour contourner la protection Cloudflare.
+    """
+    ua = UserAgent()
+    # Création du scraper qui imite un navigateur de bureau
+    scraper = cloudscraper.create_scraper(
+        browser={'browser': 'chrome', 'platform': 'windows', 'desktop': True}
+    )
+    
+    # Headers réalistes
+    headers = {
+        "User-Agent": ua.random,
+        "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Referer": "https://www.google.com/"
+    }
+
+    # Pause aléatoire pour comportement humain
+    time.sleep(random.uniform(2, 5))
+
+    try:
+        print(f"📡 Connexion à {url}...")
+        res = scraper.get(url, headers=headers)
+        if res.status_code != 200:
+            print(f"⚠️ Erreur HTTP {res.status_code}")
+            return None
+        return BeautifulSoup(res.text, "html.parser")
+    except Exception as e:
+        print(f"❌ Exception réseau : {e}")
+        return None
 
 def find_calendar_table(soup):
-    """
-    Parcourt toutes les tables pour identifier celle contenant le calendrier.
-    On repère la table par la présence des colonnes clés "Journée", "Contre", "Résultat"
-    """
     tables = soup.find_all("table")
     for t in tables:
         ths = [th.get_text(strip=True) for th in t.find_all("th")]
@@ -26,37 +49,11 @@ def find_calendar_table(soup):
             return t
     return None
 
-def get_full_text(td):
-    """
-    Récupère tout le texte d'une cellule <td>, y compris spans/divs internes,
-    et nettoie les retours à la ligne et espaces.
-    """
-    if td is None:
-        return None
-    text = " ".join(td.stripped_strings)
-    return text if text else None
-
-def get_result_text(td):
-    """
-    Récupère le texte complet de la cellule 'Résultat', y compris liens et spans internes.
-    """
-    if td is None:
-        return None
-    text = " ".join(td.stripped_strings)
-    return text if text else None
-
 def parse_calendar_table_transfermarkt(table):
-    """
-    Parse le tableau du calendrier Transfermarkt pour AJ Auxerre.
-    Retourne une liste de matchs avec toutes les colonnes correctement alignées.
-    """
-
     def get_full_text(td):
-        """Récupère le texte visible d'un td, ou None si td est None"""
         return td.get_text(strip=True) if td else None
 
     def get_contre_text(td):
-        """Récupère le texte de la colonne Contre, combinant <a> et <span>"""
         if td is None:
             return None
         a = td.find("a")
@@ -66,7 +63,6 @@ def parse_calendar_table_transfermarkt(table):
         return f"{a_text} {span_text}".strip()
 
     def get_result_text(td):
-        """Récupère le score réel depuis td[9], span.greentext"""
         if td is None:
             return None
         span = td.find("span", class_="greentext")
@@ -75,7 +71,10 @@ def parse_calendar_table_transfermarkt(table):
         return get_full_text(td)
 
     matches = []
-    for row in table.find_all("tr")[1:]:  # ignorer le header
+    # On saute le header
+    rows = table.find_all("tr")[1:]
+    
+    for row in rows:
         tds = row.find_all("td")
         if len(tds) < 10:
             continue
@@ -85,7 +84,6 @@ def parse_calendar_table_transfermarkt(table):
         horaire = get_full_text(tds[2])
         dom_ext = get_full_text(tds[3])
         classement = get_full_text(tds[4])
-        # td[5] = logo, on ignore
         contre = get_contre_text(tds[6])
         formation = get_full_text(tds[7])
         spectateurs = get_full_text(tds[8])
@@ -107,16 +105,20 @@ def parse_calendar_table_transfermarkt(table):
     return matches
 
 def main():
-    os.makedirs("./public/data", exist_ok=True)
-    print("🔄 Récupération de la page Transfermarkt...")
+    # S'assurer que le dossier existe
+    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+    
     soup = get_soup(URL)
+    if not soup:
+        print("❌ Impossible de récupérer la page (blocage ou erreur).")
+        exit(1) # Quitter avec erreur pour les logs
 
     table = find_calendar_table(soup)
     if not table:
-        print("❌ Tableau calendrier non trouvé")
+        print("❌ Tableau calendrier non trouvé dans le HTML.")
         return
 
-    print("✅ Tableau calendrier trouvé, parsing avec correction des décalages et résultats...")
+    print("✅ Tableau trouvé, extraction des données...")
     data = parse_calendar_table_transfermarkt(table)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
