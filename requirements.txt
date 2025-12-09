@@ -1,6 +1,4 @@
-requests
 beautifulsoup4
 lxml
 pandas
-cloudscraper
-fake-useragent
+curl_cffi

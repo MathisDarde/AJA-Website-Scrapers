@@ -1,33 +1,43 @@
-import cloudscraper
+from curl_cffi import requests
 from bs4 import BeautifulSoup
 import json
 import os
 import time
 import random
-from fake_useragent import UserAgent
 
 BASE_URL = "https://www.transfermarkt.fr/aj-auxerre/leistungsdaten/verein/290/reldata/%262025/plus/1"
 OUTPUT_FILE = "./data/aja_statistics.json"
 
 def get_soup(url):
-    ua = UserAgent()
-    scraper = cloudscraper.create_scraper(
-        browser={'browser': 'chrome', 'platform': 'windows', 'desktop': True}
-    )
-    headers = {
-        "User-Agent": ua.random,
-        "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
-    }
+    """
+    Utilise curl_cffi pour imiter parfaitement un navigateur Chrome (TLS Fingerprint).
+    """
+    # Pause aléatoire (toujours utile)
     time.sleep(random.uniform(2, 5))
-
+    
     try:
-        print(f"📡 Connexion à {url}...")
-        res = scraper.get(url, headers=headers)
-        if res.status_code != 200:
-            print(f"⚠️ Erreur HTTP {res.status_code}")
+        print(f"📡 Connexion à {url} avec curl_cffi...")
+        
+        # impersonate="chrome120" est la clé magique pour passer Cloudflare
+        response = requests.get(
+            url, 
+            impersonate="chrome120", 
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+            },
+            timeout=30
+        )
+        
+        if response.status_code == 200:
+            return BeautifulSoup(response.text, "html.parser")
+        else:
+            print(f"⚠️ Erreur HTTP {response.status_code}")
             return None
-        return BeautifulSoup(res.text, "html.parser")
+            
     except Exception as e:
+        print(f"❌ Erreur réseau : {e}")
+        return None
         print(f"❌ Exception réseau : {e}")
         return None
 

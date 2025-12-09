@@ -1,10 +1,9 @@
-import cloudscraper
+from curl_cffi import requests
 from bs4 import BeautifulSoup
 import json
 import os
 import time
 import random
-from fake_useragent import UserAgent
 
 # URL du calendrier AJ Auxerre 2025-2026
 URL = "https://www.transfermarkt.fr/aj-auxerre/spielplan/verein/290/saison_id/2025#FR1"
@@ -12,33 +11,33 @@ OUTPUT_FILE = "./data/aja_calendrier.json"
 
 def get_soup(url):
     """
-    Récupère le soup via Cloudscraper pour contourner la protection Cloudflare.
+    Utilise curl_cffi pour imiter parfaitement un navigateur Chrome (TLS Fingerprint).
     """
-    ua = UserAgent()
-    # Création du scraper qui imite un navigateur de bureau
-    scraper = cloudscraper.create_scraper(
-        browser={'browser': 'chrome', 'platform': 'windows', 'desktop': True}
-    )
-    
-    # Headers réalistes
-    headers = {
-        "User-Agent": ua.random,
-        "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7",
-        "Referer": "https://www.google.com/"
-    }
-
-    # Pause aléatoire pour comportement humain
+    # Pause aléatoire (toujours utile)
     time.sleep(random.uniform(2, 5))
-
+    
     try:
-        print(f"📡 Connexion à {url}...")
-        res = scraper.get(url, headers=headers)
-        if res.status_code != 200:
-            print(f"⚠️ Erreur HTTP {res.status_code}")
+        print(f"📡 Connexion à {url} avec curl_cffi...")
+        
+        # impersonate="chrome120" est la clé magique pour passer Cloudflare
+        response = requests.get(
+            url, 
+            impersonate="chrome120", 
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
+            },
+            timeout=30
+        )
+        
+        if response.status_code == 200:
+            return BeautifulSoup(response.text, "html.parser")
+        else:
+            print(f"⚠️ Erreur HTTP {response.status_code}")
             return None
-        return BeautifulSoup(res.text, "html.parser")
+            
     except Exception as e:
-        print(f"❌ Exception réseau : {e}")
+        print(f"❌ Erreur réseau : {e}")
         return None
 
 def find_calendar_table(soup):
