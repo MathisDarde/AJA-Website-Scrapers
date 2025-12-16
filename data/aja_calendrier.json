@@ -5,7 +5,7 @@
     "horaire": "17:15",
     "dom_ext": "D",
     "classement": "(16.)",
-    "contre": "FC Lorient (13.)",
+    "contre": "FC Lorient (12.)",
     "formation": "5-4-1 plat",
     "spectateurs": "16.090",
     "resultat": "1:0"
@@ -171,17 +171,17 @@
     "dom_ext": "D",
     "classement": "(16.)",
     "contre": "LOSC Lille (4.)",
-    "formation": "",
-    "spectateurs": "",
-    "resultat": "-:-"
+    "formation": "4-3-3 offensif",
+    "spectateurs": "16.124",
+    "resultat": "3:4"
   },
   {
     "journee": "17",
     "date": "dim. 4 janv. 2026",
     "horaire": "17:15",
     "dom_ext": "E",
-    "classement": "",
-    "contre": "Stade Brestois (10.)",
+    "classement": "(16.)",
+    "contre": "Stade Brestois (11.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -214,7 +214,7 @@
     "horaire": "17:15",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Toulouse (9.)",
+    "contre": "Toulouse (8.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -258,7 +258,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "FC Lorient (13.)",
+    "contre": "FC Lorient (12.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -269,7 +269,7 @@
     "horaire": "00:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "R. Strasbourg (8.)",
+    "contre": "R. Strasbourg (7.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -291,7 +291,7 @@
     "horaire": "00:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "Stade Brestois (10.)",
+    "contre": "Stade Brestois (11.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -324,7 +324,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Monaco (7.)",
+    "contre": "Monaco (9.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -346,7 +346,7 @@
     "horaire": "00:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "Angers SCO (11.)",
+    "contre": "Angers SCO (10.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -357,7 +357,7 @@
     "horaire": "21:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "OGC Nice (12.)",
+    "contre": "OGC Nice (13.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
