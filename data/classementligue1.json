@@ -2,14 +2,14 @@
   {
     "position": 1,
     "equipe": "RC Lens",
-    "matchs_joues": 16,
-    "gagnes": 12,
+    "matchs_joues": 17,
+    "gagnes": 13,
     "nuls": 1,
     "perdus": 3,
-    "buts_marques": 28,
+    "buts_marques": 31,
     "buts_encaisses": 13,
-    "difference": 15,
-    "points": 37,
+    "difference": 18,
+    "points": 40,
     "positionStatus": "UEFA Champions League"
   },
   {
@@ -93,13 +93,13 @@
   {
     "position": 8,
     "equipe": "Toulouse",
-    "matchs_joues": 16,
+    "matchs_joues": 17,
     "gagnes": 6,
     "nuls": 5,
-    "perdus": 5,
+    "perdus": 6,
     "buts_marques": 24,
-    "buts_encaisses": 19,
-    "difference": 5,
+    "buts_encaisses": 22,
+    "difference": 2,
     "points": 23,
     "positionStatus": ""
   },
