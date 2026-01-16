@@ -304,6 +304,22 @@
     "minutes": "1.411'"
   },
   {
+    "numero": "28",
+    "nom": "Romain Faivre",
+    "age": "27",
+    "position": "Milieu offensif",
+    "matches": "-",
+    "titularisations": "Pas dans l'effectif cette saison",
+    "goals": "0",
+    "assists": "0",
+    "yellow_cards": "0",
+    "red_cards": 0,
+    "substitutions_in": "0",
+    "substitutions_out": "0",
+    "points_per_match": "0",
+    "minutes": "-"
+  },
+  {
     "numero": "8",
     "nom": "Naouirou Ahamada",
     "age": "23",
@@ -400,22 +416,6 @@
     "minutes": "-"
   },
   {
-    "numero": "-",
-    "nom": "Lamfia Dioubaté",
-    "age": "18",
-    "position": "Milieu",
-    "matches": "1",
-    "titularisations": "1",
-    "goals": "0",
-    "assists": "0",
-    "yellow_cards": "0",
-    "red_cards": 0,
-    "substitutions_in": "1",
-    "substitutions_out": "0",
-    "points_per_match": "0,00",
-    "minutes": "1'"
-  },
-  {
     "numero": "36",
     "nom": "Tidiane Devernois",
     "age": "18",
@@ -430,6 +430,22 @@
     "substitutions_out": "0",
     "points_per_match": "0,00",
     "minutes": "13'"
+  },
+  {
+    "numero": "-",
+    "nom": "Lamfia Dioubaté",
+    "age": "18",
+    "position": "Milieu",
+    "matches": "1",
+    "titularisations": "1",
+    "goals": "0",
+    "assists": "0",
+    "yellow_cards": "0",
+    "red_cards": 0,
+    "substitutions_in": "1",
+    "substitutions_out": "0",
+    "points_per_match": "0,00",
+    "minutes": "1'"
   },
   {
     "numero": "23",
@@ -560,6 +576,22 @@
     "minutes": "-"
   },
   {
+    "numero": "-",
+    "nom": "Mamoudou Cissokho",
+    "age": "18",
+    "position": "Ailier droit",
+    "matches": "3",
+    "titularisations": "2",
+    "goals": "0",
+    "assists": "0",
+    "yellow_cards": "0",
+    "red_cards": 0,
+    "substitutions_in": "2",
+    "substitutions_out": "0",
+    "points_per_match": "1,50",
+    "minutes": "28'"
+  },
+  {
     "numero": "31",
     "nom": "Ryan Rodin",
     "age": "19",
@@ -590,21 +622,5 @@
     "substitutions_out": "0",
     "points_per_match": "0,00",
     "minutes": "9'"
-  },
-  {
-    "numero": "-",
-    "nom": "Mamoudou Cissokho",
-    "age": "18",
-    "position": "Ailier droit",
-    "matches": "3",
-    "titularisations": "2",
-    "goals": "0",
-    "assists": "0",
-    "yellow_cards": "0",
-    "red_cards": 0,
-    "substitutions_in": "2",
-    "substitutions_out": "0",
-    "points_per_match": "1,50",
-    "minutes": "28'"
   }
 ]
