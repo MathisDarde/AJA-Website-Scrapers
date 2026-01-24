@@ -1,6 +1,19 @@
 [
   {
     "position": 1,
+    "equipe": "Paris SG",
+    "matchs_joues": 19,
+    "gagnes": 14,
+    "nuls": 3,
+    "perdus": 2,
+    "buts_marques": 41,
+    "buts_encaisses": 15,
+    "difference": 26,
+    "points": 45,
+    "positionStatus": "UEFA Champions League"
+  },
+  {
+    "position": 2,
     "equipe": "RC Lens",
     "matchs_joues": 18,
     "gagnes": 14,
@@ -10,19 +23,6 @@
     "buts_encaisses": 13,
     "difference": 19,
     "points": 43,
-    "positionStatus": "UEFA Champions League"
-  },
-  {
-    "position": 2,
-    "equipe": "Paris SG",
-    "matchs_joues": 18,
-    "gagnes": 13,
-    "nuls": 3,
-    "perdus": 2,
-    "buts_marques": 40,
-    "buts_encaisses": 15,
-    "difference": 25,
-    "points": 42,
     "positionStatus": "UEFA Champions League"
   },
   {
@@ -210,13 +210,13 @@
   {
     "position": 17,
     "equipe": "AJ Auxerre",
-    "matchs_joues": 18,
+    "matchs_joues": 19,
     "gagnes": 3,
     "nuls": 3,
-    "perdus": 12,
+    "perdus": 13,
     "buts_marques": 14,
-    "buts_encaisses": 28,
-    "difference": -14,
+    "buts_encaisses": 29,
+    "difference": -15,
     "points": 12,
     "positionStatus": "Ligue 2"
   },
