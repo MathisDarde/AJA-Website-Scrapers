@@ -160,6 +160,22 @@
     "minutes": "952'"
   },
   {
+    "numero": "24",
+    "nom": "Bryan Okoh",
+    "age": "22",
+    "position": "Défenseur central",
+    "matches": "-",
+    "titularisations": "Pas dans l'effectif cette saison",
+    "goals": "0",
+    "assists": "0",
+    "yellow_cards": "0",
+    "red_cards": 0,
+    "substitutions_in": "0",
+    "substitutions_out": "0",
+    "points_per_match": "0",
+    "minutes": "-"
+  },
+  {
     "numero": "13",
     "nom": "Telli Siwe",
     "age": "21",
