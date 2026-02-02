@@ -215,17 +215,17 @@
     "dom_ext": "E",
     "classement": "(17.)",
     "contre": "Toulouse (8.)",
-    "formation": "",
-    "spectateurs": "",
-    "resultat": "-:-"
+    "formation": "4-3-3 offensif",
+    "spectateurs": "23.704",
+    "resultat": "0:0"
   },
   {
     "journee": "21",
     "date": "dim. 8 févr. 2026",
     "horaire": "17:15",
     "dom_ext": "D",
-    "classement": "",
-    "contre": "Paris FC (13.)",
+    "classement": "(17.)",
+    "contre": "Paris FC (14.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -357,7 +357,7 @@
     "horaire": "21:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "OGC Nice (14.)",
+    "contre": "OGC Nice (13.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
