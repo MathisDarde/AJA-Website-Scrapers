@@ -54,14 +54,14 @@
   {
     "position": 5,
     "equipe": "LOSC Lille",
-    "matchs_joues": 20,
+    "matchs_joues": 21,
     "gagnes": 10,
-    "nuls": 2,
+    "nuls": 3,
     "perdus": 8,
     "buts_marques": 34,
     "buts_encaisses": 30,
     "difference": 4,
-    "points": 32,
+    "points": 33,
     "positionStatus": "UEFA Europa League"
   },
   {
@@ -223,14 +223,14 @@
   {
     "position": 18,
     "equipe": "FC Metz",
-    "matchs_joues": 20,
+    "matchs_joues": 21,
     "gagnes": 3,
-    "nuls": 3,
+    "nuls": 4,
     "perdus": 14,
     "buts_marques": 21,
     "buts_encaisses": 46,
     "difference": -25,
-    "points": 12,
+    "points": 13,
     "positionStatus": "Ligue 2"
   }
 ]
