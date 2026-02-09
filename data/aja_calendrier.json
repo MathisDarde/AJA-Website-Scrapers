@@ -4,8 +4,8 @@
     "date": "dim. 17 août 2025",
     "horaire": "17:15",
     "dom_ext": "D",
-    "classement": "(17.)",
-    "contre": "FC Lorient (9.)",
+    "classement": "(16.)",
+    "contre": "FC Lorient (11.)",
     "formation": "5-4-1 plat",
     "spectateurs": "16.090",
     "resultat": "1:0"
@@ -226,16 +226,16 @@
     "dom_ext": "D",
     "classement": "(17.)",
     "contre": "Paris FC (14.)",
-    "formation": "",
-    "spectateurs": "",
-    "resultat": "-:-"
+    "formation": "4-3-3 offensif",
+    "spectateurs": "15.834",
+    "resultat": "0:0"
   },
   {
     "journee": "22",
     "date": "dim. 15 févr. 2026",
     "horaire": "17:15",
     "dom_ext": "E",
-    "classement": "",
+    "classement": "(16.)",
     "contre": "FC Metz (18.)",
     "formation": "",
     "spectateurs": "",
@@ -258,7 +258,7 @@
     "horaire": "17:15",
     "dom_ext": "E",
     "classement": "",
-    "contre": "FC Lorient (9.)",
+    "contre": "FC Lorient (11.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -302,7 +302,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Le Havre AC (15.)",
+    "contre": "Le Havre AC (13.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -313,7 +313,7 @@
     "horaire": "00:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "FC Nantes (16.)",
+    "contre": "FC Nantes (17.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -346,7 +346,7 @@
     "horaire": "00:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "Angers SCO (11.)",
+    "contre": "Angers SCO (9.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -357,7 +357,7 @@
     "horaire": "21:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "OGC Nice (13.)",
+    "contre": "OGC Nice (14.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
