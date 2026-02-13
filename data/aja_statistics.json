@@ -465,6 +465,22 @@
   },
   {
     "numero": "-",
+    "nom": "Yvan Zaddy",
+    "age": "19",
+    "position": "Milieu défensif",
+    "matches": "6",
+    "titularisations": "1",
+    "goals": "0",
+    "assists": "0",
+    "yellow_cards": "0",
+    "red_cards": 0,
+    "substitutions_in": "1",
+    "substitutions_out": "0",
+    "points_per_match": "0,00",
+    "minutes": "9'"
+  },
+  {
+    "numero": "-",
     "nom": "Ibrahim Osman",
     "age": "21",
     "position": "Ailier gauche",
@@ -622,21 +638,5 @@
     "substitutions_out": "1",
     "points_per_match": "0,00",
     "minutes": "84'"
-  },
-  {
-    "numero": "-",
-    "nom": "Yvan Zaddy",
-    "age": "19",
-    "position": "Avant-centre",
-    "matches": "6",
-    "titularisations": "1",
-    "goals": "0",
-    "assists": "0",
-    "yellow_cards": "0",
-    "red_cards": 0,
-    "substitutions_in": "1",
-    "substitutions_out": "0",
-    "points_per_match": "0,00",
-    "minutes": "9'"
   }
 ]
