@@ -5,7 +5,7 @@
     "horaire": "17:15",
     "dom_ext": "D",
     "classement": "(16.)",
-    "contre": "FC Lorient (11.)",
+    "contre": "FC Lorient (9.)",
     "formation": "5-4-1 plat",
     "spectateurs": "16.090",
     "resultat": "1:0"
@@ -237,16 +237,16 @@
     "dom_ext": "E",
     "classement": "(16.)",
     "contre": "FC Metz (18.)",
-    "formation": "",
+    "formation": "4-3-3 offensif",
     "spectateurs": "",
-    "resultat": "-:-"
+    "resultat": "1:3"
   },
   {
     "journee": "23",
     "date": "dim. 22 févr. 2026",
     "horaire": "15:00",
     "dom_ext": "D",
-    "classement": "",
+    "classement": "(16.)",
     "contre": "Stade Rennais (6.)",
     "formation": "",
     "spectateurs": "",
@@ -258,7 +258,7 @@
     "horaire": "17:15",
     "dom_ext": "E",
     "classement": "",
-    "contre": "FC Lorient (11.)",
+    "contre": "FC Lorient (9.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -346,7 +346,7 @@
     "horaire": "00:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "Angers SCO (10.)",
+    "contre": "Angers SCO (11.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
