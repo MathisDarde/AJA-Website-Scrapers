@@ -41,13 +41,13 @@
   {
     "position": 4,
     "equipe": "Marseille",
-    "matchs_joues": 22,
+    "matchs_joues": 23,
     "gagnes": 12,
     "nuls": 4,
-    "perdus": 6,
+    "perdus": 7,
     "buts_marques": 48,
-    "buts_encaisses": 29,
-    "difference": 19,
+    "buts_encaisses": 31,
+    "difference": 17,
     "points": 40,
     "positionStatus": "Barrages Champions League"
   },
@@ -131,6 +131,19 @@
   },
   {
     "position": 11,
+    "equipe": "Stade Brestois",
+    "matchs_joues": 23,
+    "gagnes": 8,
+    "nuls": 6,
+    "perdus": 9,
+    "buts_marques": 31,
+    "buts_encaisses": 34,
+    "difference": -3,
+    "points": 30,
+    "positionStatus": ""
+  },
+  {
+    "position": 12,
     "equipe": "Angers SCO",
     "matchs_joues": 22,
     "gagnes": 8,
@@ -140,19 +153,6 @@
     "buts_encaisses": 27,
     "difference": -5,
     "points": 29,
-    "positionStatus": ""
-  },
-  {
-    "position": 12,
-    "equipe": "Stade Brestois",
-    "matchs_joues": 22,
-    "gagnes": 7,
-    "nuls": 6,
-    "perdus": 9,
-    "buts_marques": 29,
-    "buts_encaisses": 34,
-    "difference": -5,
-    "points": 27,
     "positionStatus": ""
   },
   {
