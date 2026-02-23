@@ -5,7 +5,7 @@
     "horaire": "17:15",
     "dom_ext": "D",
     "classement": "(16.)",
-    "contre": "FC Lorient (10.)",
+    "contre": "FC Lorient (9.)",
     "formation": "5-4-1 plat",
     "spectateurs": "16.090",
     "resultat": "1:0"
@@ -248,17 +248,17 @@
     "dom_ext": "D",
     "classement": "(16.)",
     "contre": "Stade Rennais (6.)",
-    "formation": "",
-    "spectateurs": "",
-    "resultat": "-:-"
+    "formation": "4-3-3 offensif",
+    "spectateurs": "15.894",
+    "resultat": "0:3"
   },
   {
     "journee": "24",
     "date": "dim. 1 mars 2026",
     "horaire": "17:15",
     "dom_ext": "E",
-    "classement": "",
-    "contre": "FC Lorient (10.)",
+    "classement": "(16.)",
+    "contre": "FC Lorient (9.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -269,7 +269,7 @@
     "horaire": "19:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "R. Strasbourg (8.)",
+    "contre": "R. Strasbourg (7.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -324,7 +324,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Monaco (6.)",
+    "contre": "Monaco (8.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
