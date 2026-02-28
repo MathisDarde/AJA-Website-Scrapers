@@ -15,14 +15,14 @@
   {
     "position": 2,
     "equipe": "RC Lens",
-    "matchs_joues": 23,
+    "matchs_joues": 24,
     "gagnes": 17,
-    "nuls": 1,
+    "nuls": 2,
     "perdus": 5,
-    "buts_marques": 44,
-    "buts_encaisses": 20,
+    "buts_marques": 45,
+    "buts_encaisses": 21,
     "difference": 24,
-    "points": 52,
+    "points": 53,
     "positionStatus": "UEFA Champions League"
   },
   {
@@ -80,14 +80,14 @@
   {
     "position": 7,
     "equipe": "R. Strasbourg",
-    "matchs_joues": 23,
+    "matchs_joues": 24,
     "gagnes": 10,
-    "nuls": 4,
+    "nuls": 5,
     "perdus": 9,
-    "buts_marques": 39,
-    "buts_encaisses": 30,
+    "buts_marques": 40,
+    "buts_encaisses": 31,
     "difference": 9,
-    "points": 34,
+    "points": 35,
     "positionStatus": ""
   },
   {
