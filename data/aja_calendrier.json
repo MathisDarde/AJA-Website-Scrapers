@@ -299,7 +299,7 @@
   {
     "journee": "28",
     "date": "dim. 5 avr. 2026",
-    "horaire": "00:00",
+    "horaire": "17:15",
     "dom_ext": "E",
     "classement": "",
     "contre": "Le Havre AC (13.)",
@@ -309,8 +309,8 @@
   },
   {
     "journee": "29",
-    "date": "dim. 12 avr. 2026",
-    "horaire": "00:00",
+    "date": "sam. 11 avr. 2026",
+    "horaire": "19:00",
     "dom_ext": "D",
     "classement": "",
     "contre": "FC Nantes (17.)",
@@ -324,7 +324,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Monaco (7.)",
+    "contre": "Monaco (5.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -368,7 +368,7 @@
     "horaire": "21:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "LOSC Lille (5.)",
+    "contre": "LOSC Lille (6.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"

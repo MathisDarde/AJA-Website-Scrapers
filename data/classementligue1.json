@@ -2,13 +2,13 @@
   {
     "position": 1,
     "equipe": "Paris SG",
-    "matchs_joues": 24,
+    "matchs_joues": 25,
     "gagnes": 18,
     "nuls": 3,
-    "perdus": 3,
-    "buts_marques": 53,
-    "buts_encaisses": 19,
-    "difference": 34,
+    "perdus": 4,
+    "buts_marques": 54,
+    "buts_encaisses": 22,
+    "difference": 32,
     "points": 57,
     "positionStatus": "UEFA Champions League"
   },
@@ -53,6 +53,19 @@
   },
   {
     "position": 5,
+    "equipe": "Monaco",
+    "matchs_joues": 25,
+    "gagnes": 12,
+    "nuls": 4,
+    "perdus": 9,
+    "buts_marques": 43,
+    "buts_encaisses": 37,
+    "difference": 6,
+    "points": 40,
+    "positionStatus": "UEFA Europa League"
+  },
+  {
+    "position": 6,
     "equipe": "LOSC Lille",
     "matchs_joues": 24,
     "gagnes": 12,
@@ -62,10 +75,10 @@
     "buts_encaisses": 31,
     "difference": 6,
     "points": 40,
-    "positionStatus": "UEFA Europa League"
+    "positionStatus": "Barrages Conference League"
   },
   {
-    "position": 6,
+    "position": 7,
     "equipe": "Stade Rennais",
     "matchs_joues": 24,
     "gagnes": 11,
@@ -75,19 +88,6 @@
     "buts_encaisses": 35,
     "difference": 3,
     "points": 40,
-    "positionStatus": "Barrages Conference League"
-  },
-  {
-    "position": 7,
-    "equipe": "Monaco",
-    "matchs_joues": 24,
-    "gagnes": 11,
-    "nuls": 4,
-    "perdus": 9,
-    "buts_marques": 40,
-    "buts_encaisses": 36,
-    "difference": 4,
-    "points": 37,
     "positionStatus": ""
   },
   {
