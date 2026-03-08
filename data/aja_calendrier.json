@@ -270,17 +270,17 @@
     "dom_ext": "D",
     "classement": "(16.)",
     "contre": "R. Strasbourg (8.)",
-    "formation": "",
-    "spectateurs": "",
-    "resultat": "-:-"
+    "formation": "4-2-3-1",
+    "spectateurs": "16.237",
+    "resultat": "0:0"
   },
   {
     "journee": "26",
     "date": "ven. 13 mars 2026",
     "horaire": "20:45",
     "dom_ext": "E",
-    "classement": "",
-    "contre": "Marseille (4.)",
+    "classement": "(16.)",
+    "contre": "Marseille (3.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -335,7 +335,7 @@
     "horaire": "00:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Ol. Lyonnais (3.)",
+    "contre": "Ol. Lyonnais (4.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -346,7 +346,7 @@
     "horaire": "00:00",
     "dom_ext": "D",
     "classement": "",
-    "contre": "Angers SCO (12.)",
+    "contre": "Angers SCO (11.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
