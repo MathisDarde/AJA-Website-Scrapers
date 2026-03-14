@@ -28,14 +28,14 @@
   {
     "position": 3,
     "equipe": "Marseille",
-    "matchs_joues": 25,
-    "gagnes": 14,
+    "matchs_joues": 26,
+    "gagnes": 15,
     "nuls": 4,
     "perdus": 7,
-    "buts_marques": 52,
+    "buts_marques": 53,
     "buts_encaisses": 33,
-    "difference": 19,
-    "points": 46,
+    "difference": 20,
+    "points": 49,
     "positionStatus": "UEFA Champions League"
   },
   {
@@ -197,13 +197,13 @@
   {
     "position": 16,
     "equipe": "AJ Auxerre",
-    "matchs_joues": 25,
+    "matchs_joues": 26,
     "gagnes": 4,
     "nuls": 7,
-    "perdus": 14,
+    "perdus": 15,
     "buts_marques": 19,
-    "buts_encaisses": 35,
-    "difference": -16,
+    "buts_encaisses": 36,
+    "difference": -17,
     "points": 19,
     "positionStatus": "Barrages Ligue 2"
   },
