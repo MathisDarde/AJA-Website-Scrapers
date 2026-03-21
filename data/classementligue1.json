@@ -1,6 +1,19 @@
 [
   {
     "position": 1,
+    "equipe": "RC Lens",
+    "matchs_joues": 27,
+    "gagnes": 19,
+    "nuls": 2,
+    "perdus": 6,
+    "buts_marques": 54,
+    "buts_encaisses": 24,
+    "difference": 30,
+    "points": 59,
+    "positionStatus": "UEFA Champions League"
+  },
+  {
+    "position": 2,
     "equipe": "Paris SG",
     "matchs_joues": 25,
     "gagnes": 18,
@@ -10,19 +23,6 @@
     "buts_encaisses": 22,
     "difference": 32,
     "points": 57,
-    "positionStatus": "UEFA Champions League"
-  },
-  {
-    "position": 2,
-    "equipe": "RC Lens",
-    "matchs_joues": 26,
-    "gagnes": 18,
-    "nuls": 2,
-    "perdus": 6,
-    "buts_marques": 49,
-    "buts_encaisses": 23,
-    "difference": 26,
-    "points": 56,
     "positionStatus": "UEFA Champions League"
   },
   {
@@ -145,13 +145,13 @@
   {
     "position": 12,
     "equipe": "Angers SCO",
-    "matchs_joues": 26,
+    "matchs_joues": 27,
     "gagnes": 9,
     "nuls": 5,
-    "perdus": 12,
-    "buts_marques": 23,
-    "buts_encaisses": 32,
-    "difference": -9,
+    "perdus": 13,
+    "buts_marques": 24,
+    "buts_encaisses": 37,
+    "difference": -13,
     "points": 32,
     "positionStatus": ""
   },
