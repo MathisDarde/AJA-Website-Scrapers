@@ -128,6 +128,38 @@
     "minutes": "1.631'"
   },
   {
+    "numero": "24",
+    "nom": "Bryan Okoh",
+    "age": "22",
+    "position": "Défenseur central",
+    "matches": "8",
+    "titularisations": "7",
+    "goals": "2",
+    "assists": "0",
+    "yellow_cards": "1",
+    "red_cards": 0,
+    "substitutions_in": "1",
+    "substitutions_out": "1",
+    "points_per_match": "1,29",
+    "minutes": "543'"
+  },
+  {
+    "numero": "27",
+    "nom": "Lamine Sy",
+    "age": "23",
+    "position": "Arrière droit",
+    "matches": "28",
+    "titularisations": "19",
+    "goals": "0",
+    "assists": "2",
+    "yellow_cards": "1",
+    "red_cards": 0,
+    "substitutions_in": "5",
+    "substitutions_out": "5",
+    "points_per_match": "0,74",
+    "minutes": "1.200'"
+  },
+  {
     "numero": "-",
     "nom": "Gabriel Osho",
     "age": "27",
@@ -160,22 +192,6 @@
     "minutes": "952'"
   },
   {
-    "numero": "24",
-    "nom": "Bryan Okoh",
-    "age": "22",
-    "position": "Défenseur central",
-    "matches": "8",
-    "titularisations": "7",
-    "goals": "2",
-    "assists": "0",
-    "yellow_cards": "1",
-    "red_cards": 0,
-    "substitutions_in": "1",
-    "substitutions_out": "1",
-    "points_per_match": "1,29",
-    "minutes": "543'"
-  },
-  {
     "numero": "13",
     "nom": "Telli Siwe",
     "age": "21",
@@ -190,22 +206,6 @@
     "substitutions_out": "1",
     "points_per_match": "1,00",
     "minutes": "225'"
-  },
-  {
-    "numero": "27",
-    "nom": "Lamine Sy",
-    "age": "23",
-    "position": "Arrière droit",
-    "matches": "28",
-    "titularisations": "19",
-    "goals": "0",
-    "assists": "2",
-    "yellow_cards": "1",
-    "red_cards": 0,
-    "substitutions_in": "5",
-    "substitutions_out": "5",
-    "points_per_match": "0,74",
-    "minutes": "1.200'"
   },
   {
     "numero": "22",
@@ -304,6 +304,22 @@
     "minutes": "-"
   },
   {
+    "numero": "-",
+    "nom": "Rudy Matondo",
+    "age": "18",
+    "position": "Milieu central",
+    "matches": "20",
+    "titularisations": "17",
+    "goals": "0",
+    "assists": "0",
+    "yellow_cards": "4",
+    "red_cards": 0,
+    "substitutions_in": "10",
+    "substitutions_out": "4",
+    "points_per_match": "0,47",
+    "minutes": "688'"
+  },
+  {
     "numero": "5",
     "nom": "Kévin Danois",
     "age": "21",
@@ -368,22 +384,6 @@
     "minutes": "1.719'"
   },
   {
-    "numero": "-",
-    "nom": "Rudy Matondo",
-    "age": "18",
-    "position": "Milieu central",
-    "matches": "20",
-    "titularisations": "17",
-    "goals": "0",
-    "assists": "0",
-    "yellow_cards": "4",
-    "red_cards": 0,
-    "substitutions_in": "10",
-    "substitutions_out": "4",
-    "points_per_match": "0,47",
-    "minutes": "688'"
-  },
-  {
     "numero": "17",
     "nom": "Oussama El Azzouzi",
     "age": "24",
@@ -416,22 +416,6 @@
     "minutes": "295'"
   },
   {
-    "numero": "-",
-    "nom": "Nathan Buayi-Kiala",
-    "age": "22",
-    "position": "Milieu défensif",
-    "matches": "-",
-    "titularisations": "Pas dans l'effectif cette saison",
-    "goals": "0",
-    "assists": "0",
-    "yellow_cards": "0",
-    "red_cards": 0,
-    "substitutions_in": "0",
-    "substitutions_out": "0",
-    "points_per_match": "0",
-    "minutes": "-"
-  },
-  {
     "numero": "36",
     "nom": "Tidiane Devernois",
     "age": "18",
@@ -446,6 +430,22 @@
     "substitutions_out": "0",
     "points_per_match": "0,00",
     "minutes": "17'"
+  },
+  {
+    "numero": "-",
+    "nom": "Nathan Buayi-Kiala",
+    "age": "22",
+    "position": "Milieu défensif",
+    "matches": "-",
+    "titularisations": "Pas dans l'effectif cette saison",
+    "goals": "0",
+    "assists": "0",
+    "yellow_cards": "0",
+    "red_cards": 0,
+    "substitutions_in": "0",
+    "substitutions_out": "0",
+    "points_per_match": "0",
+    "minutes": "-"
   },
   {
     "numero": "-",
@@ -608,22 +608,6 @@
     "minutes": "-"
   },
   {
-    "numero": "-",
-    "nom": "Mamoudou Cissokho",
-    "age": "18",
-    "position": "Ailier droit",
-    "matches": "6",
-    "titularisations": "2",
-    "goals": "0",
-    "assists": "0",
-    "yellow_cards": "0",
-    "red_cards": 0,
-    "substitutions_in": "2",
-    "substitutions_out": "0",
-    "points_per_match": "1,50",
-    "minutes": "28'"
-  },
-  {
     "numero": "31",
     "nom": "Ryan Rodin",
     "age": "20",
@@ -638,5 +622,21 @@
     "substitutions_out": "1",
     "points_per_match": "0,00",
     "minutes": "86'"
+  },
+  {
+    "numero": "-",
+    "nom": "Mamoudou Cissokho",
+    "age": "18",
+    "position": "Ailier droit",
+    "matches": "6",
+    "titularisations": "2",
+    "goals": "0",
+    "assists": "0",
+    "yellow_cards": "0",
+    "red_cards": 0,
+    "substitutions_in": "2",
+    "substitutions_out": "0",
+    "points_per_match": "1,50",
+    "minutes": "28'"
   }
 ]
