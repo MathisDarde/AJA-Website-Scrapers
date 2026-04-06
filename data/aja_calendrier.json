@@ -5,7 +5,7 @@
     "horaire": "17:15",
     "dom_ext": "D",
     "classement": "(16.)",
-    "contre": "FC Lorient (10.)",
+    "contre": "FC Lorient (9.)",
     "formation": "5-4-1 plat",
     "spectateurs": "16.090",
     "resultat": "1:0"
@@ -303,16 +303,16 @@
     "dom_ext": "E",
     "classement": "(16.)",
     "contre": "Le Havre AC (14.)",
-    "formation": "",
-    "spectateurs": "",
-    "resultat": "-:-"
+    "formation": "4-2-3-1",
+    "spectateurs": "21.053",
+    "resultat": "1:1"
   },
   {
     "journee": "29",
     "date": "sam. 11 avr. 2026",
     "horaire": "19:00",
     "dom_ext": "D",
-    "classement": "",
+    "classement": "(16.)",
     "contre": "FC Nantes (17.)",
     "formation": "",
     "spectateurs": "",
@@ -324,7 +324,7 @@
     "horaire": "15:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Monaco (7.)",
+    "contre": "Monaco (5.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
@@ -335,7 +335,7 @@
     "horaire": "15:00",
     "dom_ext": "E",
     "classement": "",
-    "contre": "Ol. Lyonnais (5.)",
+    "contre": "Ol. Lyonnais (6.)",
     "formation": "",
     "spectateurs": "",
     "resultat": "-:-"
