@@ -27,6 +27,19 @@
   },
   {
     "position": 3,
+    "equipe": "Marseille",
+    "matchs_joues": 29,
+    "gagnes": 16,
+    "nuls": 4,
+    "perdus": 9,
+    "buts_marques": 58,
+    "buts_encaisses": 38,
+    "difference": 20,
+    "points": 52,
+    "positionStatus": "UEFA Champions League"
+  },
+  {
+    "position": 4,
     "equipe": "LOSC Lille",
     "matchs_joues": 28,
     "gagnes": 15,
@@ -36,31 +49,18 @@
     "buts_encaisses": 34,
     "difference": 11,
     "points": 50,
-    "positionStatus": "UEFA Champions League"
-  },
-  {
-    "position": 4,
-    "equipe": "Marseille",
-    "matchs_joues": 28,
-    "gagnes": 15,
-    "nuls": 4,
-    "perdus": 9,
-    "buts_marques": 55,
-    "buts_encaisses": 37,
-    "difference": 18,
-    "points": 49,
     "positionStatus": "Barrages Champions League"
   },
   {
     "position": 5,
     "equipe": "Monaco",
-    "matchs_joues": 28,
+    "matchs_joues": 29,
     "gagnes": 15,
     "nuls": 4,
-    "perdus": 9,
-    "buts_marques": 49,
-    "buts_encaisses": 39,
-    "difference": 10,
+    "perdus": 10,
+    "buts_marques": 50,
+    "buts_encaisses": 43,
+    "difference": 7,
     "points": 49,
     "positionStatus": "UEFA Europa League"
   },
@@ -144,6 +144,19 @@
   },
   {
     "position": 12,
+    "equipe": "Paris FC",
+    "matchs_joues": 29,
+    "gagnes": 8,
+    "nuls": 11,
+    "perdus": 10,
+    "buts_marques": 37,
+    "buts_encaisses": 45,
+    "difference": -8,
+    "points": 35,
+    "positionStatus": ""
+  },
+  {
+    "position": 13,
     "equipe": "Angers SCO",
     "matchs_joues": 28,
     "gagnes": 9,
@@ -153,19 +166,6 @@
     "buts_encaisses": 37,
     "difference": -13,
     "points": 33,
-    "positionStatus": ""
-  },
-  {
-    "position": 13,
-    "equipe": "Paris FC",
-    "matchs_joues": 28,
-    "gagnes": 7,
-    "nuls": 11,
-    "perdus": 10,
-    "buts_marques": 33,
-    "buts_encaisses": 44,
-    "difference": -11,
-    "points": 32,
     "positionStatus": ""
   },
   {
@@ -223,13 +223,13 @@
   {
     "position": 18,
     "equipe": "FC Metz",
-    "matchs_joues": 28,
+    "matchs_joues": 29,
     "gagnes": 3,
     "nuls": 6,
-    "perdus": 19,
-    "buts_marques": 25,
-    "buts_encaisses": 60,
-    "difference": -35,
+    "perdus": 20,
+    "buts_marques": 26,
+    "buts_encaisses": 63,
+    "difference": -37,
     "points": 15,
     "positionStatus": "Ligue 2"
   }
