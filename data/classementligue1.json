@@ -27,19 +27,6 @@
   },
   {
     "position": 3,
-    "equipe": "LOSC Lille",
-    "matchs_joues": 30,
-    "gagnes": 16,
-    "nuls": 6,
-    "perdus": 8,
-    "buts_marques": 49,
-    "buts_encaisses": 34,
-    "difference": 15,
-    "points": 54,
-    "positionStatus": "UEFA Champions League"
-  },
-  {
-    "position": 4,
     "equipe": "Ol. Lyonnais",
     "matchs_joues": 30,
     "gagnes": 16,
@@ -47,6 +34,19 @@
     "perdus": 8,
     "buts_marques": 45,
     "buts_encaisses": 30,
+    "difference": 15,
+    "points": 54,
+    "positionStatus": "UEFA Champions League"
+  },
+  {
+    "position": 4,
+    "equipe": "LOSC Lille",
+    "matchs_joues": 30,
+    "gagnes": 16,
+    "nuls": 6,
+    "perdus": 8,
+    "buts_marques": 49,
+    "buts_encaisses": 34,
     "difference": 15,
     "points": 54,
     "positionStatus": "Barrages Champions League"
