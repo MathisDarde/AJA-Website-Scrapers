@@ -2,14 +2,14 @@
   {
     "position": 1,
     "equipe": "Paris SG",
-    "matchs_joues": 28,
-    "gagnes": 20,
+    "matchs_joues": 29,
+    "gagnes": 21,
     "nuls": 3,
     "perdus": 5,
-    "buts_marques": 62,
+    "buts_marques": 65,
     "buts_encaisses": 25,
-    "difference": 37,
-    "points": 63,
+    "difference": 40,
+    "points": 66,
     "positionStatus": "UEFA Champions League"
   },
   {
@@ -210,13 +210,13 @@
   {
     "position": 17,
     "equipe": "FC Nantes",
-    "matchs_joues": 29,
+    "matchs_joues": 30,
     "gagnes": 4,
     "nuls": 8,
-    "perdus": 17,
+    "perdus": 18,
     "buts_marques": 25,
-    "buts_encaisses": 46,
-    "difference": -21,
+    "buts_encaisses": 49,
+    "difference": -24,
     "points": 20,
     "positionStatus": "Ligue 2"
   },
