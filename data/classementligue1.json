@@ -2,14 +2,14 @@
   {
     "position": 1,
     "equipe": "Paris SG",
-    "matchs_joues": 29,
-    "gagnes": 21,
+    "matchs_joues": 30,
+    "gagnes": 22,
     "nuls": 3,
     "perdus": 5,
-    "buts_marques": 65,
+    "buts_marques": 68,
     "buts_encaisses": 25,
-    "difference": 40,
-    "points": 66,
+    "difference": 43,
+    "points": 69,
     "positionStatus": "UEFA Champions League"
   },
   {
@@ -28,14 +28,14 @@
   {
     "position": 3,
     "equipe": "Ol. Lyonnais",
-    "matchs_joues": 30,
-    "gagnes": 16,
+    "matchs_joues": 31,
+    "gagnes": 17,
     "nuls": 6,
     "perdus": 8,
-    "buts_marques": 45,
-    "buts_encaisses": 30,
-    "difference": 15,
-    "points": 54,
+    "buts_marques": 48,
+    "buts_encaisses": 32,
+    "difference": 16,
+    "points": 57,
     "positionStatus": "UEFA Champions League"
   },
   {
@@ -80,14 +80,14 @@
   {
     "position": 7,
     "equipe": "Monaco",
-    "matchs_joues": 30,
+    "matchs_joues": 31,
     "gagnes": 15,
-    "nuls": 5,
+    "nuls": 6,
     "perdus": 10,
-    "buts_marques": 52,
-    "buts_encaisses": 45,
+    "buts_marques": 54,
+    "buts_encaisses": 47,
     "difference": 7,
-    "points": 50,
+    "points": 51,
     "positionStatus": ""
   },
   {
@@ -118,6 +118,19 @@
   },
   {
     "position": 10,
+    "equipe": "Toulouse",
+    "matchs_joues": 31,
+    "gagnes": 10,
+    "nuls": 8,
+    "perdus": 13,
+    "buts_marques": 43,
+    "buts_encaisses": 44,
+    "difference": -1,
+    "points": 38,
+    "positionStatus": ""
+  },
+  {
+    "position": 11,
     "equipe": "Paris FC",
     "matchs_joues": 30,
     "gagnes": 9,
@@ -130,7 +143,7 @@
     "positionStatus": ""
   },
   {
-    "position": 11,
+    "position": 12,
     "equipe": "Stade Brestois",
     "matchs_joues": 30,
     "gagnes": 10,
@@ -143,28 +156,15 @@
     "positionStatus": ""
   },
   {
-    "position": 12,
-    "equipe": "Toulouse",
-    "matchs_joues": 30,
-    "gagnes": 10,
-    "nuls": 7,
-    "perdus": 13,
-    "buts_marques": 41,
-    "buts_encaisses": 42,
-    "difference": -1,
-    "points": 37,
-    "positionStatus": ""
-  },
-  {
     "position": 13,
     "equipe": "Angers SCO",
-    "matchs_joues": 30,
+    "matchs_joues": 31,
     "gagnes": 9,
     "nuls": 7,
-    "perdus": 14,
+    "perdus": 15,
     "buts_marques": 26,
-    "buts_encaisses": 40,
-    "difference": -14,
+    "buts_encaisses": 43,
+    "difference": -17,
     "points": 34,
     "positionStatus": ""
   },
@@ -197,13 +197,13 @@
   {
     "position": 16,
     "equipe": "AJ Auxerre",
-    "matchs_joues": 30,
+    "matchs_joues": 31,
     "gagnes": 5,
     "nuls": 10,
-    "perdus": 15,
-    "buts_marques": 25,
-    "buts_encaisses": 39,
-    "difference": -14,
+    "perdus": 16,
+    "buts_marques": 27,
+    "buts_encaisses": 42,
+    "difference": -15,
     "points": 25,
     "positionStatus": "Barrages Ligue 2"
   },
