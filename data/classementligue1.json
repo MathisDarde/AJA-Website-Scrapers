@@ -15,14 +15,14 @@
   {
     "position": 2,
     "equipe": "RC Lens",
-    "matchs_joues": 31,
-    "gagnes": 20,
+    "matchs_joues": 32,
+    "gagnes": 21,
     "nuls": 4,
     "perdus": 7,
-    "buts_marques": 61,
+    "buts_marques": 62,
     "buts_encaisses": 33,
-    "difference": 28,
-    "points": 64,
+    "difference": 29,
+    "points": 67,
     "positionStatus": "UEFA Champions League"
   },
   {
@@ -210,13 +210,13 @@
   {
     "position": 17,
     "equipe": "FC Nantes",
-    "matchs_joues": 32,
+    "matchs_joues": 33,
     "gagnes": 5,
     "nuls": 8,
-    "perdus": 19,
+    "perdus": 20,
     "buts_marques": 29,
-    "buts_encaisses": 51,
-    "difference": -22,
+    "buts_encaisses": 52,
+    "difference": -23,
     "points": 23,
     "positionStatus": "Ligue 2"
   },
