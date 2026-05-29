@@ -386,7 +386,7 @@
   {
     "numero": "17",
     "nom": "Oussama El Azzouzi",
-    "age": "24",
+    "age": "25",
     "position": "Milieu défensif",
     "matches": "11",
     "titularisations": "11",
@@ -480,22 +480,6 @@
     "minutes": "10'"
   },
   {
-    "numero": "-",
-    "nom": "Ibrahim Osman",
-    "age": "21",
-    "position": "Ailier gauche",
-    "matches": "17",
-    "titularisations": "15",
-    "goals": "0",
-    "assists": "2",
-    "yellow_cards": "0",
-    "red_cards": 0,
-    "substitutions_in": "7",
-    "substitutions_out": "6",
-    "points_per_match": "0,40",
-    "minutes": "712'"
-  },
-  {
     "numero": "10",
     "nom": "Lassine Sinayoko",
     "age": "26",
@@ -510,6 +494,22 @@
     "substitutions_out": "11",
     "points_per_match": "1,06",
     "minutes": "2.781'"
+  },
+  {
+    "numero": "-",
+    "nom": "Ibrahim Osman",
+    "age": "21",
+    "position": "Ailier gauche",
+    "matches": "17",
+    "titularisations": "15",
+    "goals": "0",
+    "assists": "2",
+    "yellow_cards": "0",
+    "red_cards": 0,
+    "substitutions_in": "7",
+    "substitutions_out": "6",
+    "points_per_match": "0,40",
+    "minutes": "712'"
   },
   {
     "numero": "19",
