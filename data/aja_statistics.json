@@ -112,22 +112,6 @@
     "minutes": "2.424'"
   },
   {
-    "numero": "29",
-    "nom": "Marvin Senaya",
-    "age": "25",
-    "position": "Arrière droit",
-    "matches": "31",
-    "titularisations": "26",
-    "goals": "1",
-    "assists": "0",
-    "yellow_cards": "7",
-    "red_cards": 0,
-    "substitutions_in": "5",
-    "substitutions_out": "8",
-    "points_per_match": "0,77",
-    "minutes": "1.875'"
-  },
-  {
     "numero": "24",
     "nom": "Bryan Okoh",
     "age": "23",
@@ -142,6 +126,22 @@
     "substitutions_out": "2",
     "points_per_match": "1,38",
     "minutes": "1.006'"
+  },
+  {
+    "numero": "29",
+    "nom": "Marvin Senaya",
+    "age": "25",
+    "position": "Arrière droit",
+    "matches": "31",
+    "titularisations": "26",
+    "goals": "1",
+    "assists": "0",
+    "yellow_cards": "7",
+    "red_cards": 0,
+    "substitutions_in": "5",
+    "substitutions_out": "8",
+    "points_per_match": "0,77",
+    "minutes": "1.875'"
   },
   {
     "numero": "27",
@@ -160,20 +160,20 @@
     "minutes": "1.594'"
   },
   {
-    "numero": "4",
-    "nom": "Francisco Sierralta",
-    "age": "29",
-    "position": "Défenseur central",
-    "matches": "25",
-    "titularisations": "11",
-    "goals": "1",
+    "numero": "22",
+    "nom": "Fredrik Oppegård",
+    "age": "23",
+    "position": "Arrière gauche",
+    "matches": "31",
+    "titularisations": "24",
+    "goals": "0",
     "assists": "0",
-    "yellow_cards": "2",
-    "red_cards": 0,
-    "substitutions_in": "1",
-    "substitutions_out": "2",
-    "points_per_match": "0,64",
-    "minutes": "952'"
+    "yellow_cards": "1",
+    "red_cards": 1,
+    "substitutions_in": "8",
+    "substitutions_out": "7",
+    "points_per_match": "0,75",
+    "minutes": "1.338'"
   },
   {
     "numero": "-",
@@ -192,6 +192,22 @@
     "minutes": "135'"
   },
   {
+    "numero": "4",
+    "nom": "Francisco Sierralta",
+    "age": "29",
+    "position": "Défenseur central",
+    "matches": "25",
+    "titularisations": "11",
+    "goals": "1",
+    "assists": "0",
+    "yellow_cards": "2",
+    "red_cards": 0,
+    "substitutions_in": "1",
+    "substitutions_out": "2",
+    "points_per_match": "0,64",
+    "minutes": "952'"
+  },
+  {
     "numero": "13",
     "nom": "Telli Siwe",
     "age": "21",
@@ -206,22 +222,6 @@
     "substitutions_out": "1",
     "points_per_match": "1,50",
     "minutes": "315'"
-  },
-  {
-    "numero": "22",
-    "nom": "Fredrik Oppegård",
-    "age": "23",
-    "position": "Arrière gauche",
-    "matches": "31",
-    "titularisations": "24",
-    "goals": "0",
-    "assists": "0",
-    "yellow_cards": "1",
-    "red_cards": 1,
-    "substitutions_in": "8",
-    "substitutions_out": "7",
-    "points_per_match": "0,75",
-    "minutes": "1.338'"
   },
   {
     "numero": "-",
@@ -352,22 +352,6 @@
     "minutes": "583'"
   },
   {
-    "numero": "8",
-    "nom": "Naouirou Ahamada",
-    "age": "24",
-    "position": "Milieu central",
-    "matches": "17",
-    "titularisations": "15",
-    "goals": "0",
-    "assists": "1",
-    "yellow_cards": "0",
-    "red_cards": 0,
-    "substitutions_in": "7",
-    "substitutions_out": "6",
-    "points_per_match": "1,33",
-    "minutes": "679'"
-  },
-  {
     "numero": "42",
     "nom": "Elisha Owusu",
     "age": "28",
@@ -382,6 +366,22 @@
     "substitutions_out": "8",
     "points_per_match": "1,00",
     "minutes": "2.349'"
+  },
+  {
+    "numero": "8",
+    "nom": "Naouirou Ahamada",
+    "age": "24",
+    "position": "Milieu central",
+    "matches": "17",
+    "titularisations": "15",
+    "goals": "0",
+    "assists": "1",
+    "yellow_cards": "0",
+    "red_cards": 0,
+    "substitutions_in": "7",
+    "substitutions_out": "6",
+    "points_per_match": "1,33",
+    "minutes": "679'"
   },
   {
     "numero": "17",
@@ -451,7 +451,7 @@
     "numero": "-",
     "nom": "Lamfia Dioubaté",
     "age": "18",
-    "position": "Milieu",
+    "position": "Milieu défensif",
     "matches": "2",
     "titularisations": "1",
     "goals": "0",
