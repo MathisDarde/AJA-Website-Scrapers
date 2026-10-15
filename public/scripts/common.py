@@ -43,23 +43,63 @@ def season_context(start_year, competition):
     return {"season": season_label(start_year), "seasonId": start_year, "competition": competition}
 
 
+# Jeton du pare-feu AWS WAF de Transfermarkt, obtenu par un vrai navigateur (voir _solve_waf_challenge)
+_waf = {"cookies": None, "user_agent": None}
+
+
+def _solve_waf_challenge(url):
+    """
+    Depuis les serveurs de GitHub Actions, Transfermarkt répond à toute requête par un défi
+    JavaScript (HTTP 202, x-amzn-waf-action: challenge). Un Chrome sans interface le résout en
+    quelques secondes ; ses cookies (aws-waf-token) et son user-agent servent ensuite aux
+    requêtes normales. Chrome est préinstallé sur les runners GitHub.
+    """
+    from playwright.sync_api import sync_playwright  # seulement si le défi apparaît
+
+    print("🛡️  Défi anti-robot de Transfermarkt : résolution avec Chrome sans interface…")
+    with sync_playwright() as p:
+        try:
+            browser = p.chromium.launch(channel="chrome", headless=True)
+        except Exception:
+            browser = p.chromium.launch(headless=True)  # Chromium de Playwright, si installé
+        page = browser.new_page(locale="fr-FR")
+        page.goto(url, wait_until="domcontentloaded", timeout=60000)
+        page.wait_for_selector("table", timeout=45000)
+        _waf["cookies"] = {c["name"]: c["value"] for c in page.context.cookies()}
+        _waf["user_agent"] = page.evaluate("navigator.userAgent")
+        browser.close()
+    print("🛡️  Défi résolu")
+
+
 def fetch_soup(url, attempts=4):
-    """Page HTML, en imitant Chrome (Cloudflare) et en réessayant avec un délai croissant."""
+    """Page HTML, en imitant Chrome et en réessayant avec un délai croissant."""
     last_error = None
+    challenge_solved = False
     for attempt in range(1, attempts + 1):
         time.sleep(random.uniform(1, 3))
         try:
             print(f"📡 {url} (essai {attempt}/{attempts})")
+            headers = {"Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8"}
+            if _waf["user_agent"]:
+                headers["User-Agent"] = _waf["user_agent"]
             response = requests.get(
                 url,
-                impersonate="chrome120",
-                headers={"Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8"},
+                impersonate="chrome",
+                headers=headers,
+                cookies=_waf["cookies"],
                 timeout=30,
             )
             if response.status_code == 200:
                 return BeautifulSoup(response.content, "html.parser")
             last_error = f"HTTP {response.status_code}"
-        except Exception as e:  # réseau, TLS, timeout…
+            if response.headers.get("x-amzn-waf-action") == "challenge" and not challenge_solved:
+                # Une seule résolution par page ; le jeton sert ensuite à toutes les suivantes
+                _solve_waf_challenge(url)
+                challenge_solved = True
+                continue
+        except ScraperError:
+            raise
+        except Exception as e:  # réseau, TLS, timeout, navigateur…
             last_error = str(e)
         print(f"⚠️  {last_error}")
         if attempt < attempts:
