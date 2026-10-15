@@ -17,6 +17,10 @@ concurrency:
   group: scrapers
   cancel-in-progress: false
 
+env:
+  # Logs affichés au fil de l'eau dans GitHub Actions (sinon tout arrive à la fin)
+  PYTHONUNBUFFERED: "1"
+
 jobs:
   run-scrapers:
     runs-on: ubuntu-latest

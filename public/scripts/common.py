@@ -9,7 +9,8 @@ import random
 import re
 import time
 
-DATA_DIR = "./data"
+# data/ à la racine du dépôt, quel que soit le dossier depuis lequel on lance les scripts
+DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "data"))
 META_FILE = os.path.join(DATA_DIR, "meta.json")
 
 TM_BASE = "https://www.transfermarkt.fr"

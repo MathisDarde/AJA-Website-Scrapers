@@ -23,6 +23,9 @@ Données de l'AJ Auxerre publiées en JSON sur GitHub Pages pour [Mémoire d'Aux
 pip install -r requirements.txt
 python public/scripts/run_all.py              # calendrier, classement, statistiques
 python public/scripts/run_all.py --effectif   # + effectif
+EFFECTIF_COMPLET=1 python public/scripts/run_all.py --effectif   # relit aussi toutes les fiches joueurs
 ```
+
+Les fiches des joueurs (naissance, taille, pied) ne sont relues que pour les nouveaux venus, et pour tout l'effectif le lundi : un passage dure une trentaine de secondes au lieu de deux minutes.
 
 Ou depuis GitHub : onglet **Actions** → *AJ Auxerre Scrapers* → **Run workflow** (effectif compris).

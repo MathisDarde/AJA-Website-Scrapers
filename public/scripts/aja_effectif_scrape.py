@@ -79,6 +79,11 @@ def scrape(season):
     except (OSError, ValueError, KeyError):
         previous = {}
 
+    # Naissance, taille, pied… ne changent presque jamais : les fiches (une requête par joueur)
+    # ne sont lues que pour les nouveaux venus, et pour tout le monde le lundi.
+    full_refresh = date.today().weekday() == 0 or os.environ.get("EFFECTIF_COMPLET") == "1"
+    print(f"ℹ️  Fiches : {'toutes relues' if full_refresh else 'nouveaux joueurs seulement'}")
+
     players = []
     for item in items:
         article = item.find("article")
@@ -96,12 +101,16 @@ def scrape(season):
             "fiche_url": fiche_url,
             "image_url": image_url(article),
         }
-        try:
-            details = parse_details(fiche_url)
-        except ScraperError as e:
-            # Fiche momentanément inaccessible : on reprend ce qu'on savait déjà
-            print(f"⚠️  {e}")
-            details = {k: previous.get(fiche_url, {}).get(k) for k in DETAIL_FIELDS}
+        known = {k: previous[fiche_url].get(k) for k in DETAIL_FIELDS} if fiche_url in previous else None
+        if known is not None and not full_refresh:
+            details = known
+        else:
+            try:
+                details = parse_details(fiche_url)
+            except ScraperError as e:
+                # Fiche momentanément inaccessible : on reprend ce qu'on savait déjà
+                print(f"⚠️  {e}")
+                details = known or {}
         player.update({k: details.get(k) for k in DETAIL_FIELDS})
         player["age"] = age_from(player["date_naissance"])
         players.append(player)
