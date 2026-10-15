@@ -4,8 +4,11 @@ import json
 import os
 import time
 import random
+from datetime import date
 
-BASE_URL = "https://www.transfermarkt.fr/aj-auxerre/leistungsdaten/verein/290/reldata/%262025/plus/1"
+# Transfermarkt identifie une saison par son année de début (2026 = 2026-2027), bascule au 1er juillet
+SEASON_START = date.today().year if date.today().month >= 7 else date.today().year - 1
+BASE_URL = f"https://www.transfermarkt.fr/aj-auxerre/leistungsdaten/verein/290/reldata/%26{SEASON_START}/plus/1"
 OUTPUT_FILE = "./data/aja_statistics.json"
 
 def get_soup(url):

@@ -43,6 +43,11 @@ jobs:
         continue-on-error: true # <-- Idem
         run: python public/scripts/aja_players_stats_scrape.py
 
+      - name: Scrape AJA Effectif
+        id: scrape_effectif
+        continue-on-error: true # <-- Idem
+        run: python public/scripts/aja_effectif_scrape.py
+
       # --- Commit conditionnel ---
 
       - name: Check for changes
