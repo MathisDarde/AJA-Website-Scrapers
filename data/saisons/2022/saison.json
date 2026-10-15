@@ -1,0 +1,9 @@
+{
+  "seasonId": 2022,
+  "season": "2022-2023",
+  "competition": {
+    "slug": "ligue-1",
+    "id": "FR1",
+    "name": "Ligue 1"
+  }
+}

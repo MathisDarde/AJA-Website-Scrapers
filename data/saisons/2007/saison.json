@@ -1,0 +1,9 @@
+{
+  "seasonId": 2007,
+  "season": "2007-2008",
+  "competition": {
+    "slug": "ligue-1",
+    "id": "FR1",
+    "name": "Ligue 1"
+  }
+}

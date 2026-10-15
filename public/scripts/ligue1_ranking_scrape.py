@@ -18,60 +18,54 @@ def get_position_status(competition_id, position):
     return POSITION_STATUSES.get(competition_id, {}).get(position, "")
 
 
-def scrape(season, competition):
-    soup = fetch_soup(f"{TM_BASE}/{competition['slug']}/tabelle/wettbewerb/{competition['id']}/saison_id/{season}")
-
+def parse_table(table, competition_id, with_status):
     classement = []
-    table = soup.find("table", {"class": "items"})
-
-    if not table:
-        raise ScraperError("Tableau du classement introuvable")
-
-    rows = table.find_all("tr")
-
-    for row in rows:
+    for row in table.find_all("tr"):
         cells = row.find_all("td")
         if len(cells) < 10:
             continue
 
         try:
             position = int(cells[0].get_text(strip=True))
-            equipe_link = cells[2].find("a", {"class": "vereinprofil_tooltip"})
+            equipe_link = cells[2].find("a")
             equipe = equipe_link.get_text(strip=True) if equipe_link else cells[2].get_text(strip=True)
-            
-            matchs = int(cells[3].get_text(strip=True))
-            victoires = int(cells[4].get_text(strip=True))
-            nuls = int(cells[5].get_text(strip=True))
-            defaites = int(cells[6].get_text(strip=True))
 
-            buts_text = cells[7].get_text(strip=True)
-            buts_match = re.search(r"(\d+):(\d+)", buts_text)
-            bp = int(buts_match.group(1)) if buts_match else 0
-            bc = int(buts_match.group(2)) if buts_match else 0
-
-            diff = int(cells[8].get_text(strip=True))
-            points = int(cells[9].get_text(strip=True))
+            buts = re.search(r"(\d+):(\d+)", cells[7].get_text(strip=True))
+            # Avant la victoire à 3 points, Transfermarkt affiche « 57:19 » (points pour et contre)
+            points = re.match(r"\d+", cells[9].get_text(strip=True))
 
             classement.append({
                 "position": position,
                 "equipe": equipe,
-                "matchs_joues": matchs,
-                "gagnes": victoires,
-                "nuls": nuls,
-                "perdus": defaites,
-                "buts_marques": bp,
-                "buts_encaisses": bc,
-                "difference": diff,
-                "points": points,
-                "positionStatus": get_position_status(competition["id"], position),
+                "matchs_joues": int(cells[3].get_text(strip=True)),
+                "gagnes": int(cells[4].get_text(strip=True)),
+                "nuls": int(cells[5].get_text(strip=True)),
+                "perdus": int(cells[6].get_text(strip=True)),
+                "buts_marques": int(buts.group(1)) if buts else 0,
+                "buts_encaisses": int(buts.group(2)) if buts else 0,
+                "difference": int(cells[8].get_text(strip=True)),
+                "points": int(points.group(0)),
+                # Zones (Europe, relégation…) connues pour la saison en cours seulement
+                "positionStatus": get_position_status(competition_id, position) if with_status else "",
             })
-            
-            print(f"✓ {position}. {equipe}")
-
         except (ValueError, AttributeError):
             continue  # ligne de séparation ou d'en-tête
-
     return classement
+
+
+def scrape(season, competition, with_status=True):
+    soup = fetch_soup(f"{TM_BASE}/{competition['slug']}/tabelle/wettbewerb/{competition['id']}/saison_id/{season}")
+    tables = soup.find_all("table", {"class": "items"})
+    if not tables:
+        raise ScraperError("Tableau du classement introuvable")
+
+    # Championnat en plusieurs groupes (D2 des années 70-90) : celui où joue l'AJA
+    parsed = [parse_table(t, competition["id"], with_status) for t in tables]
+    for classement in parsed:
+        if any("Auxerre" in team["equipe"] for team in classement):
+            return classement
+    return parsed[0]
+
 
 def main():
     season = season_start_year()

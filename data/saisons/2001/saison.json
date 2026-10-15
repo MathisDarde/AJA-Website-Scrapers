@@ -1,0 +1,9 @@
+{
+  "seasonId": 2001,
+  "season": "2001-2002",
+  "competition": {
+    "slug": "ligue-1",
+    "id": "FR1",
+    "name": "Ligue 1"
+  }
+}

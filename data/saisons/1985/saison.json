@@ -1,0 +1,9 @@
+{
+  "seasonId": 1985,
+  "season": "1985-1986",
+  "competition": {
+    "slug": "ligue-1",
+    "id": "FR1",
+    "name": "Ligue 1"
+  }
+}

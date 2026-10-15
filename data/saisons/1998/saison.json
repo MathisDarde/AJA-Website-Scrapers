@@ -1,0 +1,9 @@
+{
+  "seasonId": 1998,
+  "season": "1998-1999",
+  "competition": {
+    "slug": "ligue-1",
+    "id": "FR1",
+    "name": "Ligue 1"
+  }
+}

@@ -115,7 +115,8 @@ def detect_competition(season):
     """
     soup = fetch_soup(f"{TM_BASE}/aj-auxerre/spielplan/verein/{TM_CLUB_ID}/saison_id/{season}")
     for title in soup.find_all("h2"):
-        link = title.find("a", href=re.compile(r"/startseite/wettbewerb/"))
+        # Championnats français seulement (FR1, FR2, FR3), pas la Coupe de France (FRC)
+        link = title.find("a", href=re.compile(r"/startseite/wettbewerb/FR\d/"))
         table = title.find_next("table")
         headers = [th.get_text(strip=True) for th in table.find_all("th")] if table else []
         if link and "Journée" in headers:
@@ -125,7 +126,7 @@ def detect_competition(season):
     raise ScraperError(f"Championnat de l'AJA introuvable pour la saison {season_label(season)}")
 
 
-def _read_json(path, default):
+def read_json(path, default):
     try:
         with open(path, encoding="utf-8") as f:
             return json.load(f)
@@ -133,24 +134,29 @@ def _read_json(path, default):
         return default
 
 
-def write_dataset(filename, data, minimum, context):
+def write_dataset(filename, data, minimum, context, record_meta=True):
     """
     Écrit data/<filename> si les données sont plausibles (au moins `minimum` éléments)
-    et ont changé ; met à jour meta.json en conséquence. Renvoie True si le fichier a changé.
+    et ont changé ; met à jour meta.json en conséquence (sauf record_meta=False, pour les
+    fichiers d'archive). Renvoie True si le fichier a changé.
     """
     if len(data) < minimum:
         raise ScraperError(f"{filename} : {len(data)} éléments, {minimum} attendus au minimum")
 
     path = os.path.join(DATA_DIR, filename)
-    os.makedirs(DATA_DIR, exist_ok=True)
-    if _read_json(path, None) == data:
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    if read_json(path, None) == data:
         print(f"= {filename} inchangé ({len(data)} éléments)")
         return False
 
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
-    meta = _read_json(META_FILE, {})
+    if not record_meta:
+        print(f"✅ {filename} mis à jour ({len(data)} éléments)")
+        return True
+
+    meta = read_json(META_FILE, {})
     meta.update(context)
     meta.setdefault("files", {})[filename] = {
         "updatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),

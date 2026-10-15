@@ -1,0 +1,9 @@
+{
+  "seasonId": 1993,
+  "season": "1993-1994",
+  "competition": {
+    "slug": "ligue-1",
+    "id": "FR1",
+    "name": "Ligue 1"
+  }
+}

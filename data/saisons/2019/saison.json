@@ -1,0 +1,9 @@
+{
+  "seasonId": 2019,
+  "season": "2019-2020",
+  "competition": {
+    "slug": "ligue-2",
+    "id": "FR2",
+    "name": "Ligue 2"
+  }
+}
