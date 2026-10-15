@@ -1,0 +1,10 @@
+{
+  "_lisezmoi": [
+    "Logos d'époque ajoutés ou corrigés à la main : prioritaires sur ceux trouvés sur Wikipédia (data/logos-historiques-auto.json).",
+    "Clé : identifiant Transfermarkt du club (voir data/clubs.json ; AJ Auxerre = 290).",
+    "de / a : années de début de saison incluses (1992 = saison 1992-1993) ; null = sans limite.",
+    "logo : URL d'une image, ou chemin dans data/ (par exemple logos/historique/manuel/290-1980.png, fichier à déposer dans le dépôt).",
+    "Pour écarter un logo automatique faux : une entrée sur sa période avec \"ignorer\": true.",
+    "Exemple : \"290\": [{ \"de\": null, \"a\": 1991, \"logo\": \"logos/historique/manuel/290-ancien.png\" }]"
+  ]
+}

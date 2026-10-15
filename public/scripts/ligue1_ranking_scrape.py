@@ -1,5 +1,6 @@
 import re
 
+from logos import club_id_from
 from common import TM_BASE, ScraperError, detect_competition, fetch_soup, season_context, season_start_year, write_dataset
 
 OUTPUT_FILE = "classementligue1.json"  # nom historique, lu tel quel par le blog
@@ -29,6 +30,7 @@ def parse_table(table, competition_id, with_status):
             position = int(cells[0].get_text(strip=True))
             equipe_link = cells[2].find("a")
             equipe = equipe_link.get_text(strip=True) if equipe_link else cells[2].get_text(strip=True)
+            crest = cells[1].find("img")
 
             buts = re.search(r"(\d+):(\d+)", cells[7].get_text(strip=True))
             # Avant la victoire à 3 points, Transfermarkt affiche « 57:19 » (points pour et contre)
@@ -37,6 +39,9 @@ def parse_table(table, competition_id, with_status):
             classement.append({
                 "position": position,
                 "equipe": equipe,
+                # Identifiant Transfermarkt et nom complet : clés du registre des clubs (logos)
+                "club_id": club_id_from(equipe_link),
+                "nom_complet": crest.get("alt") if crest else None,
                 "matchs_joues": int(cells[3].get_text(strip=True)),
                 "gagnes": int(cells[4].get_text(strip=True)),
                 "nuls": int(cells[5].get_text(strip=True)),

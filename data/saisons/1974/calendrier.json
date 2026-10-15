@@ -6,6 +6,8 @@
     "dom_ext": "E",
     "classement": "(10.)",
     "contre": "SC Hazebrouck (14.)",
+    "adversaire_id": "30626",
+    "adversaire_nom_complet": "SC Hazebrouck",
     "formation": "",
     "spectateurs": "",
     "resultat": "1:2"
@@ -17,6 +19,8 @@
     "dom_ext": "D",
     "classement": "(11.)",
     "contre": "Ent. Bag-Fon-Neu (4.)",
+    "adversaire_id": "30338",
+    "adversaire_nom_complet": "RC Fontainebleau",
     "formation": "",
     "spectateurs": "",
     "resultat": "0:1"
@@ -28,6 +32,8 @@
     "dom_ext": "E",
     "classement": "(12.)",
     "contre": "USL Dunkerque (15.)",
+    "adversaire_id": "9202",
+    "adversaire_nom_complet": "USL Dunkerque",
     "formation": "",
     "spectateurs": "",
     "resultat": "0:1"
@@ -39,6 +45,8 @@
     "dom_ext": "D",
     "classement": "(10.)",
     "contre": "US Valenciennes (2.)",
+    "adversaire_id": "1423",
+    "adversaire_nom_complet": "Valenciennes FC",
     "formation": "?",
     "spectateurs": "2.684",
     "resultat": "0:2"
@@ -50,6 +58,8 @@
     "dom_ext": "E",
     "classement": "(13.)",
     "contre": "CA Mantes (18.)",
+    "adversaire_id": "112326",
+    "adversaire_nom_complet": "CA Mantes (-1994)",
     "formation": "",
     "spectateurs": "",
     "resultat": "0:0"
@@ -61,6 +71,8 @@
     "dom_ext": "D",
     "classement": "(13.)",
     "contre": "FC Lorient (9.)",
+    "adversaire_id": "1158",
+    "adversaire_nom_complet": "FC Lorient",
     "formation": "",
     "spectateurs": "",
     "resultat": "0:1"
@@ -72,6 +84,8 @@
     "dom_ext": "E",
     "classement": "(16.)",
     "contre": "St. Brest (12.)",
+    "adversaire_id": "3911",
+    "adversaire_nom_complet": "Stade Brestois 29",
     "formation": "",
     "spectateurs": "",
     "resultat": "1:1"
@@ -83,6 +97,8 @@
     "dom_ext": "D",
     "classement": "(16.)",
     "contre": "Amiens SC (11.)",
+    "adversaire_id": "1416",
+    "adversaire_nom_complet": "Amiens SC",
     "formation": "",
     "spectateurs": "",
     "resultat": "1:0"
@@ -94,6 +110,8 @@
     "dom_ext": "E",
     "classement": "(11.)",
     "contre": "CS Sedan (1.)",
+    "adversaire_id": "1081",
+    "adversaire_nom_complet": "CS Sedan-Ardennes",
     "formation": "",
     "spectateurs": "",
     "resultat": "1:0"
@@ -105,6 +123,8 @@
     "dom_ext": "E",
     "classement": "(13.)",
     "contre": "FC Gueugnon (5.)",
+    "adversaire_id": "1397",
+    "adversaire_nom_complet": "FC Gueugnon",
     "formation": "",
     "spectateurs": "",
     "resultat": "2:1"
@@ -116,6 +136,8 @@
     "dom_ext": "D",
     "classement": "(13.)",
     "contre": "Stade Lavallois (7.)",
+    "adversaire_id": "1080",
+    "adversaire_nom_complet": "Stade Lavallois",
     "formation": "?",
     "spectateurs": "2.399",
     "resultat": "2:1"
@@ -127,6 +149,8 @@
     "dom_ext": "E",
     "classement": "(14.)",
     "contre": "Grand Boulogne (9.)",
+    "adversaire_id": "7042",
+    "adversaire_nom_complet": "US Boulogne",
     "formation": "",
     "spectateurs": "",
     "resultat": "0:1"
@@ -138,6 +162,8 @@
     "dom_ext": "D",
     "classement": "(11.)",
     "contre": "Paris FC (18.)",
+    "adversaire_id": "10004",
+    "adversaire_nom_complet": "Paris FC",
     "formation": "",
     "spectateurs": "",
     "resultat": "2:0"
@@ -149,6 +175,8 @@
     "dom_ext": "E",
     "classement": "(9.)",
     "contre": "AC Cambrai (15.)",
+    "adversaire_id": "6639",
+    "adversaire_nom_complet": "AC Cambrai",
     "formation": "",
     "spectateurs": "",
     "resultat": "0:1"
@@ -160,6 +188,8 @@
     "dom_ext": "D",
     "classement": "(9.)",
     "contre": "Stade Quimper (15.)",
+    "adversaire_id": "23375",
+    "adversaire_nom_complet": "Quimper Kerfeunteun FC",
     "formation": "",
     "spectateurs": "",
     "resultat": "3:0"
@@ -171,6 +201,8 @@
     "dom_ext": "E",
     "classement": "(7.)",
     "contre": "AS Angoulême (6.)",
+    "adversaire_id": "3915",
+    "adversaire_nom_complet": "Angoulême Charente FC",
     "formation": "",
     "spectateurs": "",
     "resultat": "3:2"
@@ -182,6 +214,8 @@
     "dom_ext": "D",
     "classement": "(9.)",
     "contre": "Rouen (2.)",
+    "adversaire_id": "1564",
+    "adversaire_nom_complet": "FC Rouen 1899",
     "formation": "?",
     "spectateurs": "2.151",
     "resultat": "2:2"
@@ -193,6 +227,8 @@
     "dom_ext": "E",
     "classement": "(8.)",
     "contre": "Ent. Bag-Fon-Neu (10.)",
+    "adversaire_id": "30338",
+    "adversaire_nom_complet": "RC Fontainebleau",
     "formation": "",
     "spectateurs": "",
     "resultat": "2:1"
@@ -204,6 +240,8 @@
     "dom_ext": "D",
     "classement": "(10.)",
     "contre": "USL Dunkerque (8.)",
+    "adversaire_id": "9202",
+    "adversaire_nom_complet": "USL Dunkerque",
     "formation": "",
     "spectateurs": "",
     "resultat": "1:2"
@@ -215,6 +253,8 @@
     "dom_ext": "E",
     "classement": "(10.)",
     "contre": "US Valenciennes (1.)",
+    "adversaire_id": "1423",
+    "adversaire_nom_complet": "Valenciennes FC",
     "formation": "?",
     "spectateurs": "3.476",
     "resultat": "1:1"
@@ -226,6 +266,8 @@
     "dom_ext": "D",
     "classement": "(10.)",
     "contre": "CA Mantes (18.)",
+    "adversaire_id": "112326",
+    "adversaire_nom_complet": "CA Mantes (-1994)",
     "formation": "",
     "spectateurs": "",
     "resultat": "1:1"
@@ -237,6 +279,8 @@
     "dom_ext": "E",
     "classement": "(10.)",
     "contre": "FC Lorient (3.)",
+    "adversaire_id": "1158",
+    "adversaire_nom_complet": "FC Lorient",
     "formation": "",
     "spectateurs": "",
     "resultat": "2:0"
@@ -248,6 +292,8 @@
     "dom_ext": "D",
     "classement": "(11.)",
     "contre": "St. Brest (10.)",
+    "adversaire_id": "3911",
+    "adversaire_nom_complet": "Stade Brestois 29",
     "formation": "",
     "spectateurs": "",
     "resultat": "1:0"
@@ -259,6 +305,8 @@
     "dom_ext": "E",
     "classement": "(10.)",
     "contre": "Amiens SC (12.)",
+    "adversaire_id": "1416",
+    "adversaire_nom_complet": "Amiens SC",
     "formation": "",
     "spectateurs": "",
     "resultat": "0:0"
@@ -270,6 +318,8 @@
     "dom_ext": "D",
     "classement": "(10.)",
     "contre": "CS Sedan (2.)",
+    "adversaire_id": "1081",
+    "adversaire_nom_complet": "CS Sedan-Ardennes",
     "formation": "",
     "spectateurs": "",
     "resultat": "2:0"
@@ -281,6 +331,8 @@
     "dom_ext": "D",
     "classement": "(10.)",
     "contre": "FC Gueugnon (5.)",
+    "adversaire_id": "1397",
+    "adversaire_nom_complet": "FC Gueugnon",
     "formation": "",
     "spectateurs": "",
     "resultat": "2:0"
@@ -292,6 +344,8 @@
     "dom_ext": "E",
     "classement": "(9.)",
     "contre": "Stade Lavallois (11.)",
+    "adversaire_id": "1080",
+    "adversaire_nom_complet": "Stade Lavallois",
     "formation": "?",
     "spectateurs": "1.856",
     "resultat": "2:0"
@@ -303,6 +357,8 @@
     "dom_ext": "D",
     "classement": "(11.)",
     "contre": "Grand Boulogne (8.)",
+    "adversaire_id": "7042",
+    "adversaire_nom_complet": "US Boulogne",
     "formation": "",
     "spectateurs": "",
     "resultat": "1:0"
@@ -314,6 +370,8 @@
     "dom_ext": "E",
     "classement": "(8.)",
     "contre": "Paris FC (15.)",
+    "adversaire_id": "10004",
+    "adversaire_nom_complet": "Paris FC",
     "formation": "",
     "spectateurs": "",
     "resultat": "0:1"
@@ -325,6 +383,8 @@
     "dom_ext": "D",
     "classement": "(8.)",
     "contre": "AC Cambrai (16.)",
+    "adversaire_id": "6639",
+    "adversaire_nom_complet": "AC Cambrai",
     "formation": "",
     "spectateurs": "",
     "resultat": "2:0"
@@ -336,6 +396,8 @@
     "dom_ext": "E",
     "classement": "(7.)",
     "contre": "Stade Quimper (17.)",
+    "adversaire_id": "23375",
+    "adversaire_nom_complet": "Quimper Kerfeunteun FC",
     "formation": "",
     "spectateurs": "",
     "resultat": "2:1"
@@ -347,6 +409,8 @@
     "dom_ext": "D",
     "classement": "(7.)",
     "contre": "AS Angoulême (8.)",
+    "adversaire_id": "3915",
+    "adversaire_nom_complet": "Angoulême Charente FC",
     "formation": "",
     "spectateurs": "",
     "resultat": "2:2"
@@ -358,6 +422,8 @@
     "dom_ext": "E",
     "classement": "(8.)",
     "contre": "Rouen (2.)",
+    "adversaire_id": "1564",
+    "adversaire_nom_complet": "FC Rouen 1899",
     "formation": "?",
     "spectateurs": "6.050",
     "resultat": "2:1"
@@ -369,6 +435,8 @@
     "dom_ext": "D",
     "classement": "(10.)",
     "contre": "SC Hazebrouck (14.)",
+    "adversaire_id": "30626",
+    "adversaire_nom_complet": "SC Hazebrouck",
     "formation": "",
     "spectateurs": "",
     "resultat": "0:0"

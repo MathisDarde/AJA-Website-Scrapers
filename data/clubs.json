@@ -1,0 +1,713 @@
+{
+  "40": {
+    "nom": "G. Bordeaux",
+    "noms": [
+      "G. Bordeaux",
+      "FC Girondins de Bordeaux"
+    ],
+    "logo": "logos/40.png"
+  },
+  "162": {
+    "nom": "Monaco",
+    "noms": [
+      "Monaco",
+      "AS Monaco"
+    ],
+    "logo": "logos/162.png"
+  },
+  "244": {
+    "nom": "Marseille",
+    "noms": [
+      "Marseille",
+      "Olympique de Marseille"
+    ],
+    "logo": "logos/244.png"
+  },
+  "273": {
+    "nom": "Stade Rennais",
+    "noms": [
+      "Stade Rennais",
+      "Stade Rennais FC"
+    ],
+    "logo": "logos/273.png"
+  },
+  "290": {
+    "nom": "AJ Auxerre",
+    "noms": [
+      "AJ Auxerre",
+      "Auxerre",
+      "AJA"
+    ],
+    "logo": "logos/290.png"
+  },
+  "347": {
+    "nom": "FC Metz",
+    "noms": [
+      "FC Metz"
+    ],
+    "logo": "logos/347.png"
+  },
+  "415": {
+    "nom": "Toulouse",
+    "noms": [
+      "Toulouse",
+      "Toulouse FC",
+      "US Toulouse"
+    ],
+    "logo": "logos/415.png"
+  },
+  "417": {
+    "nom": "OGC Nice",
+    "noms": [
+      "OGC Nice"
+    ],
+    "logo": "logos/417.png"
+  },
+  "494": {
+    "nom": "SC Toulon Var",
+    "noms": [
+      "SC Toulon Var",
+      "Sporting Club de Toulon et du Var",
+      "Sporting Club de Toulon",
+      "SC Toulon"
+    ],
+    "logo": "logos/494.png"
+  },
+  "583": {
+    "nom": "PSG",
+    "noms": [
+      "PSG",
+      "Paris Saint-Germain"
+    ],
+    "logo": "logos/583.png"
+  },
+  "595": {
+    "nom": "SC Bastia",
+    "noms": [
+      "SC Bastia",
+      "SEC Bastia",
+      "Sporting Étoile Club Bastia "
+    ],
+    "logo": "logos/595.png"
+  },
+  "618": {
+    "nom": "Saint-Étienne",
+    "noms": [
+      "Saint-Étienne",
+      "AS Saint-Étienne"
+    ],
+    "logo": "logos/618.png"
+  },
+  "667": {
+    "nom": "R. Strasbourg",
+    "noms": [
+      "R. Strasbourg",
+      "RC Strasbourg Alsace"
+    ],
+    "logo": "logos/667.png"
+  },
+  "738": {
+    "nom": "Le Havre AC",
+    "noms": [
+      "Le Havre AC"
+    ],
+    "logo": "logos/738.png"
+  },
+  "750": {
+    "nom": "FC Sochaux",
+    "noms": [
+      "FC Sochaux",
+      "FC Sochaux-Montbéliard"
+    ],
+    "logo": "logos/750.png"
+  },
+  "826": {
+    "nom": "RC Lens",
+    "noms": [
+      "RC Lens"
+    ],
+    "logo": "logos/826.png"
+  },
+  "855": {
+    "nom": "EA Guingamp",
+    "noms": [
+      "EA Guingamp"
+    ],
+    "logo": "logos/855.png"
+  },
+  "895": {
+    "nom": "AS Cannes",
+    "noms": [
+      "AS Cannes"
+    ],
+    "logo": "logos/895.png"
+  },
+  "969": {
+    "nom": "Montpellier",
+    "noms": [
+      "Montpellier",
+      "Montpellier Hérault SC"
+    ],
+    "logo": "logos/969.png"
+  },
+  "995": {
+    "nom": "FC Nantes",
+    "noms": [
+      "FC Nantes"
+    ],
+    "logo": "logos/995.png"
+  },
+  "1041": {
+    "nom": "Ol. Lyonnais",
+    "noms": [
+      "Ol. Lyonnais",
+      "Olympique Lyonnais"
+    ],
+    "logo": "logos/1041.png"
+  },
+  "1080": {
+    "nom": "Stade Lavallois",
+    "noms": [
+      "Stade Lavallois"
+    ],
+    "logo": "logos/1080.png"
+  },
+  "1081": {
+    "nom": "CS Sedan",
+    "noms": [
+      "CS Sedan",
+      "CS Sedan-Ardennes"
+    ],
+    "logo": "logos/1081.png"
+  },
+  "1082": {
+    "nom": "LOSC Lille",
+    "noms": [
+      "LOSC Lille"
+    ],
+    "logo": "logos/1082.png"
+  },
+  "1095": {
+    "nom": "Troyes",
+    "noms": [
+      "Troyes",
+      "ESTAC Troyes",
+      "Association Troyes Aube Champagne",
+      "Troyes AF",
+      "Troyes Aube Football"
+    ],
+    "logo": "logos/1095.png"
+  },
+  "1147": {
+    "nom": "AC Ajaccio",
+    "noms": [
+      "AC Ajaccio"
+    ],
+    "logo": "logos/1147.png"
+  },
+  "1154": {
+    "nom": "Red Star FC",
+    "noms": [
+      "Red Star FC"
+    ],
+    "logo": "logos/1154.png"
+  },
+  "1158": {
+    "nom": "FC Lorient",
+    "noms": [
+      "FC Lorient"
+    ],
+    "logo": "logos/1158.png"
+  },
+  "1159": {
+    "nom": "AS Nancy",
+    "noms": [
+      "AS Nancy",
+      "AS Nancy-Lorraine"
+    ],
+    "logo": "logos/1159.png"
+  },
+  "1160": {
+    "nom": "Nîmes Olympique",
+    "noms": [
+      "Nîmes Olympique"
+    ],
+    "logo": "logos/1160.png"
+  },
+  "1161": {
+    "nom": "Chamois Niort",
+    "noms": [
+      "Chamois Niort",
+      "Chamois Niortais FC",
+      "Chamois Niortais FC (- 2025)"
+    ],
+    "logo": "logos/1161.png"
+  },
+  "1162": {
+    "nom": "SM Caen",
+    "noms": [
+      "SM Caen"
+    ],
+    "logo": "logos/1162.png"
+  },
+  "1164": {
+    "nom": "Le Mans FC",
+    "noms": [
+      "Le Mans FC",
+      "Le Mans UC 72",
+      "Le Mans Union Club 72"
+    ],
+    "logo": "logos/1164.png"
+  },
+  "1165": {
+    "nom": "FC Martigues",
+    "noms": [
+      "FC Martigues"
+    ],
+    "logo": "logos/1165.png"
+  },
+  "1175": {
+    "nom": "LB Châteauroux",
+    "noms": [
+      "LB Châteauroux"
+    ],
+    "logo": "logos/1175.png"
+  },
+  "1290": {
+    "nom": "Grenoble",
+    "noms": [
+      "Grenoble",
+      "Grenoble Foot 38"
+    ],
+    "logo": "logos/1290.png"
+  },
+  "1397": {
+    "nom": "FC Gueugnon",
+    "noms": [
+      "FC Gueugnon"
+    ],
+    "logo": "logos/1397.png"
+  },
+  "1416": {
+    "nom": "Amiens SC",
+    "noms": [
+      "Amiens SC"
+    ],
+    "logo": "logos/1416.png"
+  },
+  "1420": {
+    "nom": "Angers SCO",
+    "noms": [
+      "Angers SCO"
+    ],
+    "logo": "logos/1420.png"
+  },
+  "1421": {
+    "nom": "Stade de Reims",
+    "noms": [
+      "Stade de Reims"
+    ],
+    "logo": "logos/1421.png"
+  },
+  "1423": {
+    "nom": "Valenciennes FC",
+    "noms": [
+      "Valenciennes FC",
+      "US Valenciennes",
+      "US Valenciennes-Anzin Arrondissement",
+      "US Valenciennes-Anzin"
+    ],
+    "logo": "logos/1423.png"
+  },
+  "1564": {
+    "nom": "Rouen",
+    "noms": [
+      "Rouen",
+      "FC Rouen",
+      "FC Rouen 1899"
+    ],
+    "logo": "logos/1564.png"
+  },
+  "1774": {
+    "nom": "Mulhouse S-A",
+    "noms": [
+      "Mulhouse S-A",
+      "FC Mulhouse Sud-Alsace",
+      "FC Mulhouse",
+      "Mulhouse",
+      "FC Mulhouse 1893"
+    ],
+    "logo": "logos/1774.png"
+  },
+  "2067": {
+    "nom": "US Créteil-L",
+    "noms": [
+      "US Créteil-L",
+      "US Créteil-Lusitanos",
+      "US Créteil Football"
+    ],
+    "logo": "logos/2067.png"
+  },
+  "2580": {
+    "nom": "FC Istres",
+    "noms": [
+      "FC Istres",
+      "FC Istres Ouest Provence ",
+      "Istres Football Club"
+    ],
+    "logo": "logos/2580.png"
+  },
+  "2618": {
+    "nom": "Olympique Alès",
+    "noms": [
+      "Olympique Alès",
+      "Olympique d'Alès en Cévennes"
+    ],
+    "logo": "logos/2618.png"
+  },
+  "2967": {
+    "nom": "RC Franc-Comtois",
+    "noms": [
+      "RC Franc-Comtois",
+      "Racing Club Franc-Comtois ",
+      "Racing Besançon"
+    ],
+    "logo": "logos/2967.png"
+  },
+  "2969": {
+    "nom": "Dijon",
+    "noms": [
+      "Dijon",
+      "Dijon FCO"
+    ],
+    "logo": "logos/2969.png"
+  },
+  "2972": {
+    "nom": "Bourg-en-Bresse",
+    "noms": [
+      "Bourg-en-Bresse",
+      "Football Bourg-en-Bresse Péronnas 01"
+    ],
+    "logo": "logos/2972.png"
+  },
+  "3161": {
+    "nom": "Tours FC",
+    "noms": [
+      "Tours FC",
+      "Tours FC (- 2025)",
+      "FC Tours"
+    ],
+    "logo": "logos/3161.png"
+  },
+  "3166": {
+    "nom": "Pau FC",
+    "noms": [
+      "Pau FC"
+    ],
+    "logo": "logos/3166.png"
+  },
+  "3318": {
+    "nom": "RC Paris",
+    "noms": [
+      "RC Paris",
+      "Racing Club Paris",
+      "Racing Club de France",
+      "Matra Racing"
+    ],
+    "logo": "logos/3318.png"
+  },
+  "3520": {
+    "nom": "FC Sète 34",
+    "noms": [
+      "FC Sète 34",
+      "Sporting Club Sétois"
+    ],
+    "logo": "logos/3520.png"
+  },
+  "3524": {
+    "nom": "Clermont Foot",
+    "noms": [
+      "Clermont Foot",
+      "Clermont Foot 63",
+      "Clermont Foot Auvergne 63"
+    ],
+    "logo": "logos/3524.png"
+  },
+  "3549": {
+    "nom": "Bourges",
+    "noms": [
+      "Bourges",
+      "FC Bourges",
+      "Bourges 18 (- 2021)"
+    ],
+    "logo": "logos/3549.png"
+  },
+  "3558": {
+    "nom": "G. Ajaccio",
+    "noms": [
+      "G. Ajaccio",
+      "GFC Ajaccio"
+    ],
+    "logo": "logos/3558.png"
+  },
+  "3911": {
+    "nom": "Stade Brestois",
+    "noms": [
+      "Stade Brestois",
+      "Stade Brestois 29",
+      "Brest Armorique",
+      "Brest Armorique FC",
+      "St. Brest",
+      "Stade brestois"
+    ],
+    "logo": "logos/3911.png"
+  },
+  "3915": {
+    "nom": "AS Angoulême",
+    "noms": [
+      "AS Angoulême",
+      "Angoulême Charente FC"
+    ],
+    "logo": "logos/3915.png"
+  },
+  "6639": {
+    "nom": "AC Cambrai",
+    "noms": [
+      "AC Cambrai"
+    ],
+    "logo": "logos/6639.png"
+  },
+  "7042": {
+    "nom": "US Boulogne",
+    "noms": [
+      "US Boulogne",
+      "Grand Boulogne",
+      "US du Grand Boulogne"
+    ],
+    "logo": "logos/7042.png"
+  },
+  "7124": {
+    "nom": "QRM",
+    "noms": [
+      "QRM",
+      "Quevilly - Rouen Métropole",
+      "Quevilly Rouen",
+      "Quevilly Rouen Métropole"
+    ],
+    "logo": "logos/7124.png"
+  },
+  "8235": {
+    "nom": "FR Haguenau",
+    "noms": [
+      "FR Haguenau"
+    ],
+    "logo": "logos/8235.png"
+  },
+  "9202": {
+    "nom": "USL Dunkerque",
+    "noms": [
+      "USL Dunkerque"
+    ],
+    "logo": "logos/9202.png"
+  },
+  "10004": {
+    "nom": "Paris FC",
+    "noms": [
+      "Paris FC"
+    ],
+    "logo": "logos/10004.png"
+  },
+  "10673": {
+    "nom": "EDS Montluçon",
+    "noms": [
+      "EDS Montluçon",
+      "Montluçon Football"
+    ],
+    "logo": "logos/10673.png"
+  },
+  "10838": {
+    "nom": "SAS Épinal",
+    "noms": [
+      "SAS Épinal"
+    ],
+    "logo": "logos/10838.png"
+  },
+  "10867": {
+    "nom": "AS Béziers",
+    "noms": [
+      "AS Béziers"
+    ],
+    "logo": "logos/10867.png"
+  },
+  "10868": {
+    "nom": "US Orléans",
+    "noms": [
+      "US Orléans"
+    ],
+    "logo": "logos/10868.png"
+  },
+  "11273": {
+    "nom": "Rodez AF",
+    "noms": [
+      "Rodez AF"
+    ],
+    "logo": "logos/11273.png"
+  },
+  "11300": {
+    "nom": "AC Arles-Avignon",
+    "noms": [
+      "AC Arles-Avignon",
+      "Athlétic Club Arlésien"
+    ],
+    "logo": "logos/11300.png"
+  },
+  "14171": {
+    "nom": "FC Évian",
+    "noms": [
+      "FC Évian",
+      "FC Évian Thonon Gaillard",
+      "Thonon Évian Grand Genève FC"
+    ],
+    "logo": "logos/14171.png"
+  },
+  "21688": {
+    "nom": "Concarneau",
+    "noms": [
+      "Concarneau",
+      "US Concarneau"
+    ],
+    "logo": "logos/21688.png"
+  },
+  "23341": {
+    "nom": "Ol. Avignon",
+    "noms": [
+      "Ol. Avignon",
+      "Olympique avignonnais",
+      "Avenir Club avignonnais"
+    ],
+    "logo": "logos/23341.png"
+  },
+  "23375": {
+    "nom": "Stade Quimper",
+    "noms": [
+      "Stade Quimper",
+      "Stade quimpérois",
+      "Quimper Kerfeunteun FC"
+    ],
+    "logo": "logos/23375.png"
+  },
+  "25638": {
+    "nom": "SR Saint-Dié",
+    "noms": [
+      "SR Saint-Dié"
+    ],
+    "logo": "logos/25638.png"
+  },
+  "27158": {
+    "nom": "Thionville",
+    "noms": [
+      "Thionville",
+      "FC Thionville (- 2021)"
+    ],
+    "logo": "logos/27158.png"
+  },
+  "28559": {
+    "nom": "CA Bastia",
+    "noms": [
+      "CA Bastia",
+      "CA Bastia (- 2017)"
+    ],
+    "logo": "logos/28559.png"
+  },
+  "30204": {
+    "nom": "FC Annecy",
+    "noms": [
+      "FC Annecy"
+    ],
+    "logo": "logos/30204.png"
+  },
+  "30338": {
+    "nom": "Ent. Bag-Fon-Neu",
+    "noms": [
+      "Ent. Bag-Fon-Neu",
+      "Entente Bagneaux-Fontainebleau-Nemours",
+      "RC Fontainebleau"
+    ],
+    "logo": "logos/30338.png"
+  },
+  "30626": {
+    "nom": "SC Hazebrouck",
+    "noms": [
+      "SC Hazebrouck"
+    ],
+    "logo": "logos/30626.png"
+  },
+  "35012": {
+    "nom": "FC Chambly Oise",
+    "noms": [
+      "FC Chambly Oise"
+    ],
+    "logo": "logos/35012.png"
+  },
+  "35269": {
+    "nom": "JGA Nevers",
+    "noms": [
+      "JGA Nevers",
+      "Jeune garde athlétique nivernaise",
+      "FC Nevers 58"
+    ],
+    "logo": "logos/35269.png"
+  },
+  "35561": {
+    "nom": "Entente Chaumont",
+    "noms": [
+      "Entente Chaumont",
+      "Entente Chaumont Athlétic des Cheminots",
+      "Chaumont FC"
+    ],
+    "logo": "logos/35561.png"
+  },
+  "57862": {
+    "nom": "US Melun",
+    "noms": [
+      "US Melun",
+      "Union Sportive de Melun",
+      "Melun Football Club"
+    ],
+    "logo": "logos/57862.png"
+  },
+  "58050": {
+    "nom": "CS Thonon",
+    "noms": [
+      "CS Thonon",
+      "Club sportif Thonon-les-Bains",
+      "Olympique Thonon Chablais"
+    ],
+    "logo": "logos/58050.png"
+  },
+  "58556": {
+    "nom": "AS Béziers",
+    "noms": [
+      "AS Béziers",
+      "AS Béziers (- 1990)"
+    ],
+    "logo": "logos/58556.png"
+  },
+  "69092": {
+    "nom": "Tavaux",
+    "noms": [
+      "Tavaux",
+      "US Tavaux Damparis",
+      "US Tavaux Damparis (-1991)"
+    ],
+    "logo": "logos/69092.png"
+  },
+  "112326": {
+    "nom": "CA Mantes",
+    "noms": [
+      "CA Mantes",
+      "CA Mantes (-1994)"
+    ],
+    "logo": null
+  }
+}

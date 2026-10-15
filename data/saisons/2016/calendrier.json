@@ -6,6 +6,8 @@
     "dom_ext": "E",
     "classement": "(17.)",
     "contre": "Red Star FC (19.)",
+    "adversaire_id": "1154",
+    "adversaire_nom_complet": "Red Star FC",
     "formation": "4-3-3 offensif",
     "spectateurs": "6.193",
     "resultat": "0:0"
@@ -17,6 +19,8 @@
     "dom_ext": "D",
     "classement": "(7.)",
     "contre": "G. Ajaccio (9.)",
+    "adversaire_id": "3558",
+    "adversaire_nom_complet": "GFC Ajaccio",
     "formation": "4-3-3 offensif",
     "spectateurs": "5.436",
     "resultat": "1:2"
@@ -28,6 +32,8 @@
     "dom_ext": "E",
     "classement": "(15.)",
     "contre": "Bourg-en-Bresse (16.)",
+    "adversaire_id": "2972",
+    "adversaire_nom_complet": "Football Bourg-en-Bresse Péronnas 01",
     "formation": "4-3-3 offensif",
     "spectateurs": "2.034",
     "resultat": "2:4"
@@ -39,6 +45,8 @@
     "dom_ext": "D",
     "classement": "(9.)",
     "contre": "Clermont Foot (18.)",
+    "adversaire_id": "3524",
+    "adversaire_nom_complet": "Clermont Foot 63",
     "formation": "4-4-2",
     "spectateurs": "4.966",
     "resultat": "0:1"
@@ -50,6 +58,8 @@
     "dom_ext": "E",
     "classement": "(13.)",
     "contre": "US Orléans (20.)",
+    "adversaire_id": "10868",
+    "adversaire_nom_complet": "US Orléans",
     "formation": "4-3-3 offensif",
     "spectateurs": "5.031",
     "resultat": "0:0"
@@ -61,6 +71,8 @@
     "dom_ext": "D",
     "classement": "(14.)",
     "contre": "FC Sochaux (3.)",
+    "adversaire_id": "750",
+    "adversaire_nom_complet": "FC Sochaux-Montbéliard",
     "formation": "4-4-2 double 6",
     "spectateurs": "4.809",
     "resultat": "0:0"
@@ -72,6 +84,8 @@
     "dom_ext": "E",
     "classement": "(13.)",
     "contre": "Stade Brestois (4.)",
+    "adversaire_id": "3911",
+    "adversaire_nom_complet": "Stade Brestois 29",
     "formation": "4-4-2",
     "spectateurs": "6.338",
     "resultat": "1:0"
@@ -83,6 +97,8 @@
     "dom_ext": "E",
     "classement": "(15.)",
     "contre": "AC Ajaccio (13.)",
+    "adversaire_id": "1147",
+    "adversaire_nom_complet": "AC Ajaccio",
     "formation": "4-3-3 offensif",
     "spectateurs": "2.457",
     "resultat": "2:0"
@@ -94,6 +110,8 @@
     "dom_ext": "D",
     "classement": "(16.)",
     "contre": "Le Havre AC (11.)",
+    "adversaire_id": "738",
+    "adversaire_nom_complet": "Le Havre AC",
     "formation": "4-4-2",
     "spectateurs": "4.354",
     "resultat": "0:1"
@@ -105,6 +123,8 @@
     "dom_ext": "E",
     "classement": "(18.)",
     "contre": "Stade de Reims (3.)",
+    "adversaire_id": "1421",
+    "adversaire_nom_complet": "Stade de Reims",
     "formation": "4-4-2",
     "spectateurs": "10.073",
     "resultat": "3:0"
@@ -116,6 +136,8 @@
     "dom_ext": "D",
     "classement": "(18.)",
     "contre": "Stade Lavallois (17.)",
+    "adversaire_id": "1080",
+    "adversaire_nom_complet": "Stade Lavallois",
     "formation": "4-4-2",
     "spectateurs": "4.722",
     "resultat": "2:0"
@@ -127,6 +149,8 @@
     "dom_ext": "E",
     "classement": "(17.)",
     "contre": "R. Strasbourg (11.)",
+    "adversaire_id": "667",
+    "adversaire_nom_complet": "RC Strasbourg Alsace",
     "formation": "4-4-2",
     "spectateurs": "16.133",
     "resultat": "2:1"
@@ -138,6 +162,8 @@
     "dom_ext": "D",
     "classement": "(18.)",
     "contre": "Chamois Niort (13.)",
+    "adversaire_id": "1161",
+    "adversaire_nom_complet": "Chamois Niortais FC (- 2025)",
     "formation": "4-4-2",
     "spectateurs": "4.934",
     "resultat": "0:4"
@@ -149,6 +175,8 @@
     "dom_ext": "E",
     "classement": "(19.)",
     "contre": "Amiens SC (3.)",
+    "adversaire_id": "1416",
+    "adversaire_nom_complet": "Amiens SC",
     "formation": "5-3-2",
     "spectateurs": "7.423",
     "resultat": "0:0"
@@ -160,6 +188,8 @@
     "dom_ext": "D",
     "classement": "(19.)",
     "contre": "RC Lens (6.)",
+    "adversaire_id": "826",
+    "adversaire_nom_complet": "RC Lens",
     "formation": "4-3-1-2",
     "spectateurs": "5.966",
     "resultat": "1:1"
@@ -171,6 +201,8 @@
     "dom_ext": "E",
     "classement": "(18.)",
     "contre": "Tours FC (20.)",
+    "adversaire_id": "3161",
+    "adversaire_nom_complet": "Tours FC (- 2025)",
     "formation": "4-3-3 offensif",
     "spectateurs": "4.266",
     "resultat": "2:1"
@@ -182,6 +214,8 @@
     "dom_ext": "D",
     "classement": "(19.)",
     "contre": "Nîmes Olympique (10.)",
+    "adversaire_id": "1160",
+    "adversaire_nom_complet": "Nîmes Olympique",
     "formation": "4-3-3 offensif",
     "spectateurs": "3.886",
     "resultat": "2:0"
@@ -193,6 +227,8 @@
     "dom_ext": "E",
     "classement": "(18.)",
     "contre": "Troyes (1.)",
+    "adversaire_id": "1095",
+    "adversaire_nom_complet": "ESTAC Troyes",
     "formation": "4-2-3-1",
     "spectateurs": "9.529",
     "resultat": "1:1"
@@ -204,6 +240,8 @@
     "dom_ext": "D",
     "classement": "(18.)",
     "contre": "Valenciennes FC (11.)",
+    "adversaire_id": "1423",
+    "adversaire_nom_complet": "Valenciennes FC",
     "formation": "4-2-3-1",
     "spectateurs": "5.297",
     "resultat": "1:1"
@@ -215,6 +253,8 @@
     "dom_ext": "E",
     "classement": "(19.)",
     "contre": "G. Ajaccio (13.)",
+    "adversaire_id": "3558",
+    "adversaire_nom_complet": "GFC Ajaccio",
     "formation": "4-2-3-1",
     "spectateurs": "2.963",
     "resultat": "2:0"
@@ -226,6 +266,8 @@
     "dom_ext": "D",
     "classement": "(19.)",
     "contre": "Bourg-en-Bresse (14.)",
+    "adversaire_id": "2972",
+    "adversaire_nom_complet": "Football Bourg-en-Bresse Péronnas 01",
     "formation": "4-2-3-1",
     "spectateurs": "3.638",
     "resultat": "0:2"
@@ -237,6 +279,8 @@
     "dom_ext": "E",
     "classement": "(19.)",
     "contre": "Clermont Foot (10.)",
+    "adversaire_id": "3524",
+    "adversaire_nom_complet": "Clermont Foot 63",
     "formation": "4-2-3-1",
     "spectateurs": "2.815",
     "resultat": "0:1"
@@ -248,6 +292,8 @@
     "dom_ext": "D",
     "classement": "(19.)",
     "contre": "US Orléans (20.)",
+    "adversaire_id": "10868",
+    "adversaire_nom_complet": "US Orléans",
     "formation": "5-3-2",
     "spectateurs": "5.012",
     "resultat": "0:2"
@@ -259,6 +305,8 @@
     "dom_ext": "E",
     "classement": "(19.)",
     "contre": "FC Sochaux (8.)",
+    "adversaire_id": "750",
+    "adversaire_nom_complet": "FC Sochaux-Montbéliard",
     "formation": "5-3-2",
     "spectateurs": "7.259",
     "resultat": "0:1"
@@ -270,6 +318,8 @@
     "dom_ext": "D",
     "classement": "(18.)",
     "contre": "Stade Brestois (1.)",
+    "adversaire_id": "3911",
+    "adversaire_nom_complet": "Stade Brestois 29",
     "formation": "5-3-2",
     "spectateurs": "4.525",
     "resultat": "3:1"
@@ -281,6 +331,8 @@
     "dom_ext": "D",
     "classement": "(17.)",
     "contre": "AC Ajaccio (11.)",
+    "adversaire_id": "1147",
+    "adversaire_nom_complet": "AC Ajaccio",
     "formation": "5-3-2",
     "spectateurs": "5.043",
     "resultat": "1:0"
@@ -292,6 +344,8 @@
     "dom_ext": "E",
     "classement": "(17.)",
     "contre": "Le Havre AC (12.)",
+    "adversaire_id": "738",
+    "adversaire_nom_complet": "Le Havre AC",
     "formation": "5-4-1 plat",
     "spectateurs": "7.451",
     "resultat": "1:0"
@@ -303,6 +357,8 @@
     "dom_ext": "D",
     "classement": "(17.)",
     "contre": "Stade de Reims (3.)",
+    "adversaire_id": "1421",
+    "adversaire_nom_complet": "Stade de Reims",
     "formation": "4-3-3 offensif",
     "spectateurs": "6.635",
     "resultat": "1:2"
@@ -314,6 +370,8 @@
     "dom_ext": "E",
     "classement": "(17.)",
     "contre": "Stade Lavallois (19.)",
+    "adversaire_id": "1080",
+    "adversaire_nom_complet": "Stade Lavallois",
     "formation": "3-5-2 plat",
     "spectateurs": "6.182",
     "resultat": "0:0"
@@ -325,6 +383,8 @@
     "dom_ext": "D",
     "classement": "(17.)",
     "contre": "R. Strasbourg (4.)",
+    "adversaire_id": "667",
+    "adversaire_nom_complet": "RC Strasbourg Alsace",
     "formation": "5-3-2",
     "spectateurs": "5.935",
     "resultat": "0:2"
@@ -336,6 +396,8 @@
     "dom_ext": "E",
     "classement": "(18.)",
     "contre": "Chamois Niort (8.)",
+    "adversaire_id": "1161",
+    "adversaire_nom_complet": "Chamois Niortais FC (- 2025)",
     "formation": "4-4-1-1",
     "spectateurs": "3.864",
     "resultat": "1:0"
@@ -347,6 +409,8 @@
     "dom_ext": "D",
     "classement": "(18.)",
     "contre": "Amiens SC (7.)",
+    "adversaire_id": "1416",
+    "adversaire_nom_complet": "Amiens SC",
     "formation": "4-4-2",
     "spectateurs": "8.992",
     "resultat": "1:0"
@@ -358,6 +422,8 @@
     "dom_ext": "E",
     "classement": "(17.)",
     "contre": "RC Lens (2.)",
+    "adversaire_id": "826",
+    "adversaire_nom_complet": "RC Lens",
     "formation": "4-3-1-2",
     "spectateurs": "34.288",
     "resultat": "0:1"
@@ -369,6 +435,8 @@
     "dom_ext": "D",
     "classement": "(17.)",
     "contre": "Tours FC (16.)",
+    "adversaire_id": "3161",
+    "adversaire_nom_complet": "Tours FC (- 2025)",
     "formation": "4-4-2",
     "spectateurs": "8.396",
     "resultat": "1:1"
@@ -380,6 +448,8 @@
     "dom_ext": "E",
     "classement": "(17.)",
     "contre": "Nîmes Olympique (3.)",
+    "adversaire_id": "1160",
+    "adversaire_nom_complet": "Nîmes Olympique",
     "formation": "4-4-1-1",
     "spectateurs": "14.606",
     "resultat": "0:1"
@@ -391,6 +461,8 @@
     "dom_ext": "D",
     "classement": "(17.)",
     "contre": "Troyes (5.)",
+    "adversaire_id": "1095",
+    "adversaire_nom_complet": "ESTAC Troyes",
     "formation": "4-4-2",
     "spectateurs": "10.755",
     "resultat": "2:3"
@@ -402,6 +474,8 @@
     "dom_ext": "E",
     "classement": "(17.)",
     "contre": "Valenciennes FC (13.)",
+    "adversaire_id": "1423",
+    "adversaire_nom_complet": "Valenciennes FC",
     "formation": "4-4-1-1",
     "spectateurs": "9.791",
     "resultat": "0:0"
@@ -413,6 +487,8 @@
     "dom_ext": "D",
     "classement": "(17.)",
     "contre": "Red Star FC (19.)",
+    "adversaire_id": "1154",
+    "adversaire_nom_complet": "Red Star FC",
     "formation": "4-1-4-1",
     "spectateurs": "12.431",
     "resultat": "1:0"

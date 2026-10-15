@@ -6,6 +6,8 @@
     "dom_ext": "E",
     "classement": "(1.)",
     "contre": "AS Cannes (3.)",
+    "adversaire_id": "895",
+    "adversaire_nom_complet": "AS Cannes",
     "formation": "?",
     "spectateurs": "4.000",
     "resultat": "1:2"
@@ -17,6 +19,8 @@
     "dom_ext": "D",
     "classement": "(7.)",
     "contre": "Tavaux (8.)",
+    "adversaire_id": "69092",
+    "adversaire_nom_complet": "US Tavaux Damparis (-1991)",
     "formation": "?",
     "spectateurs": "3.785",
     "resultat": "2:0"
@@ -28,6 +32,8 @@
     "dom_ext": "E",
     "classement": "(2.)",
     "contre": "EDS Montluçon (4.)",
+    "adversaire_id": "10673",
+    "adversaire_nom_complet": "Montluçon Football",
     "formation": "?",
     "spectateurs": "4.139",
     "resultat": "0:2"
@@ -39,6 +45,8 @@
     "dom_ext": "E",
     "classement": "(2.)",
     "contre": "Toulouse (13.)",
+    "adversaire_id": "415",
+    "adversaire_nom_complet": "Toulouse FC",
     "formation": "?",
     "spectateurs": "10.469",
     "resultat": "1:1"
@@ -50,6 +58,8 @@
     "dom_ext": "D",
     "classement": "(1.)",
     "contre": "FC Gueugnon (10.)",
+    "adversaire_id": "1397",
+    "adversaire_nom_complet": "FC Gueugnon",
     "formation": "?",
     "spectateurs": "7.341",
     "resultat": "1:0"
@@ -61,6 +71,8 @@
     "dom_ext": "E",
     "classement": "(1.)",
     "contre": "Ol. Avignon (15.)",
+    "adversaire_id": "23341",
+    "adversaire_nom_complet": "Avenir Club avignonnais",
     "formation": "?",
     "spectateurs": "1.506",
     "resultat": "3:1"
@@ -72,6 +84,8 @@
     "dom_ext": "D",
     "classement": "(2.)",
     "contre": "AS Béziers (5.)",
+    "adversaire_id": "58556",
+    "adversaire_nom_complet": "AS Béziers (- 1990)",
     "formation": "?",
     "spectateurs": "5.139",
     "resultat": "0:0"
@@ -83,6 +97,8 @@
     "dom_ext": "E",
     "classement": "(2.)",
     "contre": "Thionville (9.)",
+    "adversaire_id": "27158",
+    "adversaire_nom_complet": "FC Thionville (- 2021)",
     "formation": "?",
     "spectateurs": "5.206",
     "resultat": "0:0"
@@ -94,6 +110,8 @@
     "dom_ext": "D",
     "classement": "(3.)",
     "contre": "Olympique Alès (11.)",
+    "adversaire_id": "2618",
+    "adversaire_nom_complet": "Olympique d'Alès en Cévennes",
     "formation": "?",
     "spectateurs": "3.964",
     "resultat": "3:0"
@@ -105,6 +123,8 @@
     "dom_ext": "E",
     "classement": "(2.)",
     "contre": "SR Saint-Dié (18.)",
+    "adversaire_id": "25638",
+    "adversaire_nom_complet": "SR Saint-Dié",
     "formation": "?",
     "spectateurs": "1.877",
     "resultat": "0:0"
@@ -116,6 +136,8 @@
     "dom_ext": "D",
     "classement": "(2.)",
     "contre": "G. Ajaccio (11.)",
+    "adversaire_id": "3558",
+    "adversaire_nom_complet": "GFC Ajaccio",
     "formation": "?",
     "spectateurs": "4.467",
     "resultat": "3:0"
@@ -127,6 +149,8 @@
     "dom_ext": "E",
     "classement": "(1.)",
     "contre": "FC Martigues (6.)",
+    "adversaire_id": "1165",
+    "adversaire_nom_complet": "FC Martigues",
     "formation": "?",
     "spectateurs": "2.713",
     "resultat": "1:2"
@@ -138,6 +162,8 @@
     "dom_ext": "D",
     "classement": "(1.)",
     "contre": "SC Toulon (14.)",
+    "adversaire_id": "494",
+    "adversaire_nom_complet": "Sporting Club de Toulon",
     "formation": "?",
     "spectateurs": "3.989",
     "resultat": "6:2"
@@ -149,6 +175,8 @@
     "dom_ext": "E",
     "classement": "(1.)",
     "contre": "Paris FC (6.)",
+    "adversaire_id": "10004",
+    "adversaire_nom_complet": "Paris FC",
     "formation": "?",
     "spectateurs": "3.289",
     "resultat": "3:3"
@@ -160,6 +188,8 @@
     "dom_ext": "D",
     "classement": "(1.)",
     "contre": "CS Thonon (2.)",
+    "adversaire_id": "58050",
+    "adversaire_nom_complet": "Olympique Thonon Chablais",
     "formation": "?",
     "spectateurs": "7.020",
     "resultat": "0:0"
@@ -171,6 +201,8 @@
     "dom_ext": "E",
     "classement": "(1.)",
     "contre": "Mulhouse (12.)",
+    "adversaire_id": "1774",
+    "adversaire_nom_complet": "FC Mulhouse",
     "formation": "?",
     "spectateurs": "2.528",
     "resultat": "0:0"
@@ -182,6 +214,8 @@
     "dom_ext": "D",
     "classement": "(1.)",
     "contre": "Montpellier (4.)",
+    "adversaire_id": "969",
+    "adversaire_nom_complet": "Montpellier Hérault SC",
     "formation": "?",
     "spectateurs": "5.221",
     "resultat": "2:0"
@@ -193,6 +227,8 @@
     "dom_ext": "E",
     "classement": "(1.)",
     "contre": "Tavaux (17.)",
+    "adversaire_id": "69092",
+    "adversaire_nom_complet": "US Tavaux Damparis (-1991)",
     "formation": "?",
     "spectateurs": "2.488",
     "resultat": "1:0"
@@ -204,6 +240,8 @@
     "dom_ext": "D",
     "classement": "(1.)",
     "contre": "EDS Montluçon (14.)",
+    "adversaire_id": "10673",
+    "adversaire_nom_complet": "Montluçon Football",
     "formation": "?",
     "spectateurs": "3.499",
     "resultat": "1:0"
@@ -215,6 +253,8 @@
     "dom_ext": "D",
     "classement": "(1.)",
     "contre": "Toulouse (7.)",
+    "adversaire_id": "415",
+    "adversaire_nom_complet": "Toulouse FC",
     "formation": "?",
     "spectateurs": "2.203",
     "resultat": "1:2"
@@ -226,6 +266,8 @@
     "dom_ext": "E",
     "classement": "(1.)",
     "contre": "FC Gueugnon (13.)",
+    "adversaire_id": "1397",
+    "adversaire_nom_complet": "FC Gueugnon",
     "formation": "?",
     "spectateurs": "2.014",
     "resultat": "4:1"
@@ -237,6 +279,8 @@
     "dom_ext": "D",
     "classement": "(1.)",
     "contre": "Ol. Avignon (5.)",
+    "adversaire_id": "23341",
+    "adversaire_nom_complet": "Avenir Club avignonnais",
     "formation": "?",
     "spectateurs": "3.625",
     "resultat": "1:2"
@@ -248,6 +292,8 @@
     "dom_ext": "E",
     "classement": "(2.)",
     "contre": "AS Béziers (8.)",
+    "adversaire_id": "58556",
+    "adversaire_nom_complet": "AS Béziers (- 1990)",
     "formation": "?",
     "spectateurs": "1.513",
     "resultat": "1:1"
@@ -259,6 +305,8 @@
     "dom_ext": "D",
     "classement": "(3.)",
     "contre": "Thionville (13.)",
+    "adversaire_id": "27158",
+    "adversaire_nom_complet": "FC Thionville (- 2021)",
     "formation": "?",
     "spectateurs": "3.297",
     "resultat": "3:0"
@@ -270,6 +318,8 @@
     "dom_ext": "E",
     "classement": "(2.)",
     "contre": "Olympique Alès (18.)",
+    "adversaire_id": "2618",
+    "adversaire_nom_complet": "Olympique d'Alès en Cévennes",
     "formation": "?",
     "spectateurs": "1.312",
     "resultat": "0:4"
@@ -281,6 +331,8 @@
     "dom_ext": "D",
     "classement": "(2.)",
     "contre": "SR Saint-Dié (14.)",
+    "adversaire_id": "25638",
+    "adversaire_nom_complet": "SR Saint-Dié",
     "formation": "?",
     "spectateurs": "3.003",
     "resultat": "1:0"
@@ -292,6 +344,8 @@
     "dom_ext": "E",
     "classement": "(2.)",
     "contre": "G. Ajaccio (12.)",
+    "adversaire_id": "3558",
+    "adversaire_nom_complet": "GFC Ajaccio",
     "formation": "?",
     "spectateurs": "1.466",
     "resultat": "1:1"
@@ -303,6 +357,8 @@
     "dom_ext": "D",
     "classement": "(2.)",
     "contre": "FC Martigues (10.)",
+    "adversaire_id": "1165",
+    "adversaire_nom_complet": "FC Martigues",
     "formation": "?",
     "spectateurs": "3.685",
     "resultat": "2:2"
@@ -314,6 +370,8 @@
     "dom_ext": "E",
     "classement": "(2.)",
     "contre": "SC Toulon (16.)",
+    "adversaire_id": "494",
+    "adversaire_nom_complet": "Sporting Club de Toulon",
     "formation": "?",
     "spectateurs": "1.700",
     "resultat": "1:1"
@@ -325,6 +383,8 @@
     "dom_ext": "D",
     "classement": "(1.)",
     "contre": "Paris FC (6.)",
+    "adversaire_id": "10004",
+    "adversaire_nom_complet": "Paris FC",
     "formation": "?",
     "spectateurs": "4.754",
     "resultat": "1:0"
@@ -336,6 +396,8 @@
     "dom_ext": "E",
     "classement": "(1.)",
     "contre": "CS Thonon (3.)",
+    "adversaire_id": "58050",
+    "adversaire_nom_complet": "Olympique Thonon Chablais",
     "formation": "?",
     "spectateurs": "5.774",
     "resultat": "1:1"
@@ -347,6 +409,8 @@
     "dom_ext": "D",
     "classement": "(1.)",
     "contre": "Mulhouse (18.)",
+    "adversaire_id": "1774",
+    "adversaire_nom_complet": "FC Mulhouse",
     "formation": "?",
     "spectateurs": "5.173",
     "resultat": "3:0"
@@ -358,6 +422,8 @@
     "dom_ext": "E",
     "classement": "(1.)",
     "contre": "Montpellier (8.)",
+    "adversaire_id": "969",
+    "adversaire_nom_complet": "Montpellier Hérault SC",
     "formation": "?",
     "spectateurs": "2.808",
     "resultat": "3:2"
@@ -369,6 +435,8 @@
     "dom_ext": "D",
     "classement": "(1.)",
     "contre": "AS Cannes (3.)",
+    "adversaire_id": "895",
+    "adversaire_nom_complet": "AS Cannes",
     "formation": "?",
     "spectateurs": "9.000",
     "resultat": "2:1"

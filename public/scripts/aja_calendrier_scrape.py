@@ -1,3 +1,4 @@
+from logos import club_id_from
 from common import TM_BASE, TM_CLUB_ID, ScraperError, detect_competition, fetch_soup, season_context, season_start_year, write_dataset
 
 OUTPUT_FILE = "aja_calendrier.json"
@@ -52,6 +53,7 @@ def parse_calendar_table_transfermarkt(table):
         dom_ext = get_full_text(tds[3])
         classement = get_full_text(tds[4])
         contre = get_contre_text(tds[6])
+        crest = tds[5].find("img")
         formation = get_full_text(tds[7])
         spectateurs = get_full_text(tds[8])
         resultat = get_result_text(tds[9])
@@ -63,6 +65,8 @@ def parse_calendar_table_transfermarkt(table):
             "dom_ext": dom_ext,
             "classement": classement,
             "contre": contre,
+            "adversaire_id": club_id_from(tds[6].find("a")),
+            "adversaire_nom_complet": crest.get("alt") if crest else None,
             "formation": formation,
             "spectateurs": spectateurs,
             "resultat": resultat

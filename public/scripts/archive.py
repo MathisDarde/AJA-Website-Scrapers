@@ -7,12 +7,15 @@ Archive des saisons de l'AJA : data/saisons/<année>/ et deux fichiers de synth�
     data/saisons/2026/statistiques.json  statistiques des joueurs
     data/saisons/index.json              parcours de l'AJA, une ligne par saison
     data/saisons/matchs.json             tous les matchs de championnat, toutes saisons
+    data/clubs.json                      registre des clubs croisés : noms et logo actuel
 """
 
 import os
 import re
 
-from common import DATA_DIR, read_json, season_label, write_dataset
+from common import DATA_DIR, TM_CLUB_ID, read_json, season_label, write_dataset
+from logos import ensure_logo
+import historical_logos
 
 SEASONS_DIR = "saisons"
 
@@ -58,6 +61,17 @@ def build_index():
     seasons = sorted((int(d) for d in os.listdir(root) if d.isdigit()), reverse=True) if os.path.isdir(root) else []
 
     index, matchs = [], []
+    # Registre des clubs : identifiant Transfermarkt → noms rencontrés (du plus récent au plus ancien)
+    clubs = {str(TM_CLUB_ID): {"nom": "AJ Auxerre", "noms": ["AJ Auxerre", "Auxerre", "AJA"]}}
+
+    def register(club_id, *names):
+        if not club_id:
+            return
+        club = clubs.setdefault(club_id, {"nom": next(n for n in names if n), "noms": []})
+        for name in names:
+            if name and name not in club["noms"]:
+                club["noms"].append(name)
+
     for season in seasons:
         infos = read_json(os.path.join(root, str(season), "saison.json"), None)
         if not infos:
@@ -75,7 +89,11 @@ def build_index():
                                         "buts_marques", "buts_encaisses")} if aja else None,
         })
 
+        for team in classement:
+            register(team.get("club_id"), team["equipe"], team.get("nom_complet"))
+
         for m in calendrier:
+            register(m.get("adversaire_id"), _opponent(m.get("contre")), m.get("adversaire_nom_complet"))
             score = _score(m.get("resultat"), m.get("dom_ext"))
             matchs.append({
                 "seasonId": season,
@@ -85,6 +103,7 @@ def build_index():
                 "horaire": m.get("horaire"),
                 "dom_ext": m.get("dom_ext"),
                 "adversaire": _opponent(m.get("contre")),
+                "adversaire_id": m.get("adversaire_id"),
                 "resultat": m.get("resultat"),
                 "buts_aja": score[0] if score else None,
                 "buts_adversaire": score[1] if score else None,
@@ -94,3 +113,12 @@ def build_index():
     if index:
         write_dataset(f"{SEASONS_DIR}/index.json", index, minimum=1, context={}, record_meta=False)
         write_dataset(f"{SEASONS_DIR}/matchs.json", matchs, minimum=1, context={}, record_meta=False)
+
+    # Logo actuel de chaque club (téléchargé une fois) ; les logos d'époque sont gérés par
+    # l'admin du blog, Wikidata étant trop lacunaire et parfois faux pour les logos datés
+    for club_id, club in clubs.items():
+        club["logo"] = ensure_logo(club_id)
+    write_dataset("clubs.json", dict(sorted(clubs.items(), key=lambda c: int(c[0]))), minimum=1, context={}, record_meta=False)
+
+    # Logos d'époque (Wikipédia FR + liste manuelle) des clubs pas encore examinés
+    historical_logos.update(clubs.keys())

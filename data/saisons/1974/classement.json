@@ -2,6 +2,8 @@
   {
     "position": 1,
     "equipe": "US Valenciennes",
+    "club_id": "1423",
+    "nom_complet": "US Valenciennes-Anzin",
     "matchs_joues": 34,
     "gagnes": 19,
     "nuls": 9,
@@ -15,6 +17,8 @@
   {
     "position": 2,
     "equipe": "Rouen",
+    "club_id": "1564",
+    "nom_complet": "FC Rouen",
     "matchs_joues": 34,
     "gagnes": 19,
     "nuls": 10,
@@ -28,6 +32,8 @@
   {
     "position": 3,
     "equipe": "FC Lorient",
+    "club_id": "1158",
+    "nom_complet": "FC Lorient",
     "matchs_joues": 34,
     "gagnes": 18,
     "nuls": 8,
@@ -41,6 +47,8 @@
   {
     "position": 4,
     "equipe": "CS Sedan",
+    "club_id": "1081",
+    "nom_complet": "CS Sedan-Ardennes",
     "matchs_joues": 34,
     "gagnes": 15,
     "nuls": 8,
@@ -54,6 +62,8 @@
   {
     "position": 5,
     "equipe": "FC Gueugnon",
+    "club_id": "1397",
+    "nom_complet": "FC Gueugnon",
     "matchs_joues": 34,
     "gagnes": 13,
     "nuls": 13,
@@ -67,6 +77,8 @@
   {
     "position": 6,
     "equipe": "USL Dunkerque",
+    "club_id": "9202",
+    "nom_complet": "USL Dunkerque",
     "matchs_joues": 34,
     "gagnes": 17,
     "nuls": 8,
@@ -80,6 +92,8 @@
   {
     "position": 7,
     "equipe": "AS Angoulême",
+    "club_id": "3915",
+    "nom_complet": "AS Angoulême",
     "matchs_joues": 34,
     "gagnes": 13,
     "nuls": 9,
@@ -93,6 +107,8 @@
   {
     "position": 8,
     "equipe": "Amiens SC",
+    "club_id": "1416",
+    "nom_complet": "Amiens SC",
     "matchs_joues": 34,
     "gagnes": 15,
     "nuls": 6,
@@ -106,6 +122,8 @@
   {
     "position": 9,
     "equipe": "Grand Boulogne",
+    "club_id": "7042",
+    "nom_complet": "US du Grand Boulogne",
     "matchs_joues": 34,
     "gagnes": 13,
     "nuls": 8,
@@ -119,6 +137,8 @@
   {
     "position": 10,
     "equipe": "AJ Auxerre",
+    "club_id": "290",
+    "nom_complet": "AJ Auxerre",
     "matchs_joues": 34,
     "gagnes": 14,
     "nuls": 8,
@@ -132,6 +152,8 @@
   {
     "position": 11,
     "equipe": "Stade Lavallois",
+    "club_id": "1080",
+    "nom_complet": "Stade Lavallois",
     "matchs_joues": 34,
     "gagnes": 14,
     "nuls": 5,
@@ -145,6 +167,8 @@
   {
     "position": 12,
     "equipe": "Ent. Bag-Fon-Neu",
+    "club_id": "30338",
+    "nom_complet": "Entente Bagneaux-Fontainebleau-Nemours",
     "matchs_joues": 34,
     "gagnes": 11,
     "nuls": 9,
@@ -158,6 +182,8 @@
   {
     "position": 13,
     "equipe": "St. Brest",
+    "club_id": "3911",
+    "nom_complet": "Stade brestois",
     "matchs_joues": 34,
     "gagnes": 10,
     "nuls": 10,
@@ -171,6 +197,8 @@
   {
     "position": 14,
     "equipe": "SC Hazebrouck",
+    "club_id": "30626",
+    "nom_complet": "SC Hazebrouck",
     "matchs_joues": 34,
     "gagnes": 8,
     "nuls": 12,
@@ -184,6 +212,8 @@
   {
     "position": 15,
     "equipe": "Paris FC",
+    "club_id": "10004",
+    "nom_complet": "Paris FC",
     "matchs_joues": 34,
     "gagnes": 11,
     "nuls": 8,
@@ -197,6 +227,8 @@
   {
     "position": 16,
     "equipe": "AC Cambrai",
+    "club_id": "6639",
+    "nom_complet": "AC Cambrai",
     "matchs_joues": 34,
     "gagnes": 6,
     "nuls": 11,
@@ -210,6 +242,8 @@
   {
     "position": 17,
     "equipe": "Stade Quimper",
+    "club_id": "23375",
+    "nom_complet": "Stade quimpérois",
     "matchs_joues": 34,
     "gagnes": 6,
     "nuls": 9,
@@ -223,6 +257,8 @@
   {
     "position": 18,
     "equipe": "CA Mantes",
+    "club_id": "112326",
+    "nom_complet": "CA Mantes (-1994)",
     "matchs_joues": 34,
     "gagnes": 4,
     "nuls": 9,

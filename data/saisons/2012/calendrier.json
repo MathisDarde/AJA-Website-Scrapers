@@ -6,6 +6,8 @@
     "dom_ext": "D",
     "classement": "(9.)",
     "contre": "Nîmes Olympique (8.)",
+    "adversaire_id": "1160",
+    "adversaire_nom_complet": "Nîmes Olympique",
     "formation": "?",
     "spectateurs": "X",
     "resultat": "2:0"
@@ -17,6 +19,8 @@
     "dom_ext": "E",
     "classement": "(2.)",
     "contre": "SM Caen (15.)",
+    "adversaire_id": "1162",
+    "adversaire_nom_complet": "SM Caen",
     "formation": "?",
     "spectateurs": "7.458",
     "resultat": "3:1"
@@ -28,6 +32,8 @@
     "dom_ext": "D",
     "classement": "(7.)",
     "contre": "CS Sedan (17.)",
+    "adversaire_id": "1081",
+    "adversaire_nom_complet": "CS Sedan-Ardennes",
     "formation": "?",
     "spectateurs": "4.875",
     "resultat": "1:0"
@@ -39,6 +45,8 @@
     "dom_ext": "E",
     "classement": "(3.)",
     "contre": "Le Mans FC (17.)",
+    "adversaire_id": "1164",
+    "adversaire_nom_complet": "Le Mans FC",
     "formation": "?",
     "spectateurs": "6.455",
     "resultat": "3:1"
@@ -50,6 +58,8 @@
     "dom_ext": "D",
     "classement": "(8.)",
     "contre": "Stade Lavallois (12.)",
+    "adversaire_id": "1080",
+    "adversaire_nom_complet": "Stade Lavallois",
     "formation": "?",
     "spectateurs": "4.684",
     "resultat": "2:1"
@@ -61,6 +71,8 @@
     "dom_ext": "E",
     "classement": "(6.)",
     "contre": "Tours FC (20.)",
+    "adversaire_id": "3161",
+    "adversaire_nom_complet": "Tours FC (- 2025)",
     "formation": "?",
     "spectateurs": "4.145",
     "resultat": "1:0"
@@ -72,6 +84,8 @@
     "dom_ext": "D",
     "classement": "(9.)",
     "contre": "FC Istres (5.)",
+    "adversaire_id": "2580",
+    "adversaire_nom_complet": "Istres Football Club",
     "formation": "?",
     "spectateurs": "4.926",
     "resultat": "0:0"
@@ -83,6 +97,8 @@
     "dom_ext": "E",
     "classement": "(10.)",
     "contre": "EA Guingamp (11.)",
+    "adversaire_id": "855",
+    "adversaire_nom_complet": "EA Guingamp",
     "formation": "?",
     "spectateurs": "9.120",
     "resultat": "4:3"
@@ -94,6 +110,8 @@
     "dom_ext": "D",
     "classement": "(11.)",
     "contre": "AC Arles-Avignon (7.)",
+    "adversaire_id": "11300",
+    "adversaire_nom_complet": "Athlétic Club Arlésien",
     "formation": "?",
     "spectateurs": "8.120",
     "resultat": "2:1"
@@ -105,6 +123,8 @@
     "dom_ext": "E",
     "classement": "(8.)",
     "contre": "Le Havre AC (13.)",
+    "adversaire_id": "738",
+    "adversaire_nom_complet": "Le Havre AC",
     "formation": "?",
     "spectateurs": "8.382",
     "resultat": "2:1"
@@ -116,6 +136,8 @@
     "dom_ext": "D",
     "classement": "(11.)",
     "contre": "RC Lens (15.)",
+    "adversaire_id": "826",
+    "adversaire_nom_complet": "RC Lens",
     "formation": "?",
     "spectateurs": "6.676",
     "resultat": "1:2"
@@ -127,6 +149,8 @@
     "dom_ext": "E",
     "classement": "(12.)",
     "contre": "Dijon (6.)",
+    "adversaire_id": "2969",
+    "adversaire_nom_complet": "Dijon FCO",
     "formation": "?",
     "spectateurs": "10.312",
     "resultat": "0:1"
@@ -138,6 +162,8 @@
     "dom_ext": "D",
     "classement": "(10.)",
     "contre": "G. Ajaccio (18.)",
+    "adversaire_id": "3558",
+    "adversaire_nom_complet": "GFC Ajaccio",
     "formation": "?",
     "spectateurs": "5.923",
     "resultat": "1:1"
@@ -149,6 +175,8 @@
     "dom_ext": "E",
     "classement": "(11.)",
     "contre": "Monaco (3.)",
+    "adversaire_id": "162",
+    "adversaire_nom_complet": "AS Monaco",
     "formation": "?",
     "spectateurs": "4.798",
     "resultat": "2:0"
@@ -160,6 +188,8 @@
     "dom_ext": "D",
     "classement": "(14.)",
     "contre": "FC Nantes (2.)",
+    "adversaire_id": "995",
+    "adversaire_nom_complet": "FC Nantes",
     "formation": "?",
     "spectateurs": "6.717",
     "resultat": "0:2"
@@ -171,6 +201,8 @@
     "dom_ext": "E",
     "classement": "(16.)",
     "contre": "LB Châteauroux (11.)",
+    "adversaire_id": "1175",
+    "adversaire_nom_complet": "LB Châteauroux",
     "formation": "?",
     "spectateurs": "6.396",
     "resultat": "1:1"
@@ -182,6 +214,8 @@
     "dom_ext": "D",
     "classement": "(16.)",
     "contre": "Chamois Niort (17.)",
+    "adversaire_id": "1161",
+    "adversaire_nom_complet": "Chamois Niortais FC (- 2025)",
     "formation": "?",
     "spectateurs": "4.389",
     "resultat": "4:2"
@@ -193,6 +227,8 @@
     "dom_ext": "E",
     "classement": "(11.)",
     "contre": "Angers SCO (5.)",
+    "adversaire_id": "1420",
+    "adversaire_nom_complet": "Angers SCO",
     "formation": "?",
     "spectateurs": "6.169",
     "resultat": "2:1"
@@ -204,6 +240,8 @@
     "dom_ext": "E",
     "classement": "(13.)",
     "contre": "Clermont Foot (14.)",
+    "adversaire_id": "3524",
+    "adversaire_nom_complet": "Clermont Foot 63",
     "formation": "?",
     "spectateurs": "3.677",
     "resultat": "1:2"
@@ -215,6 +253,8 @@
     "dom_ext": "D",
     "classement": "(11.)",
     "contre": "SM Caen (3.)",
+    "adversaire_id": "1162",
+    "adversaire_nom_complet": "SM Caen",
     "formation": "?",
     "spectateurs": "5.057",
     "resultat": "1:2"
@@ -226,6 +266,8 @@
     "dom_ext": "E",
     "classement": "(11.)",
     "contre": "CS Sedan (20.)",
+    "adversaire_id": "1081",
+    "adversaire_nom_complet": "CS Sedan-Ardennes",
     "formation": "?",
     "spectateurs": "5.755",
     "resultat": "1:0"
@@ -237,6 +279,8 @@
     "dom_ext": "D",
     "classement": "(12.)",
     "contre": "Le Mans FC (13.)",
+    "adversaire_id": "1164",
+    "adversaire_nom_complet": "Le Mans FC",
     "formation": "4-2-3-1",
     "spectateurs": "4.663",
     "resultat": "1:1"
@@ -248,6 +292,8 @@
     "dom_ext": "E",
     "classement": "(12.)",
     "contre": "Stade Lavallois (18.)",
+    "adversaire_id": "1080",
+    "adversaire_nom_complet": "Stade Lavallois",
     "formation": "?",
     "spectateurs": "3.769",
     "resultat": "4:5"
@@ -259,6 +305,8 @@
     "dom_ext": "D",
     "classement": "(11.)",
     "contre": "Tours FC (12.)",
+    "adversaire_id": "3161",
+    "adversaire_nom_complet": "Tours FC (- 2025)",
     "formation": "?",
     "spectateurs": "4.615",
     "resultat": "3:2"
@@ -270,6 +318,8 @@
     "dom_ext": "E",
     "classement": "(10.)",
     "contre": "FC Istres (11.)",
+    "adversaire_id": "2580",
+    "adversaire_nom_complet": "Istres Football Club",
     "formation": "?",
     "spectateurs": "2.554",
     "resultat": "0:3"
@@ -281,6 +331,8 @@
     "dom_ext": "D",
     "classement": "(10.)",
     "contre": "EA Guingamp (3.)",
+    "adversaire_id": "855",
+    "adversaire_nom_complet": "EA Guingamp",
     "formation": "?",
     "spectateurs": "6.608",
     "resultat": "2:1"
@@ -292,6 +344,8 @@
     "dom_ext": "E",
     "classement": "(8.)",
     "contre": "AC Arles-Avignon (18.)",
+    "adversaire_id": "11300",
+    "adversaire_nom_complet": "Athlétic Club Arlésien",
     "formation": "4-2-3-1",
     "spectateurs": "1.913",
     "resultat": "2:1"
@@ -303,6 +357,8 @@
     "dom_ext": "D",
     "classement": "(9.)",
     "contre": "Le Havre AC (8.)",
+    "adversaire_id": "738",
+    "adversaire_nom_complet": "Le Havre AC",
     "formation": "4-2-3-1",
     "spectateurs": "5.181",
     "resultat": "4:1"
@@ -314,6 +370,8 @@
     "dom_ext": "E",
     "classement": "(8.)",
     "contre": "RC Lens (10.)",
+    "adversaire_id": "826",
+    "adversaire_nom_complet": "RC Lens",
     "formation": "?",
     "spectateurs": "16.330",
     "resultat": "1:0"
@@ -325,6 +383,8 @@
     "dom_ext": "D",
     "classement": "(9.)",
     "contre": "Dijon (7.)",
+    "adversaire_id": "2969",
+    "adversaire_nom_complet": "Dijon FCO",
     "formation": "?",
     "spectateurs": "8.636",
     "resultat": "0:0"
@@ -336,6 +396,8 @@
     "dom_ext": "E",
     "classement": "(9.)",
     "contre": "G. Ajaccio (20.)",
+    "adversaire_id": "3558",
+    "adversaire_nom_complet": "GFC Ajaccio",
     "formation": "?",
     "spectateurs": "2.169",
     "resultat": "0:0"
@@ -347,6 +409,8 @@
     "dom_ext": "D",
     "classement": "(9.)",
     "contre": "Monaco (1.)",
+    "adversaire_id": "162",
+    "adversaire_nom_complet": "AS Monaco",
     "formation": "?",
     "spectateurs": "9.156",
     "resultat": "0:2"
@@ -358,6 +422,8 @@
     "dom_ext": "E",
     "classement": "(9.)",
     "contre": "FC Nantes (2.)",
+    "adversaire_id": "995",
+    "adversaire_nom_complet": "FC Nantes",
     "formation": "4-2-3-1",
     "spectateurs": "25.790",
     "resultat": "1:1"
@@ -369,6 +435,8 @@
     "dom_ext": "D",
     "classement": "(10.)",
     "contre": "LB Châteauroux (14.)",
+    "adversaire_id": "1175",
+    "adversaire_nom_complet": "LB Châteauroux",
     "formation": "?",
     "spectateurs": "5.239",
     "resultat": "0:0"
@@ -380,6 +448,8 @@
     "dom_ext": "E",
     "classement": "(9.)",
     "contre": "Chamois Niort (16.)",
+    "adversaire_id": "1161",
+    "adversaire_nom_complet": "Chamois Niortais FC (- 2025)",
     "formation": "?",
     "spectateurs": "5.666",
     "resultat": "0:1"
@@ -391,6 +461,8 @@
     "dom_ext": "D",
     "classement": "(9.)",
     "contre": "Angers SCO (5.)",
+    "adversaire_id": "1420",
+    "adversaire_nom_complet": "Angers SCO",
     "formation": "?",
     "spectateurs": "6.096",
     "resultat": "2:2"
@@ -402,6 +474,8 @@
     "dom_ext": "D",
     "classement": "(9.)",
     "contre": "Clermont Foot (15.)",
+    "adversaire_id": "3524",
+    "adversaire_nom_complet": "Clermont Foot 63",
     "formation": "?",
     "spectateurs": "5.236",
     "resultat": "1:1"
@@ -413,6 +487,8 @@
     "dom_ext": "E",
     "classement": "(9.)",
     "contre": "Nîmes Olympique (8.)",
+    "adversaire_id": "1160",
+    "adversaire_nom_complet": "Nîmes Olympique",
     "formation": "?",
     "spectateurs": "5.121",
     "resultat": "4:2"

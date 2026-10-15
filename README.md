@@ -12,6 +12,8 @@ Données de l'AJ Auxerre publiées en JSON sur GitHub Pages pour [Mémoire d'Aux
 | `data/saisons/<année>/` | Transfermarkt | Archive d'une saison (`saison`, `calendrier`, `classement`, `statistiques`), depuis 1974-1975 |
 | `data/saisons/index.json` | — | Parcours de l'AJA : championnat, rang, points et bilan de chaque saison |
 | `data/saisons/matchs.json` | — | Tous les matchs de championnat de l'AJA, toutes saisons (historique, confrontations) |
+| `data/clubs.json` | Transfermarkt | Registre des clubs croisés (identifiant, noms, logo actuel dans `data/logos/`) |
+| `data/logos-historiques.json` | Wikipédia FR + liste manuelle | Logos d'époque par club et par plage de saisons (`data/logos/historique/`) |
 
 ## Fonctionnement
 
@@ -31,6 +33,34 @@ python public/scripts/backfill.py --force      # réécrit aussi les saisons dé
 ```
 
 Transfermarkt bloque les serveurs de GitHub par un défi anti-robot (HTTP 202) : `common.py` le fait résoudre par un Chrome sans interface (Playwright) au premier défi rencontré, puis réutilise son jeton.
+
+## Logos des clubs
+
+Le blog affiche pour chaque club le logo **de la saison concernée** (classements, calendriers, historique, méthodes expert) :
+
+1. logo d'époque de `data/logos-historiques.json`, la période la plus précise l'emportant ;
+2. sinon le logo actuel du blog (`public/_assets/teamlogos`), puis celui de Transfermarkt (`data/clubs.json`) ;
+3. sinon un écusson neutre.
+
+Les logos d'époque sont lus automatiquement dans les galeries « Logos » des articles Wikipédia FR des clubs (article trouvé via Wikidata, propriété P7223 = identifiant Transfermarkt), pour chaque nouveau club du registre. Les logos d'anniversaire et la période en cours (« Depuis 1997 ») sont ignorés : la saison actuelle garde le logo actuel du blog.
+
+**À compléter ou corriger à la main** dans `logos-historiques-manuels.json` (à la racine), prioritaire sur Wikipédia et jamais écrasé :
+
+```json
+{
+  "290": [
+    { "de": null, "a": 1991, "logo": "logos/historique/manuel/290-ancien.png" },
+    { "de": 1998, "a": 1998, "ignorer": true }
+  ]
+}
+```
+
+- clé : identifiant Transfermarkt du club (`data/clubs.json`, AJ Auxerre = `290`) ;
+- `de` / `a` : années de début de saison incluses (1992 = 1992-1993), `null` = sans limite ;
+- `logo` : URL d'une image, ou chemin dans `data/` (image à déposer dans le dépôt) ;
+- `"ignorer": true` : écarte les logos automatiques de cette période.
+
+La liste est appliquée au passage suivant des scrapers. Pour relire tous les clubs sur Wikipédia : supprimer `data/logos-historiques-verifies.json`.
 
 ## Lancer à la main
 

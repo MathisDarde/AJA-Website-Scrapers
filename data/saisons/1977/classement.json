@@ -2,6 +2,8 @@
   {
     "position": 1,
     "equipe": "Angers SCO",
+    "club_id": "1420",
+    "nom_complet": "Angers SCO",
     "matchs_joues": 34,
     "gagnes": 21,
     "nuls": 7,
@@ -15,6 +17,8 @@
   {
     "position": 2,
     "equipe": "RC Franc-Comtois",
+    "club_id": "2967",
+    "nom_complet": "Racing Club Franc-Comtois ",
     "matchs_joues": 34,
     "gagnes": 19,
     "nuls": 8,
@@ -28,6 +32,8 @@
   {
     "position": 3,
     "equipe": "SC Toulon",
+    "club_id": "494",
+    "nom_complet": "Sporting Club de Toulon",
     "matchs_joues": 34,
     "gagnes": 18,
     "nuls": 7,
@@ -41,6 +47,8 @@
   {
     "position": 4,
     "equipe": "AJ Auxerre",
+    "club_id": "290",
+    "nom_complet": "AJ Auxerre",
     "matchs_joues": 34,
     "gagnes": 17,
     "nuls": 7,
@@ -54,6 +62,8 @@
   {
     "position": 5,
     "equipe": "AS Cannes",
+    "club_id": "895",
+    "nom_complet": "AS Cannes",
     "matchs_joues": 34,
     "gagnes": 15,
     "nuls": 10,
@@ -67,6 +77,8 @@
   {
     "position": 6,
     "equipe": "SAS Épinal",
+    "club_id": "10838",
+    "nom_complet": "SAS Épinal",
     "matchs_joues": 34,
     "gagnes": 13,
     "nuls": 13,
@@ -80,6 +92,8 @@
   {
     "position": 7,
     "equipe": "FC Martigues",
+    "club_id": "1165",
+    "nom_complet": "FC Martigues",
     "matchs_joues": 34,
     "gagnes": 16,
     "nuls": 5,
@@ -93,6 +107,8 @@
   {
     "position": 8,
     "equipe": "Ol. Avignon",
+    "club_id": "23341",
+    "nom_complet": "Olympique avignonnais",
     "matchs_joues": 34,
     "gagnes": 12,
     "nuls": 9,
@@ -106,6 +122,8 @@
   {
     "position": 9,
     "equipe": "G. Ajaccio",
+    "club_id": "3558",
+    "nom_complet": "GFC Ajaccio",
     "matchs_joues": 34,
     "gagnes": 12,
     "nuls": 9,
@@ -119,6 +137,8 @@
   {
     "position": 10,
     "equipe": "Entente Chaumont",
+    "club_id": "35561",
+    "nom_complet": "Entente Chaumont Athlétic des Cheminots",
     "matchs_joues": 34,
     "gagnes": 10,
     "nuls": 11,
@@ -132,6 +152,8 @@
   {
     "position": 11,
     "equipe": "SR Saint-Dié",
+    "club_id": "25638",
+    "nom_complet": "SR Saint-Dié",
     "matchs_joues": 34,
     "gagnes": 12,
     "nuls": 7,
@@ -145,6 +167,8 @@
   {
     "position": 12,
     "equipe": "Olympique Alès",
+    "club_id": "2618",
+    "nom_complet": "Olympique d'Alès en Cévennes",
     "matchs_joues": 34,
     "gagnes": 11,
     "nuls": 8,
@@ -158,6 +182,8 @@
   {
     "position": 13,
     "equipe": "US Melun",
+    "club_id": "57862",
+    "nom_complet": "Union Sportive de Melun",
     "matchs_joues": 34,
     "gagnes": 10,
     "nuls": 10,
@@ -171,6 +197,8 @@
   {
     "position": 14,
     "equipe": "AC Arles-Avignon",
+    "club_id": "11300",
+    "nom_complet": "AC Arles-Avignon",
     "matchs_joues": 34,
     "gagnes": 8,
     "nuls": 14,
@@ -184,6 +212,8 @@
   {
     "position": 15,
     "equipe": "AS Béziers",
+    "club_id": "58556",
+    "nom_complet": "AS Béziers (- 1990)",
     "matchs_joues": 34,
     "gagnes": 8,
     "nuls": 14,
@@ -197,6 +227,8 @@
   {
     "position": 16,
     "equipe": "US Toulouse",
+    "club_id": "415",
+    "nom_complet": "US Toulouse",
     "matchs_joues": 34,
     "gagnes": 9,
     "nuls": 12,
@@ -210,6 +242,8 @@
   {
     "position": 17,
     "equipe": "FR Haguenau",
+    "club_id": "8235",
+    "nom_complet": "FR Haguenau",
     "matchs_joues": 34,
     "gagnes": 7,
     "nuls": 7,
@@ -223,6 +257,8 @@
   {
     "position": 18,
     "equipe": "Ent. Bag-Fon-Neu",
+    "club_id": "30338",
+    "nom_complet": "Entente Bagneaux-Fontainebleau-Nemours",
     "matchs_joues": 34,
     "gagnes": 5,
     "nuls": 8,

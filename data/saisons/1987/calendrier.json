@@ -6,6 +6,8 @@
     "dom_ext": "E",
     "classement": "(9.)",
     "contre": "AS Cannes (12.)",
+    "adversaire_id": "895",
+    "adversaire_nom_complet": "AS Cannes",
     "formation": "?",
     "spectateurs": "7.517",
     "resultat": "0:0"
@@ -17,6 +19,8 @@
     "dom_ext": "D",
     "classement": "(10.)",
     "contre": "G. Bordeaux (7.)",
+    "adversaire_id": "40",
+    "adversaire_nom_complet": "FC Girondins de Bordeaux",
     "formation": "?",
     "spectateurs": "13.000",
     "resultat": "1:3"
@@ -28,6 +32,8 @@
     "dom_ext": "E",
     "classement": "(17.)",
     "contre": "SC Toulon Var (9.)",
+    "adversaire_id": "494",
+    "adversaire_nom_complet": "Sporting Club de Toulon",
     "formation": "?",
     "spectateurs": "10.000",
     "resultat": "0:0"
@@ -39,6 +45,8 @@
     "dom_ext": "D",
     "classement": "(17.)",
     "contre": "LOSC Lille (3.)",
+    "adversaire_id": "1082",
+    "adversaire_nom_complet": "LOSC Lille",
     "formation": "?",
     "spectateurs": "7.000",
     "resultat": "2:1"
@@ -50,6 +58,8 @@
     "dom_ext": "E",
     "classement": "(10.)",
     "contre": "Brest Armorique (20.)",
+    "adversaire_id": "3911",
+    "adversaire_nom_complet": "Stade Brestois 29",
     "formation": "?",
     "spectateurs": "5.204",
     "resultat": "1:1"
@@ -61,6 +71,8 @@
     "dom_ext": "D",
     "classement": "(10.)",
     "contre": "Stade Lavallois (13.)",
+    "adversaire_id": "1080",
+    "adversaire_nom_complet": "Stade Lavallois",
     "formation": "?",
     "spectateurs": "7.567",
     "resultat": "1:1"
@@ -72,6 +84,8 @@
     "dom_ext": "E",
     "classement": "(11.)",
     "contre": "Saint-Étienne (12.)",
+    "adversaire_id": "618",
+    "adversaire_nom_complet": "AS Saint-Étienne",
     "formation": "?",
     "spectateurs": "17.827",
     "resultat": "2:1"
@@ -83,6 +97,8 @@
     "dom_ext": "D",
     "classement": "(16.)",
     "contre": "FC Nantes (17.)",
+    "adversaire_id": "995",
+    "adversaire_nom_complet": "FC Nantes",
     "formation": "?",
     "spectateurs": "8.500",
     "resultat": "1:0"
@@ -94,6 +110,8 @@
     "dom_ext": "E",
     "classement": "(12.)",
     "contre": "OGC Nice (13.)",
+    "adversaire_id": "417",
+    "adversaire_nom_complet": "OGC Nice",
     "formation": "?",
     "spectateurs": "9.744",
     "resultat": "1:0"
@@ -105,6 +123,8 @@
     "dom_ext": "D",
     "classement": "(16.)",
     "contre": "FC Metz (14.)",
+    "adversaire_id": "347",
+    "adversaire_nom_complet": "FC Metz",
     "formation": "?",
     "spectateurs": "9.000",
     "resultat": "0:1"
@@ -116,6 +136,8 @@
     "dom_ext": "E",
     "classement": "(17.)",
     "contre": "RC Paris (14.)",
+    "adversaire_id": "3318",
+    "adversaire_nom_complet": "Racing Club de France",
     "formation": "?",
     "spectateurs": "10.312",
     "resultat": "1:0"
@@ -127,6 +149,8 @@
     "dom_ext": "E",
     "classement": "(19.)",
     "contre": "Marseille (11.)",
+    "adversaire_id": "244",
+    "adversaire_nom_complet": "Olympique de Marseille",
     "formation": "?",
     "spectateurs": "21.952",
     "resultat": "0:1"
@@ -138,6 +162,8 @@
     "dom_ext": "D",
     "classement": "(16.)",
     "contre": "RC Lens (18.)",
+    "adversaire_id": "826",
+    "adversaire_nom_complet": "RC Lens",
     "formation": "?",
     "spectateurs": "7.198",
     "resultat": "2:0"
@@ -149,6 +175,8 @@
     "dom_ext": "E",
     "classement": "(13.)",
     "contre": "Le Havre AC (17.)",
+    "adversaire_id": "738",
+    "adversaire_nom_complet": "Le Havre AC",
     "formation": "?",
     "spectateurs": "5.637",
     "resultat": "1:2"
@@ -160,6 +188,8 @@
     "dom_ext": "D",
     "classement": "(11.)",
     "contre": "Montpellier (9.)",
+    "adversaire_id": "969",
+    "adversaire_nom_complet": "Montpellier Hérault SC",
     "formation": "?",
     "spectateurs": "6.926",
     "resultat": "1:1"
@@ -171,6 +201,8 @@
     "dom_ext": "E",
     "classement": "(11.)",
     "contre": "Toulouse (14.)",
+    "adversaire_id": "415",
+    "adversaire_nom_complet": "Toulouse FC",
     "formation": "?",
     "spectateurs": "6.490",
     "resultat": "0:0"
@@ -182,6 +214,8 @@
     "dom_ext": "D",
     "classement": "(11.)",
     "contre": "PSG (16.)",
+    "adversaire_id": "583",
+    "adversaire_nom_complet": "Paris Saint-Germain",
     "formation": "?",
     "spectateurs": "12.000",
     "resultat": "3:0"
@@ -193,6 +227,8 @@
     "dom_ext": "E",
     "classement": "(7.)",
     "contre": "Chamois Niort (8.)",
+    "adversaire_id": "1161",
+    "adversaire_nom_complet": "Chamois Niortais FC (- 2025)",
     "formation": "?",
     "spectateurs": "10.976",
     "resultat": "0:0"
@@ -204,6 +240,8 @@
     "dom_ext": "D",
     "classement": "(9.)",
     "contre": "Monaco (1.)",
+    "adversaire_id": "162",
+    "adversaire_nom_complet": "AS Monaco",
     "formation": "?",
     "spectateurs": "11.839",
     "resultat": "0:0"
@@ -215,6 +253,8 @@
     "dom_ext": "E",
     "classement": "(9.)",
     "contre": "G. Bordeaux (2.)",
+    "adversaire_id": "40",
+    "adversaire_nom_complet": "FC Girondins de Bordeaux",
     "formation": "?",
     "spectateurs": "17.368",
     "resultat": "0:0"
@@ -226,6 +266,8 @@
     "dom_ext": "D",
     "classement": "(8.)",
     "contre": "SC Toulon Var (10.)",
+    "adversaire_id": "494",
+    "adversaire_nom_complet": "Sporting Club de Toulon",
     "formation": "?",
     "spectateurs": "6.130",
     "resultat": "0:0"
@@ -237,6 +279,8 @@
     "dom_ext": "E",
     "classement": "(10.)",
     "contre": "LOSC Lille (16.)",
+    "adversaire_id": "1082",
+    "adversaire_nom_complet": "LOSC Lille",
     "formation": "?",
     "spectateurs": "4.464",
     "resultat": "0:1"
@@ -248,6 +292,8 @@
     "dom_ext": "D",
     "classement": "(8.)",
     "contre": "Brest Armorique (19.)",
+    "adversaire_id": "3911",
+    "adversaire_nom_complet": "Stade Brestois 29",
     "formation": "?",
     "spectateurs": "6.000",
     "resultat": "4:0"
@@ -259,6 +305,8 @@
     "dom_ext": "E",
     "classement": "(4.)",
     "contre": "Stade Lavallois (11.)",
+    "adversaire_id": "1080",
+    "adversaire_nom_complet": "Stade Lavallois",
     "formation": "?",
     "spectateurs": "9.558",
     "resultat": "0:0"
@@ -270,6 +318,8 @@
     "dom_ext": "D",
     "classement": "(5.)",
     "contre": "Saint-Étienne (4.)",
+    "adversaire_id": "618",
+    "adversaire_nom_complet": "AS Saint-Étienne",
     "formation": "?",
     "spectateurs": "14.000",
     "resultat": "0:1"
@@ -281,6 +331,8 @@
     "dom_ext": "E",
     "classement": "(5.)",
     "contre": "FC Nantes (12.)",
+    "adversaire_id": "995",
+    "adversaire_nom_complet": "FC Nantes",
     "formation": "?",
     "spectateurs": "10.041",
     "resultat": "0:0"
@@ -292,6 +344,8 @@
     "dom_ext": "D",
     "classement": "(7.)",
     "contre": "OGC Nice (17.)",
+    "adversaire_id": "417",
+    "adversaire_nom_complet": "OGC Nice",
     "formation": "?",
     "spectateurs": "6.021",
     "resultat": "2:0"
@@ -303,6 +357,8 @@
     "dom_ext": "E",
     "classement": "(5.)",
     "contre": "FC Metz (8.)",
+    "adversaire_id": "347",
+    "adversaire_nom_complet": "FC Metz",
     "formation": "?",
     "spectateurs": "8.927",
     "resultat": "1:0"
@@ -314,6 +370,8 @@
     "dom_ext": "D",
     "classement": "(6.)",
     "contre": "RC Paris (3.)",
+    "adversaire_id": "3318",
+    "adversaire_nom_complet": "Racing Club de France",
     "formation": "?",
     "spectateurs": "9.222",
     "resultat": "3:0"
@@ -325,6 +383,8 @@
     "dom_ext": "D",
     "classement": "(6.)",
     "contre": "Marseille (5.)",
+    "adversaire_id": "244",
+    "adversaire_nom_complet": "Olympique de Marseille",
     "formation": "?",
     "spectateurs": "10.550",
     "resultat": "2:0"
@@ -336,6 +396,8 @@
     "dom_ext": "E",
     "classement": "(4.)",
     "contre": "RC Lens (17.)",
+    "adversaire_id": "826",
+    "adversaire_nom_complet": "RC Lens",
     "formation": "?",
     "spectateurs": "7.261",
     "resultat": "2:1"
@@ -347,6 +409,8 @@
     "dom_ext": "D",
     "classement": "(6.)",
     "contre": "Le Havre AC (20.)",
+    "adversaire_id": "738",
+    "adversaire_nom_complet": "Le Havre AC",
     "formation": "?",
     "spectateurs": "7.883",
     "resultat": "1:1"
@@ -358,6 +422,8 @@
     "dom_ext": "E",
     "classement": "(7.)",
     "contre": "Montpellier (5.)",
+    "adversaire_id": "969",
+    "adversaire_nom_complet": "Montpellier Hérault SC",
     "formation": "?",
     "spectateurs": "10.446",
     "resultat": "2:2"
@@ -369,6 +435,8 @@
     "dom_ext": "D",
     "classement": "(6.)",
     "contre": "Toulouse (16.)",
+    "adversaire_id": "415",
+    "adversaire_nom_complet": "Toulouse FC",
     "formation": "?",
     "spectateurs": "10.200",
     "resultat": "0:2"
@@ -380,6 +448,8 @@
     "dom_ext": "E",
     "classement": "(7.)",
     "contre": "PSG (19.)",
+    "adversaire_id": "583",
+    "adversaire_nom_complet": "Paris Saint-Germain",
     "formation": "?",
     "spectateurs": "38.512",
     "resultat": "1:1"
@@ -391,6 +461,8 @@
     "dom_ext": "D",
     "classement": "(7.)",
     "contre": "Chamois Niort (16.)",
+    "adversaire_id": "1161",
+    "adversaire_nom_complet": "Chamois Niortais FC (- 2025)",
     "formation": "?",
     "spectateurs": "7.000",
     "resultat": "1:3"
@@ -402,6 +474,8 @@
     "dom_ext": "E",
     "classement": "(9.)",
     "contre": "Monaco (1.)",
+    "adversaire_id": "162",
+    "adversaire_nom_complet": "AS Monaco",
     "formation": "?",
     "spectateurs": "14.032",
     "resultat": "3:2"
@@ -413,6 +487,8 @@
     "dom_ext": "D",
     "classement": "(10.)",
     "contre": "AS Cannes (11.)",
+    "adversaire_id": "895",
+    "adversaire_nom_complet": "AS Cannes",
     "formation": "?",
     "spectateurs": "10.247",
     "resultat": "1:0"

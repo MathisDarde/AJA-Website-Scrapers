@@ -2,6 +2,8 @@
   {
     "position": 1,
     "equipe": "G. Bordeaux",
+    "club_id": "40",
+    "nom_complet": "FC Girondins de Bordeaux",
     "matchs_joues": 38,
     "gagnes": 25,
     "nuls": 9,
@@ -15,6 +17,8 @@
   {
     "position": 2,
     "equipe": "FC Nantes",
+    "club_id": "995",
+    "nom_complet": "FC Nantes",
     "matchs_joues": 38,
     "gagnes": 24,
     "nuls": 8,
@@ -28,6 +32,8 @@
   {
     "position": 3,
     "equipe": "Monaco",
+    "club_id": "162",
+    "nom_complet": "AS Monaco",
     "matchs_joues": 38,
     "gagnes": 17,
     "nuls": 13,
@@ -41,6 +47,8 @@
   {
     "position": 4,
     "equipe": "AJ Auxerre",
+    "club_id": "290",
+    "nom_complet": "AJ Auxerre",
     "matchs_joues": 38,
     "gagnes": 18,
     "nuls": 11,
@@ -54,6 +62,8 @@
   {
     "position": 5,
     "equipe": "FC Metz",
+    "club_id": "347",
+    "nom_complet": "FC Metz",
     "matchs_joues": 38,
     "gagnes": 18,
     "nuls": 9,
@@ -67,6 +77,8 @@
   {
     "position": 6,
     "equipe": "SC Toulon Var",
+    "club_id": "494",
+    "nom_complet": "Sporting Club de Toulon et du Var",
     "matchs_joues": 38,
     "gagnes": 19,
     "nuls": 6,
@@ -80,6 +92,8 @@
   {
     "position": 7,
     "equipe": "RC Lens",
+    "club_id": "826",
+    "nom_complet": "RC Lens",
     "matchs_joues": 38,
     "gagnes": 16,
     "nuls": 8,
@@ -93,6 +107,8 @@
   {
     "position": 8,
     "equipe": "FC Sochaux",
+    "club_id": "750",
+    "nom_complet": "FC Sochaux-Montbéliard",
     "matchs_joues": 38,
     "gagnes": 12,
     "nuls": 14,
@@ -106,6 +122,8 @@
   {
     "position": 9,
     "equipe": "Brest Armorique",
+    "club_id": "3911",
+    "nom_complet": "Brest Armorique FC",
     "matchs_joues": 38,
     "gagnes": 11,
     "nuls": 14,
@@ -119,6 +137,8 @@
   {
     "position": 10,
     "equipe": "Stade Lavallois",
+    "club_id": "1080",
+    "nom_complet": "Stade Lavallois",
     "matchs_joues": 38,
     "gagnes": 12,
     "nuls": 12,
@@ -132,6 +152,8 @@
   {
     "position": 11,
     "equipe": "Toulouse",
+    "club_id": "415",
+    "nom_complet": "Toulouse FC",
     "matchs_joues": 38,
     "gagnes": 11,
     "nuls": 13,
@@ -145,6 +167,8 @@
   {
     "position": 12,
     "equipe": "AS Nancy",
+    "club_id": "1159",
+    "nom_complet": "AS Nancy-Lorraine",
     "matchs_joues": 38,
     "gagnes": 12,
     "nuls": 10,
@@ -158,6 +182,8 @@
   {
     "position": 13,
     "equipe": "PSG",
+    "club_id": "583",
+    "nom_complet": "Paris Saint-Germain",
     "matchs_joues": 38,
     "gagnes": 13,
     "nuls": 7,
@@ -171,6 +197,8 @@
   {
     "position": 14,
     "equipe": "R. Strasbourg",
+    "club_id": "667",
+    "nom_complet": "RC Strasbourg Alsace",
     "matchs_joues": 38,
     "gagnes": 9,
     "nuls": 14,
@@ -184,6 +212,8 @@
   {
     "position": 15,
     "equipe": "SEC Bastia",
+    "club_id": "595",
+    "nom_complet": "Sporting Étoile Club Bastia ",
     "matchs_joues": 38,
     "gagnes": 11,
     "nuls": 10,
@@ -197,6 +227,8 @@
   {
     "position": 16,
     "equipe": "LOSC Lille",
+    "club_id": "1082",
+    "nom_complet": "LOSC Lille",
     "matchs_joues": 38,
     "gagnes": 9,
     "nuls": 13,
@@ -210,6 +242,8 @@
   {
     "position": 17,
     "equipe": "Marseille",
+    "club_id": "244",
+    "nom_complet": "Olympique de Marseille",
     "matchs_joues": 38,
     "gagnes": 13,
     "nuls": 5,
@@ -223,6 +257,8 @@
   {
     "position": 18,
     "equipe": "Rouen",
+    "club_id": "1564",
+    "nom_complet": "FC Rouen",
     "matchs_joues": 38,
     "gagnes": 8,
     "nuls": 13,
@@ -236,6 +272,8 @@
   {
     "position": 19,
     "equipe": "FC Tours",
+    "club_id": "3161",
+    "nom_complet": "FC Tours",
     "matchs_joues": 38,
     "gagnes": 9,
     "nuls": 11,
@@ -249,6 +287,8 @@
   {
     "position": 20,
     "equipe": "RC Paris",
+    "club_id": "3318",
+    "nom_complet": "Racing Club Paris",
     "matchs_joues": 38,
     "gagnes": 9,
     "nuls": 8,
