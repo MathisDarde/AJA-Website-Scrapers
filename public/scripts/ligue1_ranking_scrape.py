@@ -60,6 +60,11 @@ def parse_table(table, competition_id, with_status):
 
 def scrape(season, competition, with_status=True):
     soup = fetch_soup(f"{TM_BASE}/{competition['slug']}/tabelle/wettbewerb/{competition['id']}/saison_id/{season}")
+    return parse_ranking(soup, competition, with_status)
+
+
+def parse_ranking(soup, competition, with_status=True):
+    """Classement lu sur une page « tabelle » Transfermarkt déjà téléchargée."""
     tables = soup.find_all("table", {"class": "items"})
     if not tables:
         raise ScraperError("Tableau du classement introuvable")

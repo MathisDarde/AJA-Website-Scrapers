@@ -114,6 +114,11 @@ def detect_competition(season):
     (L'en-tête de la page du club, lui, donne toujours le championnat actuel.)
     """
     soup = fetch_soup(f"{TM_BASE}/aj-auxerre/spielplan/verein/{TM_CLUB_ID}/saison_id/{season}")
+    return competition_from_soup(soup, season)
+
+
+def competition_from_soup(soup, season):
+    """Championnat lu sur une page calendrier Transfermarkt déjà téléchargée."""
     for title in soup.find_all("h2"):
         # Championnats français seulement (FR1, FR2, FR3), pas la Coupe de France (FRC)
         link = title.find("a", href=re.compile(r"/startseite/wettbewerb/FR\d/"))

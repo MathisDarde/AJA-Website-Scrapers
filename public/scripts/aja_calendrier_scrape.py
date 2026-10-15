@@ -77,6 +77,11 @@ def parse_calendar_table_transfermarkt(table):
 
 def scrape(season, competition):
     soup = fetch_soup(f"{TM_BASE}/aj-auxerre/spielplan/verein/{TM_CLUB_ID}/saison_id/{season}")
+    return parse_calendar(soup, competition)
+
+
+def parse_calendar(soup, competition):
+    """Matchs de championnat lus sur une page calendrier Transfermarkt déjà téléchargée."""
     table = find_calendar_table(soup, competition["name"])
     if not table:
         raise ScraperError("Tableau du calendrier introuvable")

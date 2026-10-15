@@ -33,7 +33,11 @@ def age_from(date_naissance):
 
 def parse_details(fiche_url):
     """Lit « Date de naissance : 09/04/2001 », « Taille : 1m84 »… sur la fiche du joueur."""
-    soup = fetch_soup(fiche_url, attempts=2)
+    return details_from_soup(fetch_soup(fiche_url, attempts=2))
+
+
+def details_from_soup(soup):
+    """Infos d'une fiche joueur aja.fr déjà téléchargée."""
     lines = [l.strip().replace("\xa0", " ") for l in soup.get_text("\n").split("\n") if l.strip()]
     labels = {
         "Date de naissance": "date_naissance",
@@ -61,9 +65,11 @@ def team_items(soup, season):
     ]
 
 
-def scrape(season):
-    soup = fetch_soup(TEAM_URL)
-
+def parse_team(soup, season):
+    """
+    Membres de l'effectif lus sur la page équipe pro d'aja.fr (sans les fiches) :
+    (saison retenue, [joueur]).
+    """
     # En début de saison, le site du club peut ne pas encore avoir rattaché l'effectif
     # à la nouvelle saison : on garde alors celui de la précédente.
     label = season_label(season)
@@ -72,6 +78,27 @@ def scrape(season):
         label = season_label(season - 1)
         items = team_items(soup, label)
         print(f"ℹ️  Effectif {season_label(season)} pas encore publié, on garde {label}")
+
+    players = []
+    for item in items:
+        article = item.find("article")
+        link = article.find("a", class_="player-preview__link") if article else None
+        if not link:
+            continue
+        number = article.find(class_="player-preview__number")
+        subtitle = article.find(class_="player-preview__subtitle")
+        players.append({
+            "nom": link.get_text(strip=True),
+            "poste": subtitle.get_text(strip=True) if subtitle else None,
+            "numéro": number.get_text(strip=True).lstrip("#") if number else None,
+            "fiche_url": link.get("href"),
+            "image_url": image_url(article),
+        })
+    return label, players
+
+
+def scrape(season):
+    _, members = parse_team(fetch_soup(TEAM_URL), season)
 
     try:
         with open(os.path.join(DATA_DIR, OUTPUT_FILE), encoding="utf-8") as f:
@@ -85,22 +112,8 @@ def scrape(season):
     print(f"ℹ️  Fiches : {'toutes relues' if full_refresh else 'nouveaux joueurs seulement'}")
 
     players = []
-    for item in items:
-        article = item.find("article")
-        link = article.find("a", class_="player-preview__link") if article else None
-        if not link:
-            continue
-
-        number = article.find(class_="player-preview__number")
-        subtitle = article.find(class_="player-preview__subtitle")
-        fiche_url = link.get("href")
-        player = {
-            "nom": link.get_text(strip=True),
-            "poste": subtitle.get_text(strip=True) if subtitle else None,
-            "numéro": number.get_text(strip=True).lstrip("#") if number else None,
-            "fiche_url": fiche_url,
-            "image_url": image_url(article),
-        }
+    for player in members:
+        fiche_url = player["fiche_url"]
         known = {k: previous[fiche_url].get(k) for k in DETAIL_FIELDS} if fiche_url in previous else None
         if known is not None and not full_refresh:
             details = known

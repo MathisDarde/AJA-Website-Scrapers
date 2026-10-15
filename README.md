@@ -62,6 +62,18 @@ Les logos d'époque sont lus automatiquement dans les galeries « Logos » des a
 
 La liste est appliquée au passage suivant des scrapers. Pour relire tous les clubs sur Wikipédia : supprimer `data/logos-historiques-verifies.json`.
 
+## Tests
+
+Les lecteurs de pages (Transfermarkt, aja.fr, Wikipédia) sont testés sur de vraies pages enregistrées dans `tests/fixtures/` : saison du titre 1995-1996, saison Covid 2019-2020, D2 des années 70, points d'avant 1981, légendes de logos… Ils tournent à chaque push (`.github/workflows/tests.yml`).
+
+```bash
+pip install pytest
+python -m pytest tests            # tests
+python tests/record_fixtures.py   # réenregistre les pages (après un changement de mise en page)
+```
+
+Les pages enregistrées ne voient pas un changement de mise en page en direct : c'est le rôle des passages planifiés, qui échouent (run rouge + mail) dès qu'un lecteur renvoie trop peu de données.
+
 ## Lancer à la main
 
 ```bash

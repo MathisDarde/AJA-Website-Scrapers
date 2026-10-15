@@ -81,8 +81,8 @@ def parse_period(caption):
     if m := re.search(rf"{YEAR}\s*(?:-|–|à|au|et)\s*{YEAR}", c):
         start, end = int(m.group(1)), int(m.group(2))
         return start, max(start, end - 1)
-    if m := re.search(rf"(?:depuis|à partir de|dès)\s+{YEAR}", c):
-        return int(m.group(1)), None
+    if m := re.search(rf"(?:depuis|à partir de|dès)\s+{YEAR}", c) or re.search(rf"{YEAR}\s*[-–]\s*(?!\s*\d)", c):
+        return int(m.group(1)), None  # « depuis 1997 », « (2026-) »
     if m := re.search(rf"(?:avant|jusqu'en|jusqu’en|jusqu'à)\s+{YEAR}", c):
         return None, int(m.group(1)) - 1
     if m := re.search(YEAR, c):
@@ -94,7 +94,11 @@ def gallery_logos(title):
     """Logos datés des galeries de l'article : [(fichier, légende, de, a)]."""
     r = _get("https://fr.wikipedia.org/w/api.php",
              params={"action": "parse", "page": title, "prop": "wikitext", "redirects": 1, "format": "json"})
-    text = (r.json().get("parse", {}).get("wikitext", {}).get("*", "") if r else "")
+    return logos_from_wikitext(r.json().get("parse", {}).get("wikitext", {}).get("*", "") if r else "")
+
+
+def logos_from_wikitext(text):
+    """Logos datés des galeries d'un wikitexte déjà téléchargé : [(fichier, légende, de, a)]."""
     found = []
     for gallery in re.findall(r"<gallery[^>]*>(.*?)</gallery>", text, re.S):
         for line in gallery.split("\n"):
