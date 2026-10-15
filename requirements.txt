@@ -1,4 +1,2 @@
 beautifulsoup4
-lxml
-pandas
 curl_cffi

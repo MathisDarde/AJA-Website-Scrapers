@@ -1,64 +1,31 @@
-from curl_cffi import requests
-from bs4 import BeautifulSoup
-import json
-import os
 import re
-import time
-import random
 
-URL = "https://www.transfermarkt.fr/ligue-1/tabelle/wettbewerb/FR1/saison_id/2025"
-OUTPUT_FILE = "./data/classementligue1.json"
+from common import TM_BASE, ScraperError, detect_competition, fetch_soup, season_context, season_start_year, write_dataset
 
-def get_position_status(position: int) -> str:
-    if 1 <= position <= 3: return "UEFA Champions League"
-    elif position == 4: return "Barrages Champions League"
-    elif position == 5: return "UEFA Europa League"
-    elif position == 6: return "Barrages Conference League"
-    elif position == 16: return "Barrages Ligue 2"
-    elif position in (17, 18): return "Ligue 2"
-    else: return ""
+OUTPUT_FILE = "classementligue1.json"  # nom historique, lu tel quel par le blog
 
-def get_soup(url):
-    """
-    Utilise curl_cffi pour imiter parfaitement un navigateur Chrome (TLS Fingerprint).
-    """
-    # Pause aléatoire (toujours utile)
-    time.sleep(random.uniform(2, 5))
-    
-    try:
-        print(f"📡 Connexion à {url} avec curl_cffi...")
-        
-        # impersonate="chrome120" est la clé magique pour passer Cloudflare
-        response = requests.get(
-            url, 
-            impersonate="chrome120", 
-            headers={
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-                "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
-            },
-            timeout=30
-        )
-        
-        if response.status_code == 200:
-            return BeautifulSoup(response.text, "html.parser")
-        else:
-            print(f"⚠️ Erreur HTTP {response.status_code}")
-            return None
-            
-    except Exception as e:
-        print(f"❌ Erreur réseau : {e}")
-        return None
+# Zones du classement par championnat (18 clubs en Ligue 1 comme en Ligue 2)
+POSITION_STATUSES = {
+    "FR1": {1: "UEFA Champions League", 2: "UEFA Champions League", 3: "UEFA Champions League",
+            4: "Barrages Champions League", 5: "UEFA Europa League", 6: "Barrages Conference League",
+            16: "Barrages Ligue 2", 17: "Ligue 2", 18: "Ligue 2"},
+    "FR2": {1: "Ligue 1", 2: "Ligue 1", 3: "Barrages Ligue 1", 4: "Barrages Ligue 1", 5: "Barrages Ligue 1",
+            16: "Barrages National", 17: "National", 18: "National"},
+}
 
-def scrape_transfermarkt():
-    soup = get_soup(URL)
-    if not soup: return []
+
+def get_position_status(competition_id, position):
+    return POSITION_STATUSES.get(competition_id, {}).get(position, "")
+
+
+def scrape(season, competition):
+    soup = fetch_soup(f"{TM_BASE}/{competition['slug']}/tabelle/wettbewerb/{competition['id']}/saison_id/{season}")
 
     classement = []
     table = soup.find("table", {"class": "items"})
 
     if not table:
-        print("❌ Tableau classement non trouvé")
-        return []
+        raise ScraperError("Tableau du classement introuvable")
 
     rows = table.find_all("tr")
 
@@ -96,32 +63,21 @@ def scrape_transfermarkt():
                 "buts_encaisses": bc,
                 "difference": diff,
                 "points": points,
-                "positionStatus": get_position_status(position),
+                "positionStatus": get_position_status(competition["id"], position),
             })
             
             print(f"✓ {position}. {equipe}")
 
-        except Exception as e:
-            continue
+        except (ValueError, AttributeError):
+            continue  # ligne de séparation ou d'en-tête
 
     return classement
 
 def main():
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-    print("=" * 70)
-    print("🏆 SCRAPING CLASSEMENT LIGUE 1 - TRANSFERMARKT")
-    print("=" * 70)
+    season = season_start_year()
+    competition = detect_competition(season)
+    write_dataset(OUTPUT_FILE, scrape(season, competition), minimum=16, context=season_context(season, competition))
 
-    classement = scrape_transfermarkt()
-
-    if not classement:
-        print("❌ Aucune donnée récupérée.")
-        exit(1)
-
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(classement, f, indent=2, ensure_ascii=False)
-
-    print(f"✅ {len(classement)} équipes sauvegardées → {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()

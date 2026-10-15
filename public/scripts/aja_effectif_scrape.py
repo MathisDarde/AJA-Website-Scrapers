@@ -1,38 +1,14 @@
-from curl_cffi import requests
-from bs4 import BeautifulSoup
 from datetime import date
 import json
 import os
 import re
-import time
-import random
+
+from common import DATA_DIR, ScraperError, fetch_soup, season_label, season_start_year, write_dataset
 
 TEAM_URL = "https://www.aja.fr/equipes/equipe-pro/"
-OUTPUT_FILE = "./data/aja_effectif.json"
+OUTPUT_FILE = "aja_effectif.json"
 
-
-def current_season():
-    """Saison en cours au format « 2026-2027 » (bascule au 1er juillet)."""
-    today = date.today()
-    start = today.year if today.month >= 7 else today.year - 1
-    return f"{start}-{start + 1}"
-
-
-def get_soup(url):
-    time.sleep(random.uniform(1, 3))
-    try:
-        response = requests.get(
-            url,
-            impersonate="chrome120",
-            headers={"Accept-Language": "fr-FR,fr;q=0.9"},
-            timeout=30,
-        )
-        if response.status_code == 200:
-            return BeautifulSoup(response.content, "html.parser")
-        print(f"⚠️ Erreur HTTP {response.status_code} sur {url}")
-    except Exception as e:
-        print(f"❌ Erreur réseau sur {url} : {e}")
-    return None
+DETAIL_FIELDS = ("date_naissance", "ville", "taille", "poids", "pied")
 
 
 def image_url(article):
@@ -57,9 +33,7 @@ def age_from(date_naissance):
 
 def parse_details(fiche_url):
     """Lit « Date de naissance : 09/04/2001 », « Taille : 1m84 »… sur la fiche du joueur."""
-    soup = get_soup(fiche_url)
-    if not soup:
-        return {}
+    soup = fetch_soup(fiche_url, attempts=2)
     lines = [l.strip().replace("\xa0", " ") for l in soup.get_text("\n").split("\n") if l.strip()]
     labels = {
         "Date de naissance": "date_naissance",
@@ -79,19 +53,34 @@ def parse_details(fiche_url):
     return details
 
 
-def main():
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-    season = current_season()
+def team_items(soup, season):
+    return [
+        item
+        for item in soup.find_all("li", class_="taxonomy-teams__player-grid-item")
+        if season in (item.get("data-filter-item-slug-list") or "").split()
+    ]
 
-    soup = get_soup(TEAM_URL)
-    if not soup:
-        print("❌ Arrêt du script : page non chargée.")
-        exit(1)
+
+def scrape(season):
+    soup = fetch_soup(TEAM_URL)
+
+    # En début de saison, le site du club peut ne pas encore avoir rattaché l'effectif
+    # à la nouvelle saison : on garde alors celui de la précédente.
+    label = season_label(season)
+    items = team_items(soup, label)
+    if not items:
+        label = season_label(season - 1)
+        items = team_items(soup, label)
+        print(f"ℹ️  Effectif {season_label(season)} pas encore publié, on garde {label}")
+
+    try:
+        with open(os.path.join(DATA_DIR, OUTPUT_FILE), encoding="utf-8") as f:
+            previous = {p["fiche_url"]: p for p in json.load(f)}
+    except (OSError, ValueError, KeyError):
+        previous = {}
 
     players = []
-    for item in soup.find_all("li", class_="taxonomy-teams__player-grid-item"):
-        if season not in (item.get("data-filter-item-slug-list") or "").split():
-            continue
+    for item in items:
         article = item.find("article")
         link = article.find("a", class_="player-preview__link") if article else None
         if not link:
@@ -107,27 +96,22 @@ def main():
             "fiche_url": fiche_url,
             "image_url": image_url(article),
         }
-        details = parse_details(fiche_url)
-        player.update(
-            {
-                "date_naissance": details.get("date_naissance"),
-                "age": age_from(details.get("date_naissance")),
-                "ville": details.get("ville"),
-                "taille": details.get("taille"),
-                "poids": details.get("poids"),
-                "pied": details.get("pied"),
-            }
-        )
+        try:
+            details = parse_details(fiche_url)
+        except ScraperError as e:
+            # Fiche momentanément inaccessible : on reprend ce qu'on savait déjà
+            print(f"⚠️  {e}")
+            details = {k: previous.get(fiche_url, {}).get(k) for k in DETAIL_FIELDS}
+        player.update({k: details.get(k) for k in DETAIL_FIELDS})
+        player["age"] = age_from(player["date_naissance"])
         players.append(player)
         print(f"  • {player['nom']}")
 
-    if not players:
-        print(f"❌ Aucun joueur trouvé pour la saison {season}, fichier conservé.")
-        exit(1)
+    return players
 
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(players, f, indent=2, ensure_ascii=False)
-    print(f"✅ {len(players)} membres de l'effectif {season} enregistrés → {OUTPUT_FILE}")
+
+def main():
+    write_dataset(OUTPUT_FILE, scrape(season_start_year()), minimum=20, context={})
 
 
 if __name__ == "__main__":

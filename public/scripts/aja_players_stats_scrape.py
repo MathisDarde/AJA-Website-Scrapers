@@ -1,55 +1,13 @@
-from curl_cffi import requests
-from bs4 import BeautifulSoup
-import json
-import os
-import time
-import random
-from datetime import date
+from common import TM_BASE, TM_CLUB_ID, ScraperError, detect_competition, fetch_soup, season_context, season_start_year, write_dataset
 
-# Transfermarkt identifie une saison par son année de début (2026 = 2026-2027), bascule au 1er juillet
-SEASON_START = date.today().year if date.today().month >= 7 else date.today().year - 1
-BASE_URL = f"https://www.transfermarkt.fr/aj-auxerre/leistungsdaten/verein/290/reldata/%26{SEASON_START}/plus/1"
-OUTPUT_FILE = "./data/aja_statistics.json"
+OUTPUT_FILE = "aja_statistics.json"
 
-def get_soup(url):
-    """
-    Utilise curl_cffi pour imiter parfaitement un navigateur Chrome (TLS Fingerprint).
-    """
-    # Pause aléatoire (toujours utile)
-    time.sleep(random.uniform(2, 5))
-    
-    try:
-        print(f"📡 Connexion à {url} avec curl_cffi...")
-        
-        # impersonate="chrome120" est la clé magique pour passer Cloudflare
-        response = requests.get(
-            url, 
-            impersonate="chrome120", 
-            headers={
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-                "Accept-Language": "fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7"
-            },
-            timeout=30
-        )
-        
-        if response.status_code == 200:
-            return BeautifulSoup(response.text, "html.parser")
-        else:
-            print(f"⚠️ Erreur HTTP {response.status_code}")
-            return None
-            
-    except Exception as e:
-        print(f"❌ Erreur réseau : {e}")
-        return None
-        print(f"❌ Exception réseau : {e}")
-        return None
 
 def parse_players_table(soup):
     players = []
     table = soup.find("table", {"class": "items"})
     if not table:
-        print("❌ Tableau des joueurs non trouvé")
-        return []
+        raise ScraperError("Tableau des statistiques introuvable")
 
     rows = table.find_all("tr", class_=["odd", "even"])
     for row in rows:
@@ -122,19 +80,17 @@ def parse_players_table(soup):
 
     return players
 
-def main():
-    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
-    
-    soup = get_soup(BASE_URL)
-    if not soup:
-        print("❌ Arrêt du script : page non chargée.")
-        exit(1)
+def scrape(season):
+    # reldata=&<saison> : toutes compétitions confondues
+    soup = fetch_soup(f"{TM_BASE}/aj-auxerre/leistungsdaten/verein/{TM_CLUB_ID}/reldata/%26{season}/plus/1")
+    return parse_players_table(soup)
 
-    data = parse_players_table(soup)
-    
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-    print(f"✅ {len(data)} joueurs enregistrés → {OUTPUT_FILE}")
+
+def main():
+    season = season_start_year()
+    competition = detect_competition(season)
+    write_dataset(OUTPUT_FILE, scrape(season), minimum=15, context=season_context(season, competition))
+
 
 if __name__ == "__main__":
     main()
