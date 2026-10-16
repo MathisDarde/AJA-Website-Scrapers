@@ -215,9 +215,21 @@ def test_single_year_logo_runs_until_the_next_one():
     assert (1936, 1966) in periods and (1967, 1999) in periods
 
 
+def test_gallery_without_file_prefix_in_logo_section():
+    # Zénith : « Zenit Leningrad.png|1978-1987 », sans préfixe ni mot « logo », sous « Historique du logo »
+    periods = [(start, end) for _, _, start, end in historical_logos.logos_from_wikitext(wikitext("wiki_zenit"))]
+    assert (1978, 1986) in periods and (1998, 2012) in periods and (2023, None) in periods
+
+
+def test_logo_section_keeps_files_named_without_logo():
+    # OM : « OM (1935-72).svg » couvre la saison 1970-1971
+    periods = [(start, end) for _, _, start, end in historical_logos.logos_from_wikitext(wikitext("wiki_marseille"))]
+    assert (1935, 1971) in periods
+
+
 def test_toulouse_periods_follow_each_other():
     periods = [(start, end) for _, _, start, end in historical_logos.logos_from_wikitext(wikitext("wiki_toulouse"))]
-    assert periods[:6] == [(1979, 1983), (1984, 1989), (1990, 1994), (1995, 2000), (2001, 2009), (2010, 2017)]
+    assert periods[:7] == [(1970, 1978), (1979, 1983), (1984, 1989), (1990, 1994), (1995, 2000), (2001, 2009), (2010, 2017)]
 
 
 # --- Archive ------------------------------------------------------------------------------------

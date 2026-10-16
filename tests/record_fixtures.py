@@ -45,6 +45,7 @@ WIKI = {
     "wiki_marseille": "Olympique de Marseille",
     "wiki_metz": "Football Club de Metz",
     "wiki_toulouse": "Toulouse Football Club",
+    "wiki_zenit": "Zénith Saint-Pétersbourg",
 }
 
 

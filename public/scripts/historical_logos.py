@@ -29,6 +29,10 @@ HEADERS = {
     "Accept": "application/sparql-results+json, application/json",
 }
 YEAR = r"(1[89]\d\d|20\d\d)"
+# Première saison couverte par le blog : les logos retirés avant 1970-1971 sont écartés
+MIN_SEASON = 1970
+# Section dont toutes les images de galerie sont des logos (« Logos », « Historique du logo »…)
+LOGO_SECTION = re.compile(r"logo|blason|[ée]cusson|embl[èe]me|armoiries", re.I)
 
 
 def _get(url, **kw):
@@ -97,13 +101,29 @@ def gallery_logos(title):
     return logos_from_wikitext(r.json().get("parse", {}).get("wikitext", {}).get("*", "") if r else "")
 
 
+def _galleries(text):
+    """[(titre de la section, contenu)] des galeries d'un wikitexte."""
+    galleries, heading = [], ""
+    for m in re.finditer(r"^(={2,5})([^=\n]+)\1[ \t]*$|<gallery[^>]*>(.*?)</gallery>", text, re.S | re.M):
+        if m.group(2):
+            heading = m.group(2).strip()
+        else:
+            galleries.append((heading, m.group(3)))
+    return galleries
+
+
 def logos_from_wikitext(text):
     """Logos datés des galeries d'un wikitexte déjà téléchargé : [(fichier, légende, de, a)]."""
     found = []
-    for gallery in re.findall(r"<gallery[^>]*>(.*?)</gallery>", text, re.S):
+    for heading, gallery in _galleries(text):
+        logo_section = bool(LOGO_SECTION.search(heading))
         for line in gallery.split("\n"):
-            m = re.match(r"\s*(?:Fichier|File|Image)\s*:\s*([^|]+)\|(.*)", line)
-            if not m or not re.search(r"logo|blason|[ée]cusson", m.group(1) + m.group(2), re.I):
+            # Le préfixe « Fichier: » est facultatif dans une galerie (Zénith Saint-Pétersbourg)
+            m = re.match(r"\s*(?:(?:Fichier|File|Image)\s*:\s*)?([^|<>\n]+?\.(?:svg|png|jpe?g|gif|webp))\s*\|(.*)", line, re.I)
+            if not m:
+                continue
+            # Hors d'une section consacrée aux logos, seules les images dites « logo » comptent
+            if not logo_section and not re.search(r"logo|blason|[ée]cusson", m.group(1) + m.group(2), re.I):
                 continue
             caption = clean_caption(m.group(2))
             # Logos d'anniversaire ou spéciaux d'une saison : on garde le logo d'identité du club
@@ -151,8 +171,8 @@ def update(club_ids, refresh=False):
         for club_id in todo:
             entries = []
             for file, caption, start, end in gallery_logos(articles[club_id]) if club_id in articles else []:
-                # Période en cours : on garde le logo actuel du blog
-                if end is None or end >= current:
+                # Période en cours : on garde le logo actuel du blog ; rien d'avant 1970
+                if end is None or end >= current or end < MIN_SEASON:
                     continue
                 logo = download_image(file, club_id, start)
                 if logo:
@@ -167,7 +187,7 @@ def update(club_ids, refresh=False):
 
     # Liste manuelle prioritaire : remplace les périodes automatiques qu'elle recouvre
     manual = read_json(MANUAL_FILE, {})
-    merged = {k: list(v) for k, v in auto.items()}
+    merged = {k: [e for e in v if (e.get("a") or 10_000) >= MIN_SEASON] for k, v in auto.items()}
     for club_id, entries in manual.items():
         if club_id.startswith("_"):
             continue  # clés de documentation
@@ -178,6 +198,7 @@ def update(club_ids, refresh=False):
         )
         if not merged[club_id]:
             del merged[club_id]
+    merged = {k: v for k, v in merged.items() if v}
     write_dataset(OUTPUT_FILE, dict(sorted(merged.items(), key=lambda c: int(c[0]))), minimum=0, context={}, record_meta=False)
 
 

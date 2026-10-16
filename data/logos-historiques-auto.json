@@ -17,10 +17,10 @@
   ],
   "273": [
     {
-      "de": 1960,
-      "a": 1969,
-      "logo": "logos/historique/273-1960-d6ce84.png",
-      "legende": "Années 1960",
+      "de": 1970,
+      "a": 1979,
+      "logo": "logos/historique/273-1970-b3073d.png",
+      "legende": "Années 1970-1980",
       "source": "Wikipédia : Stade rennais Football Club"
     },
     {
@@ -40,24 +40,10 @@
   ],
   "244": [
     {
-      "de": 1898,
-      "a": 1898,
-      "logo": "logos/historique/244-1898-610962.png",
-      "legende": "Blason du FC Marseille entre 1898 et 1899",
-      "source": "Wikipédia : Olympique de Marseille"
-    },
-    {
-      "de": 1900,
-      "a": 1909,
-      "logo": "logos/historique/244-1900-188c84.png",
-      "legende": "1900 à 1910",
-      "source": "Wikipédia : Olympique de Marseille"
-    },
-    {
-      "de": 1910,
-      "a": 1934,
-      "logo": "logos/historique/244-1910-4bba48.png",
-      "legende": "1910 à 1935",
+      "de": 1935,
+      "a": 1971,
+      "logo": "logos/historique/244-1935-96ee7e.png",
+      "legende": "1935 à 1972",
       "source": "Wikipédia : Olympique de Marseille"
     },
     {
@@ -104,13 +90,6 @@
     }
   ],
   "162": [
-    {
-      "de": null,
-      "a": 1961,
-      "logo": "logos/historique/162-avant-8115e5.png",
-      "legende": "Logo avant 1962",
-      "source": "Wikipédia : Association sportive de Monaco Football Club"
-    },
     {
       "de": 1962,
       "a": 2001,
@@ -279,6 +258,13 @@
       "source": "Wikipédia : Paris Saint-Germain Football Club"
     },
     {
+      "de": 2010,
+      "a": 2010,
+      "logo": "logos/historique/583-2010-30980e.png",
+      "legende": "2010-2011",
+      "source": "Wikipédia : Paris Saint-Germain Football Club"
+    },
+    {
       "de": 2013,
       "a": 2023,
       "logo": "logos/historique/583-2013-fccf84.png",
@@ -360,16 +346,16 @@
       "logo": "logos/historique/417-1948-2c1478.png",
       "legende": "1948–1992",
       "source": "Wikipédia : Olympique Gymnaste Club de Nice"
+    },
+    {
+      "de": 1992,
+      "a": 2012,
+      "logo": "logos/historique/417-1992-b8c1d2.png",
+      "legende": "1992-2013",
+      "source": "Wikipédia : Olympique Gymnaste Club de Nice"
     }
   ],
   "826": [
-    {
-      "de": 1955,
-      "a": 1967,
-      "logo": "logos/historique/826-1955-acc7cb.png",
-      "legende": "1955-1968",
-      "source": "Wikipédia : Racing Club de Lens"
-    },
     {
       "de": 1969,
       "a": 1978,
@@ -393,27 +379,6 @@
     }
   ],
   "667": [
-    {
-      "de": 1920,
-      "a": 1944,
-      "logo": "logos/historique/667-1920-f129ae.png",
-      "legende": "1920-1945",
-      "source": "Wikipédia : Racing Club de Strasbourg Alsace"
-    },
-    {
-      "de": 1945,
-      "a": 1949,
-      "logo": "logos/historique/667-1945-b9994b.png",
-      "legende": "1945-1950",
-      "source": "Wikipédia : Racing Club de Strasbourg Alsace"
-    },
-    {
-      "de": 1950,
-      "a": 1959,
-      "logo": "logos/historique/667-1950-47b62b.png",
-      "legende": "1950-1960",
-      "source": "Wikipédia : Racing Club de Strasbourg Alsace"
-    },
     {
       "de": 1960,
       "a": 1970,
@@ -526,6 +491,13 @@
   ],
   "415": [
     {
+      "de": 1970,
+      "a": 1978,
+      "logo": "logos/historique/415-1970-875418.png",
+      "legende": "1970 à 1979",
+      "source": "Wikipédia : Toulouse Football Club"
+    },
+    {
       "de": 1979,
       "a": 1983,
       "logo": "logos/historique/415-1979-1e5d33.png",
@@ -586,13 +558,6 @@
   ],
   "738": [
     {
-      "de": null,
-      "a": 1969,
-      "logo": "logos/historique/738-avant-0e7d55.png",
-      "legende": "Blason avant 1970",
-      "source": "Wikipédia : Le Havre Athletic Club (football)"
-    },
-    {
       "de": 1970,
       "a": 1979,
       "logo": "logos/historique/738-1970-bb84b2.png",
@@ -622,20 +587,6 @@
     }
   ],
   "995": [
-    {
-      "de": 1950,
-      "a": 1959,
-      "logo": "logos/historique/995-1950-711ebe.png",
-      "legende": "Logo affiches années 1950",
-      "source": "Wikipédia : Football Club de Nantes"
-    },
-    {
-      "de": 1960,
-      "a": 1969,
-      "logo": "logos/historique/995-1960-e83e50.png",
-      "legende": "Logo affiches années 1960",
-      "source": "Wikipédia : Football Club de Nantes"
-    },
     {
       "de": 1970,
       "a": 1979,
@@ -681,31 +632,17 @@
   ],
   "347": [
     {
-      "de": null,
-      "a": 1966,
-      "logo": "logos/historique/347-avant-fcae49.png",
-      "legende": "Jusqu'en 1967",
-      "source": "Wikipédia : Football Club de Metz"
-    },
-    {
-      "de": 1921,
-      "a": 1933,
-      "logo": "logos/historique/347-1921-e78c47.png",
-      "legende": "1921 à 1934",
-      "source": "Wikipédia : Football Club de Metz"
-    },
-    {
-      "de": 1936,
-      "a": 1966,
-      "logo": "logos/historique/347-1936-9f43b0.png",
-      "legende": "1936",
-      "source": "Wikipédia : Football Club de Metz"
-    },
-    {
       "de": 1967,
       "a": 1999,
       "logo": "logos/historique/347-1967-55dcc7.png",
       "legende": "1967 à 2000",
+      "source": "Wikipédia : Football Club de Metz"
+    },
+    {
+      "de": 2000,
+      "a": 2020,
+      "logo": "logos/historique/347-2000-20bbb7.png",
+      "legende": "2000 à 2021",
       "source": "Wikipédia : Football Club de Metz"
     }
   ],
@@ -734,24 +671,17 @@
   ],
   "618": [
     {
-      "de": 1933,
-      "a": 1939,
-      "logo": "logos/historique/618-1933-396042.png",
-      "legende": "1933-1940",
-      "source": "Wikipédia : Association sportive de Saint-Étienne"
-    },
-    {
-      "de": 1960,
-      "a": 1969,
-      "logo": "logos/historique/618-1960-204787.png",
-      "legende": "1960-1970",
-      "source": "Wikipédia : Association sportive de Saint-Étienne"
-    },
-    {
       "de": 1978,
       "a": 1979,
       "logo": "logos/historique/618-1978-690a67.png",
       "legende": "1978-1980",
+      "source": "Wikipédia : Association sportive de Saint-Étienne"
+    },
+    {
+      "de": 1980,
+      "a": 1987,
+      "logo": "logos/historique/618-1980-abbe27.png",
+      "legende": "1980-1988",
       "source": "Wikipédia : Association sportive de Saint-Étienne"
     },
     {
@@ -770,27 +700,6 @@
     }
   ],
   "969": [
-    {
-      "de": 1923,
-      "a": 1930,
-      "logo": "logos/historique/969-1923-ee97b2.png",
-      "legende": "1923",
-      "source": "Wikipédia : Montpellier Hérault Sport Club"
-    },
-    {
-      "de": 1931,
-      "a": 1949,
-      "logo": "logos/historique/969-1931-d0d4cc.png",
-      "legende": "1931",
-      "source": "Wikipédia : Montpellier Hérault Sport Club"
-    },
-    {
-      "de": 1950,
-      "a": 1959,
-      "logo": "logos/historique/969-1950-6141ed.png",
-      "legende": "Années 1950",
-      "source": "Wikipédia : Montpellier Hérault Sport Club"
-    },
     {
       "de": 1974,
       "a": 1974,
@@ -852,17 +761,10 @@
   ],
   "1162": [
     {
-      "de": 1913,
-      "a": 1929,
-      "logo": "logos/historique/1162-1913-e23dd8.png",
-      "legende": "de 1913 à 1930",
-      "source": "Wikipédia : Stade Malherbe Caen"
-    },
-    {
-      "de": 1930,
-      "a": 1933,
-      "logo": "logos/historique/1162-1930-60c31c.png",
-      "legende": "de 1930 à 1934",
+      "de": 1934,
+      "a": 1987,
+      "logo": "logos/historique/1162-1934-69d313.png",
+      "legende": "de 1934 à 1988, avec plusieurs variations",
       "source": "Wikipédia : Stade Malherbe Caen"
     },
     {
@@ -870,6 +772,20 @@
       "a": 1988,
       "logo": "logos/historique/1162-1988-3b6962.png",
       "legende": "saison 1988-1989",
+      "source": "Wikipédia : Stade Malherbe Caen"
+    },
+    {
+      "de": 1989,
+      "a": 2005,
+      "logo": "logos/historique/1162-1989-4c71e9.png",
+      "legende": "de 1989 à 2006",
+      "source": "Wikipédia : Stade Malherbe Caen"
+    },
+    {
+      "de": 2006,
+      "a": 2006,
+      "logo": "logos/historique/1162-2006-a8f0c4.png",
+      "legende": "saison 2006-2007",
       "source": "Wikipédia : Stade Malherbe Caen"
     },
     {
@@ -895,20 +811,6 @@
     }
   ],
   "1080": [
-    {
-      "de": 1920,
-      "a": 1929,
-      "logo": "logos/historique/1080-1920-a2ff7e.png",
-      "legende": "Logo dans les années 1920",
-      "source": "Wikipédia : Stade lavallois Mayenne Football Club"
-    },
-    {
-      "de": 1960,
-      "a": 1969,
-      "logo": "logos/historique/1080-1960-42a91d.png",
-      "legende": "Logo dans les années 1960",
-      "source": "Wikipédia : Stade lavallois Mayenne Football Club"
-    },
     {
       "de": 1975,
       "a": 1984,
@@ -1282,17 +1184,10 @@
   ],
   "1160": [
     {
-      "de": 1950,
-      "a": 1957,
-      "logo": "logos/historique/1160-1950-1f6d3f.png",
-      "legende": "Avril 1950",
-      "source": "Wikipédia : Nîmes Olympique"
-    },
-    {
-      "de": 1958,
-      "a": 1981,
-      "logo": "logos/historique/1160-1958-3ec035.png",
-      "legende": "Blason de la ville (utilisé en 1958)",
+      "de": 1970,
+      "a": 1979,
+      "logo": "logos/historique/1160-1970-8afdcf.png",
+      "legende": "Années 1970",
       "source": "Wikipédia : Nîmes Olympique"
     },
     {
@@ -1307,6 +1202,13 @@
       "a": 1999,
       "logo": "logos/historique/1160-1990-25820e.png",
       "legende": "Années 1990",
+      "source": "Wikipédia : Nîmes Olympique"
+    },
+    {
+      "de": 1992,
+      "a": 2001,
+      "logo": "logos/historique/1160-1992-cb80f3.png",
+      "legende": "1992-2002",
       "source": "Wikipédia : Nîmes Olympique"
     },
     {
@@ -1399,13 +1301,6 @@
     }
   ],
   "1159": [
-    {
-      "de": 1967,
-      "a": 1969,
-      "logo": "logos/historique/1159-1967-f558d6.png",
-      "legende": "Logo officiel de 1967 à 1970",
-      "source": "Wikipédia : Association sportive Nancy-Lorraine"
-    },
     {
       "de": 1970,
       "a": 1993,
@@ -1504,6 +1399,13 @@
       "source": "Wikipédia : Union sportive Orléans Loiret football"
     },
     {
+      "de": 2000,
+      "a": 2001,
+      "logo": "logos/historique/10868-2000-5fc3c3.png",
+      "legende": "2000-2002",
+      "source": "Wikipédia : Union sportive Orléans Loiret football"
+    },
+    {
       "de": 2002,
       "a": 2003,
       "logo": "logos/historique/10868-2002-c02d84.png",
@@ -1515,6 +1417,13 @@
       "a": 2008,
       "logo": "logos/historique/10868-2004-778524.png",
       "legende": "US Orléans 45 Football (2004-2009)",
+      "source": "Wikipédia : Union sportive Orléans Loiret football"
+    },
+    {
+      "de": 2009,
+      "a": 2010,
+      "logo": "logos/historique/10868-2009-593a39.png",
+      "legende": "US Orléans Loiret Football (2009-2011)",
       "source": "Wikipédia : Union sportive Orléans Loiret football"
     }
   ],
@@ -1529,20 +1438,6 @@
   ],
   "1154": [
     {
-      "de": 1910,
-      "a": 1919,
-      "logo": "logos/historique/1154-1910-7c047b.png",
-      "legende": "Red Star AC (Années 1910)",
-      "source": "Wikipédia : Red Star Football Club"
-    },
-    {
-      "de": 1946,
-      "a": 1966,
-      "logo": "logos/historique/1154-1946-f124d8.png",
-      "legende": "Red Star Olympique Audonien (1946-1967)",
-      "source": "Wikipédia : Red Star Football Club"
-    },
-    {
       "de": 1967,
       "a": 1977,
       "logo": "logos/historique/1154-1967-1ff8c9.png",
@@ -1554,6 +1449,20 @@
       "a": 1983,
       "logo": "logos/historique/1154-1978-e17aa5.png",
       "legende": "AS Red Star (1978-1984)",
+      "source": "Wikipédia : Red Star Football Club"
+    },
+    {
+      "de": 1984,
+      "a": 2002,
+      "logo": "logos/historique/1154-1984-90bff5.png",
+      "legende": "AS Red Star 93 (1984-2003)",
+      "source": "Wikipédia : Red Star Football Club"
+    },
+    {
+      "de": 2003,
+      "a": 2011,
+      "logo": "logos/historique/1154-2003-a81193.png",
+      "legende": "Red Star FC 93 (2003-2012)",
       "source": "Wikipédia : Red Star Football Club"
     },
     {
@@ -1584,6 +1493,13 @@
   ],
   "14171": [
     {
+      "de": 2007,
+      "a": 2008,
+      "logo": "logos/historique/14171-2007-588010.png",
+      "legende": "Olympique Croix-de-Savoie 742007 - 2009",
+      "source": "Wikipédia : Thonon Évian Grand Genève Football Club"
+    },
+    {
       "de": 2009,
       "a": 2015,
       "logo": "logos/historique/14171-2009-24eb8e.png",
@@ -1606,6 +1522,13 @@
     }
   ],
   "11300": [
+    {
+      "de": 2009,
+      "a": 2009,
+      "logo": "logos/historique/11300-2009-699db4.png",
+      "legende": "juin 2009-2010",
+      "source": "Wikipédia : Athlétic Club arlésien"
+    },
     {
       "de": 2010,
       "a": 2014,
@@ -1669,13 +1592,6 @@
   ],
   "1081": [
     {
-      "de": 1919,
-      "a": 1969,
-      "logo": "logos/historique/1081-1919-58e17d.png",
-      "legende": "Logo de 1919 à 1970",
-      "source": "Wikipédia : Club sportif Sedan Ardennes"
-    },
-    {
       "de": 1970,
       "a": 1981,
       "logo": "logos/historique/1081-1970-6b0c7c.png",
@@ -1705,6 +1621,13 @@
     }
   ],
   "7042": [
+    {
+      "de": 1969,
+      "a": 1996,
+      "logo": "logos/historique/7042-1969-07aad2.png",
+      "legende": "1969-1997",
+      "source": "Wikipédia : Union sportive Boulogne Côte d'Opale"
+    },
     {
       "de": 1997,
       "a": 2008,
@@ -1838,20 +1761,6 @@
   ],
   "1774": [
     {
-      "de": 1920,
-      "a": 1929,
-      "logo": "logos/historique/1774-1920-d83446.png",
-      "legende": "Logo historique des années 1920",
-      "source": "Wikipédia : Football Club de Mulhouse"
-    },
-    {
-      "de": 1930,
-      "a": 1939,
-      "logo": "logos/historique/1774-1930-d9e0ac.png",
-      "legende": "Logo des années 1930 aux années 1980",
-      "source": "Wikipédia : Football Club de Mulhouse"
-    },
-    {
       "de": 1980,
       "a": 1989,
       "logo": "logos/historique/1774-1980-b9577e.png",
@@ -1951,6 +1860,27 @@
       "logo": "logos/historique/35561-1957-9c5964.png",
       "legende": "1957-1985",
       "source": "Wikipédia : Chaumont Football Club"
+    },
+    {
+      "de": 1985,
+      "a": 1990,
+      "logo": "logos/historique/35561-1985-d6f2f1.png",
+      "legende": "1985-1991",
+      "source": "Wikipédia : Chaumont Football Club"
+    },
+    {
+      "de": 1991,
+      "a": 2008,
+      "logo": "logos/historique/35561-1991-ba4c84.png",
+      "legende": "1991-2009",
+      "source": "Wikipédia : Chaumont Football Club"
+    },
+    {
+      "de": 2009,
+      "a": 2019,
+      "logo": "logos/historique/35561-2009-841b30.png",
+      "legende": "2009-2020",
+      "source": "Wikipédia : Chaumont Football Club"
     }
   ],
   "10838": [
@@ -2006,6 +1936,201 @@
       "logo": "logos/historique/23375-1985-b67832.png",
       "legende": "Logo du Stade quimpérois (1985-1987)",
       "source": "Wikipédia : Quimper Kerfeunteun Football Club"
+    }
+  ],
+  "750": [
+    {
+      "de": null,
+      "a": 1989,
+      "logo": "logos/historique/750-avant-772a0a.png",
+      "legende": "Avant 1990",
+      "source": "Wikipédia : Football Club Sochaux-Montbéliard"
+    },
+    {
+      "de": 1990,
+      "a": 1993,
+      "logo": "logos/historique/750-1990-247a2d.png",
+      "legende": "1990-1994",
+      "source": "Wikipédia : Football Club Sochaux-Montbéliard"
+    },
+    {
+      "de": 1994,
+      "a": 1996,
+      "logo": "logos/historique/750-1994-5bfe71.png",
+      "legende": "1994-1997",
+      "source": "Wikipédia : Football Club Sochaux-Montbéliard"
+    },
+    {
+      "de": 1997,
+      "a": 1999,
+      "logo": "logos/historique/750-1997-8eb01b.png",
+      "legende": "1997-2000",
+      "source": "Wikipédia : Football Club Sochaux-Montbéliard"
+    },
+    {
+      "de": 2000,
+      "a": 2003,
+      "logo": "logos/historique/750-2000-198481.png",
+      "legende": "2000-2004",
+      "source": "Wikipédia : Football Club Sochaux-Montbéliard"
+    },
+    {
+      "de": 2004,
+      "a": 2009,
+      "logo": "logos/historique/750-2004-cedec0.png",
+      "legende": "2004-2010",
+      "source": "Wikipédia : Football Club Sochaux-Montbéliard"
+    },
+    {
+      "de": 2010,
+      "a": 2014,
+      "logo": "logos/historique/750-2010-86d3e9.png",
+      "legende": "2010-2015",
+      "source": "Wikipédia : Football Club Sochaux-Montbéliard"
+    }
+  ],
+  "895": [
+    {
+      "de": 1970,
+      "a": 1979,
+      "logo": "logos/historique/895-1970-74452d.png",
+      "legende": "Écusson dans les années 1970",
+      "source": "Wikipédia : Association sportive de Cannes (football)"
+    },
+    {
+      "de": 1980,
+      "a": 1989,
+      "logo": "logos/historique/895-1980-243c08.png",
+      "legende": "Écusson dans les années 1980",
+      "source": "Wikipédia : Association sportive de Cannes (football)"
+    },
+    {
+      "de": 1990,
+      "a": 1999,
+      "logo": "logos/historique/895-1990-7a260d.png",
+      "legende": "Écusson au début des années 1990",
+      "source": "Wikipédia : Association sportive de Cannes (football)"
+    },
+    {
+      "de": 1990,
+      "a": 1999,
+      "logo": "logos/historique/895-1990-43c58a.png",
+      "legende": "Écusson du milieu des années 1990 à 2009",
+      "source": "Wikipédia : Association sportive de Cannes (football)"
+    },
+    {
+      "de": 2009,
+      "a": 2016,
+      "logo": "logos/historique/895-2009-f7829e.png",
+      "legende": "Écusson entre 2009 et 2017",
+      "source": "Wikipédia : Association sportive de Cannes (football)"
+    }
+  ],
+  "1147": [
+    {
+      "de": null,
+      "a": 2014,
+      "logo": "logos/historique/1147-avant-d735be.png",
+      "legende": "Avant 2015",
+      "source": "Wikipédia : Athletic Club ajaccien"
+    }
+  ],
+  "1397": [
+    {
+      "de": 1995,
+      "a": 1999,
+      "logo": "logos/historique/1397-1995-b8560d.png",
+      "legende": "Logo de 1995 à 2000",
+      "source": "Wikipédia : Football Club gueugnonnais"
+    },
+    {
+      "de": 2000,
+      "a": 2019,
+      "logo": "logos/historique/1397-2000-87f6ae.png",
+      "legende": "Logo de 2000 à 2020",
+      "source": "Wikipédia : Football Club gueugnonnais"
+    }
+  ],
+  "2067": [
+    {
+      "de": 2002,
+      "a": 2012,
+      "logo": "logos/historique/2067-2002-2a48e9.png",
+      "legende": "Logo de 2002 à 2013",
+      "source": "Wikipédia : Union sportive Créteil Football"
+    },
+    {
+      "de": 2013,
+      "a": 2014,
+      "logo": "logos/historique/2067-2013-0ff7a0.png",
+      "legende": "Logo de 2013 à 2015",
+      "source": "Wikipédia : Union sportive Créteil Football"
+    },
+    {
+      "de": 2015,
+      "a": 2025,
+      "logo": "logos/historique/2067-2015-77ed73.png",
+      "legende": "Logo de 2015 à 2026",
+      "source": "Wikipédia : Union sportive Créteil Football"
+    }
+  ],
+  "2967": [
+    {
+      "de": 2012,
+      "a": 2017,
+      "logo": "logos/historique/2967-2012-b99df7.png",
+      "legende": "Logo de 2012 à 2018",
+      "source": "Wikipédia : Racing Besançon"
+    }
+  ],
+  "3549": [
+    {
+      "de": 2006,
+      "a": 2007,
+      "logo": "logos/historique/3549-2006-f81491.png",
+      "legende": "Logo du Bourges Football (2006-2008)",
+      "source": "Wikipédia : Bourges 18"
+    },
+    {
+      "de": 2008,
+      "a": 2020,
+      "logo": "logos/historique/3549-2008-99b2c9.png",
+      "legende": "Logo du Bourges 18 (2008-2021)",
+      "source": "Wikipédia : Bourges 18"
+    }
+  ],
+  "7124": [
+    {
+      "de": null,
+      "a": 2014,
+      "logo": "logos/historique/7124-avant-e490c4.png",
+      "legende": "Logo avant 2015",
+      "source": "Wikipédia : Union sportive Quevilly Rouen Métropole"
+    },
+    {
+      "de": 2015,
+      "a": 2017,
+      "logo": "logos/historique/7124-2015-a59364.png",
+      "legende": "Logo de 2015 à 2018",
+      "source": "Wikipédia : Union sportive Quevilly Rouen Métropole"
+    }
+  ],
+  "21688": [
+    {
+      "de": null,
+      "a": 2016,
+      "logo": "logos/historique/21688-avant-c1856e.png",
+      "legende": "Logo avant 2017",
+      "source": "Wikipédia : Union sportive concarnoise"
+    }
+  ],
+  "35269": [
+    {
+      "de": 2016,
+      "a": 2019,
+      "logo": "logos/historique/35269-2016-f27e82.png",
+      "legende": "Logo de 2016 à 2020",
+      "source": "Wikipédia : Football Club Nevers"
     }
   ]
 }

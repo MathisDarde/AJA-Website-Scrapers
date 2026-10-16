@@ -42,7 +42,7 @@ Le blog affiche pour chaque club le logo **de la saison concernée** (classement
 2. sinon le logo actuel du blog (`public/_assets/teamlogos`), puis celui de Transfermarkt (`data/clubs.json`) ;
 3. sinon un écusson neutre.
 
-Les logos d'époque sont lus automatiquement dans les galeries « Logos » des articles Wikipédia FR des clubs (article trouvé via Wikidata, propriété P7223 = identifiant Transfermarkt), pour chaque nouveau club du registre. Les logos d'anniversaire et la période en cours (« Depuis 1997 ») sont ignorés : la saison actuelle garde le logo actuel du blog.
+Les logos d'époque sont lus automatiquement dans les galeries « Logos » des articles Wikipédia FR des clubs (article trouvé via Wikidata, propriété P7223 = identifiant Transfermarkt), pour chaque nouveau club du registre. Les logos d'anniversaire et la période en cours (« Depuis 1997 ») sont ignorés : la saison actuelle garde le logo actuel du blog. Seuls les logos encore portés en 1970-1971 ou après sont gardés. Dans une section consacrée aux logos (« Logos », « Historique du logo »), toutes les images datées de la galerie sont prises.
 
 **À compléter ou corriger à la main** dans `logos-historiques-manuels.json` (à la racine), prioritaire sur Wikipédia et jamais écrasé :
 
