@@ -91,6 +91,21 @@
   },
   {
     "position": 7,
+    "equipe": "Toulouse",
+    "club_id": "415",
+    "nom_complet": "Toulouse FC",
+    "matchs_joues": 7,
+    "gagnes": 2,
+    "nuls": 3,
+    "perdus": 2,
+    "buts_marques": 12,
+    "buts_encaisses": 11,
+    "difference": 1,
+    "points": 9,
+    "positionStatus": ""
+  },
+  {
+    "position": 8,
     "equipe": "Stade Brestois",
     "club_id": "3911",
     "nom_complet": "Stade Brestois 29",
@@ -105,7 +120,7 @@
     "positionStatus": ""
   },
   {
-    "position": 8,
+    "position": 9,
     "equipe": "FC Lorient",
     "club_id": "1158",
     "nom_complet": "FC Lorient",
@@ -120,7 +135,7 @@
     "positionStatus": ""
   },
   {
-    "position": 9,
+    "position": 10,
     "equipe": "OGC Nice",
     "club_id": "417",
     "nom_complet": "OGC Nice",
@@ -135,7 +150,7 @@
     "positionStatus": ""
   },
   {
-    "position": 10,
+    "position": 11,
     "equipe": "RC Lens",
     "club_id": "826",
     "nom_complet": "RC Lens",
@@ -150,7 +165,7 @@
     "positionStatus": ""
   },
   {
-    "position": 11,
+    "position": 12,
     "equipe": "R. Strasbourg",
     "club_id": "667",
     "nom_complet": "RC Strasbourg Alsace",
@@ -165,7 +180,7 @@
     "positionStatus": ""
   },
   {
-    "position": 12,
+    "position": 13,
     "equipe": "Angers SCO",
     "club_id": "1420",
     "nom_complet": "Angers SCO",
@@ -180,7 +195,7 @@
     "positionStatus": ""
   },
   {
-    "position": 13,
+    "position": 14,
     "equipe": "Marseille",
     "club_id": "244",
     "nom_complet": "Olympique de Marseille",
@@ -195,32 +210,17 @@
     "positionStatus": ""
   },
   {
-    "position": 14,
+    "position": 15,
     "equipe": "Le Mans FC",
     "club_id": "1164",
     "nom_complet": "Le Mans FC",
-    "matchs_joues": 6,
+    "matchs_joues": 7,
     "gagnes": 1,
     "nuls": 3,
-    "perdus": 2,
+    "perdus": 3,
     "buts_marques": 10,
-    "buts_encaisses": 12,
-    "difference": -2,
-    "points": 6,
-    "positionStatus": ""
-  },
-  {
-    "position": 15,
-    "equipe": "Toulouse",
-    "club_id": "415",
-    "nom_complet": "Toulouse FC",
-    "matchs_joues": 6,
-    "gagnes": 1,
-    "nuls": 3,
-    "perdus": 2,
-    "buts_marques": 9,
-    "buts_encaisses": 11,
-    "difference": -2,
+    "buts_encaisses": 15,
+    "difference": -5,
     "points": 6,
     "positionStatus": ""
   },
