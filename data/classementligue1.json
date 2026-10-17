@@ -79,18 +79,33 @@
     "equipe": "PSG",
     "club_id": "583",
     "nom_complet": "Paris Saint-Germain",
-    "matchs_joues": 6,
+    "matchs_joues": 7,
     "gagnes": 3,
     "nuls": 2,
-    "perdus": 1,
+    "perdus": 2,
     "buts_marques": 11,
-    "buts_encaisses": 8,
-    "difference": 3,
+    "buts_encaisses": 9,
+    "difference": 2,
     "points": 11,
     "positionStatus": "Barrages Conference League"
   },
   {
     "position": 7,
+    "equipe": "R. Strasbourg",
+    "club_id": "667",
+    "nom_complet": "RC Strasbourg Alsace",
+    "matchs_joues": 7,
+    "gagnes": 3,
+    "nuls": 1,
+    "perdus": 3,
+    "buts_marques": 12,
+    "buts_encaisses": 12,
+    "difference": 0,
+    "points": 10,
+    "positionStatus": ""
+  },
+  {
+    "position": 8,
     "equipe": "Toulouse",
     "club_id": "415",
     "nom_complet": "Toulouse FC",
@@ -105,7 +120,7 @@
     "positionStatus": ""
   },
   {
-    "position": 8,
+    "position": 9,
     "equipe": "Stade Brestois",
     "club_id": "3911",
     "nom_complet": "Stade Brestois 29",
@@ -120,7 +135,7 @@
     "positionStatus": ""
   },
   {
-    "position": 9,
+    "position": 10,
     "equipe": "FC Lorient",
     "club_id": "1158",
     "nom_complet": "FC Lorient",
@@ -135,7 +150,7 @@
     "positionStatus": ""
   },
   {
-    "position": 10,
+    "position": 11,
     "equipe": "OGC Nice",
     "club_id": "417",
     "nom_complet": "OGC Nice",
@@ -150,7 +165,7 @@
     "positionStatus": ""
   },
   {
-    "position": 11,
+    "position": 12,
     "equipe": "RC Lens",
     "club_id": "826",
     "nom_complet": "RC Lens",
@@ -161,21 +176,6 @@
     "buts_marques": 11,
     "buts_encaisses": 10,
     "difference": 1,
-    "points": 7,
-    "positionStatus": ""
-  },
-  {
-    "position": 12,
-    "equipe": "R. Strasbourg",
-    "club_id": "667",
-    "nom_complet": "RC Strasbourg Alsace",
-    "matchs_joues": 6,
-    "gagnes": 2,
-    "nuls": 1,
-    "perdus": 3,
-    "buts_marques": 11,
-    "buts_encaisses": 12,
-    "difference": -1,
     "points": 7,
     "positionStatus": ""
   },
