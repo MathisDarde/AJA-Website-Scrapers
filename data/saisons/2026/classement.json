@@ -1,6 +1,21 @@
 [
   {
     "position": 1,
+    "equipe": "PSG",
+    "club_id": "583",
+    "nom_complet": "Paris Saint-Germain",
+    "matchs_joues": 7,
+    "gagnes": 4,
+    "nuls": 2,
+    "perdus": 1,
+    "buts_marques": 14,
+    "buts_encaisses": 9,
+    "difference": 5,
+    "points": 14,
+    "positionStatus": ""
+  },
+  {
+    "position": 2,
     "equipe": "Monaco",
     "club_id": "162",
     "nom_complet": "AS Monaco",
@@ -15,7 +30,7 @@
     "positionStatus": ""
   },
   {
-    "position": 2,
+    "position": 3,
     "equipe": "LOSC Lille",
     "club_id": "1082",
     "nom_complet": "LOSC Lille",
@@ -30,7 +45,7 @@
     "positionStatus": ""
   },
   {
-    "position": 3,
+    "position": 4,
     "equipe": "Stade Rennais",
     "club_id": "273",
     "nom_complet": "Stade Rennais FC",
@@ -45,7 +60,7 @@
     "positionStatus": ""
   },
   {
-    "position": 4,
+    "position": 5,
     "equipe": "Ol. Lyonnais",
     "club_id": "1041",
     "nom_complet": "Olympique Lyonnais",
@@ -60,7 +75,7 @@
     "positionStatus": ""
   },
   {
-    "position": 5,
+    "position": 6,
     "equipe": "Paris FC",
     "club_id": "10004",
     "nom_complet": "Paris FC",
@@ -75,37 +90,7 @@
     "positionStatus": ""
   },
   {
-    "position": 6,
-    "equipe": "PSG",
-    "club_id": "583",
-    "nom_complet": "Paris Saint-Germain",
-    "matchs_joues": 7,
-    "gagnes": 3,
-    "nuls": 2,
-    "perdus": 2,
-    "buts_marques": 11,
-    "buts_encaisses": 9,
-    "difference": 2,
-    "points": 11,
-    "positionStatus": ""
-  },
-  {
     "position": 7,
-    "equipe": "R. Strasbourg",
-    "club_id": "667",
-    "nom_complet": "RC Strasbourg Alsace",
-    "matchs_joues": 7,
-    "gagnes": 3,
-    "nuls": 1,
-    "perdus": 3,
-    "buts_marques": 12,
-    "buts_encaisses": 12,
-    "difference": 0,
-    "points": 10,
-    "positionStatus": ""
-  },
-  {
-    "position": 8,
     "equipe": "Toulouse",
     "club_id": "415",
     "nom_complet": "Toulouse FC",
@@ -120,7 +105,7 @@
     "positionStatus": ""
   },
   {
-    "position": 9,
+    "position": 8,
     "equipe": "Stade Brestois",
     "club_id": "3911",
     "nom_complet": "Stade Brestois 29",
@@ -135,7 +120,7 @@
     "positionStatus": ""
   },
   {
-    "position": 10,
+    "position": 9,
     "equipe": "FC Lorient",
     "club_id": "1158",
     "nom_complet": "FC Lorient",
@@ -150,7 +135,7 @@
     "positionStatus": ""
   },
   {
-    "position": 11,
+    "position": 10,
     "equipe": "OGC Nice",
     "club_id": "417",
     "nom_complet": "OGC Nice",
@@ -165,7 +150,7 @@
     "positionStatus": ""
   },
   {
-    "position": 12,
+    "position": 11,
     "equipe": "RC Lens",
     "club_id": "826",
     "nom_complet": "RC Lens",
@@ -176,6 +161,21 @@
     "buts_marques": 11,
     "buts_encaisses": 10,
     "difference": 1,
+    "points": 7,
+    "positionStatus": ""
+  },
+  {
+    "position": 12,
+    "equipe": "R. Strasbourg",
+    "club_id": "667",
+    "nom_complet": "RC Strasbourg Alsace",
+    "matchs_joues": 7,
+    "gagnes": 2,
+    "nuls": 1,
+    "perdus": 4,
+    "buts_marques": 12,
+    "buts_encaisses": 15,
+    "difference": -3,
     "points": 7,
     "positionStatus": ""
   },
