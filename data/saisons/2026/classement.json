@@ -1,6 +1,21 @@
 [
   {
     "position": 1,
+    "equipe": "Ol. Lyonnais",
+    "club_id": "1041",
+    "nom_complet": "Olympique Lyonnais",
+    "matchs_joues": 7,
+    "gagnes": 4,
+    "nuls": 2,
+    "perdus": 1,
+    "buts_marques": 13,
+    "buts_encaisses": 5,
+    "difference": 8,
+    "points": 14,
+    "positionStatus": ""
+  },
+  {
+    "position": 2,
     "equipe": "PSG",
     "club_id": "583",
     "nom_complet": "Paris Saint-Germain",
@@ -15,7 +30,7 @@
     "positionStatus": ""
   },
   {
-    "position": 2,
+    "position": 3,
     "equipe": "Paris FC",
     "club_id": "10004",
     "nom_complet": "Paris FC",
@@ -30,7 +45,7 @@
     "positionStatus": ""
   },
   {
-    "position": 3,
+    "position": 4,
     "equipe": "LOSC Lille",
     "club_id": "1082",
     "nom_complet": "LOSC Lille",
@@ -45,7 +60,7 @@
     "positionStatus": ""
   },
   {
-    "position": 4,
+    "position": 5,
     "equipe": "Monaco",
     "club_id": "162",
     "nom_complet": "AS Monaco",
@@ -60,7 +75,7 @@
     "positionStatus": ""
   },
   {
-    "position": 5,
+    "position": 6,
     "equipe": "Stade Rennais",
     "club_id": "273",
     "nom_complet": "Stade Rennais FC",
@@ -72,21 +87,6 @@
     "buts_encaisses": 14,
     "difference": 1,
     "points": 13,
-    "positionStatus": ""
-  },
-  {
-    "position": 6,
-    "equipe": "Ol. Lyonnais",
-    "club_id": "1041",
-    "nom_complet": "Olympique Lyonnais",
-    "matchs_joues": 6,
-    "gagnes": 3,
-    "nuls": 2,
-    "perdus": 1,
-    "buts_marques": 11,
-    "buts_encaisses": 4,
-    "difference": 7,
-    "points": 11,
     "positionStatus": ""
   },
   {
@@ -184,13 +184,13 @@
     "equipe": "OGC Nice",
     "club_id": "417",
     "nom_complet": "OGC Nice",
-    "matchs_joues": 6,
+    "matchs_joues": 7,
     "gagnes": 2,
     "nuls": 2,
-    "perdus": 2,
-    "buts_marques": 5,
-    "buts_encaisses": 7,
-    "difference": -2,
+    "perdus": 3,
+    "buts_marques": 6,
+    "buts_encaisses": 9,
+    "difference": -3,
     "points": 8,
     "positionStatus": ""
   },
