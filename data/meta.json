@@ -8,16 +8,16 @@
   },
   "files": {
     "aja_calendrier.json": {
-      "updatedAt": "2026-10-18T15:58:19+00:00",
+      "updatedAt": "2026-10-18T18:41:47+00:00",
       "items": 34
     },
     "classementligue1.json": {
-      "updatedAt": "2026-10-18T15:58:21+00:00",
+      "updatedAt": "2026-10-18T18:41:52+00:00",
       "items": 18
     },
     "aja_statistics.json": {
-      "updatedAt": "2026-10-18T15:58:33+00:00",
-      "items": 36
+      "updatedAt": "2026-10-18T18:41:55+00:00",
+      "items": 37
     },
     "aja_effectif.json": {
       "updatedAt": "2026-10-18T09:07:05+00:00",
