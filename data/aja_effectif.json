@@ -6,11 +6,11 @@
     "fiche_url": "https://www.aja.fr/joueur/paul-nardi/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/07/1_NARDI.png",
     "date_naissance": "18/05/1994",
-    "age": 32,
     "ville": "Vesoul",
     "taille": "1m87",
     "poids": "77Kg",
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 32
   },
   {
     "nom": "Mamadou Diop",
@@ -19,11 +19,11 @@
     "fiche_url": "https://www.aja.fr/joueur/mamadou-diop/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/07/23_DIOP.png",
     "date_naissance": "03/01/2000",
-    "age": 26,
     "ville": "Guediawaye",
     "taille": "2m04",
     "poids": "95Kg",
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 26
   },
   {
     "nom": "Louis Mezerette",
@@ -32,11 +32,11 @@
     "fiche_url": "https://www.aja.fr/joueur/louis-mezerette-2/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2025/08/37_MEZERETTE-e1786528116831.png",
     "date_naissance": "30/08/2006",
-    "age": 20,
     "ville": "Le Mans",
     "taille": "1m84",
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 20
   },
   {
     "nom": "Axel Tuanzebe",
@@ -45,11 +45,11 @@
     "fiche_url": "https://www.aja.fr/joueur/axel-tuanzebe/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/09/4_TUANZEBE.png",
     "date_naissance": "14/11/1997",
-    "age": 28,
     "ville": "Bunia",
     "taille": "1m85",
     "poids": "75Kg",
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 28
   },
   {
     "nom": "Telli Siwe",
@@ -58,11 +58,11 @@
     "fiche_url": "https://www.aja.fr/joueur/telli-siwe-2/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2025/07/13_SIWE.png",
     "date_naissance": "14/12/2004",
-    "age": 21,
     "ville": "Saint-Maurice",
     "taille": null,
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 21
   },
   {
     "nom": "Christ Makosso",
@@ -71,11 +71,11 @@
     "fiche_url": "https://www.aja.fr/joueur/christ-makosso/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/07/15_MAKOSSO.png",
     "date_naissance": "09/05/2004",
-    "age": 22,
     "ville": "Brazzaville",
     "taille": "1m92",
     "poids": "85Kg",
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 22
   },
   {
     "nom": "Sinaly Diomandé",
@@ -84,11 +84,11 @@
     "fiche_url": "https://www.aja.fr/joueur/sinaly-diomande/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2024/08/20_DIOMANDE.png",
     "date_naissance": "09/04/2001",
-    "age": 25,
     "ville": "Yopougon",
     "taille": "1m84",
     "poids": "74Kg",
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 25
   },
   {
     "nom": "Fredrik Oppegård",
@@ -97,11 +97,11 @@
     "fiche_url": "https://www.aja.fr/joueur/fredrik-oppegard/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2025/01/22_OPPEGARD.png",
     "date_naissance": "07/08/2002",
-    "age": 24,
     "ville": "Oslo",
     "taille": "1m75",
     "poids": "67Kg",
-    "pied": "Gauche"
+    "pied": "Gauche",
+    "age": 24
   },
   {
     "nom": "Bryan Okoh",
@@ -110,11 +110,11 @@
     "fiche_url": "https://www.aja.fr/joueur/bryan-okoh-2/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/01/24_OKOH.png",
     "date_naissance": "16/05/2003",
-    "age": 23,
     "ville": "Houston",
     "taille": "1m89",
     "poids": "88Kg",
-    "pied": "Gauche"
+    "pied": "Gauche",
+    "age": 23
   },
   {
     "nom": "Lamine Sy",
@@ -123,11 +123,11 @@
     "fiche_url": "https://www.aja.fr/joueur/lamine-sy/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2025/06/27_SY.png",
     "date_naissance": "10/08/2002",
-    "age": 24,
     "ville": "Les Mureaux",
     "taille": "1m71",
     "poids": "65Kg",
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 24
   },
   {
     "nom": "Marvin Senaya",
@@ -136,11 +136,11 @@
     "fiche_url": "https://www.aja.fr/joueur/marvin-senaya-2/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2025/07/Auxerre_138_PLAYER_519343_Senaya_Marvin__1.png",
     "date_naissance": "28/01/2001",
-    "age": 25,
     "ville": "Saint-Maurice",
     "taille": "1m81",
     "poids": "76Kg",
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 25
   },
   {
     "nom": "Rayan Mandengue",
@@ -149,11 +149,11 @@
     "fiche_url": "https://www.aja.fr/joueur/rayan-mandengue/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2024/02/32_MANDANGUE.png",
     "date_naissance": "06/01/2006",
-    "age": 20,
     "ville": "Douala",
     "taille": null,
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 20
   },
   {
     "nom": "Elikya Legros",
@@ -162,11 +162,11 @@
     "fiche_url": "https://www.aja.fr/joueur/elikya-legros-2/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2025/08/35_LEGROS.png",
     "date_naissance": "06/06/2008",
-    "age": 18,
     "ville": "Rouen",
     "taille": "1m77",
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 18
   },
   {
     "nom": "Alvin Petit Dol",
@@ -175,11 +175,11 @@
     "fiche_url": "https://www.aja.fr/joueur/alvin-petit-dol-2/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/08/Petit-Dol.png",
     "date_naissance": "07/11/2006",
-    "age": 19,
     "ville": "Paris",
     "taille": "1m93",
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 19
   },
   {
     "nom": "Mohamed Coulibaly",
@@ -188,11 +188,11 @@
     "fiche_url": "https://www.aja.fr/joueur/mohamed-coulibaly/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/08/Coulibaly.png",
     "date_naissance": "11/11/2008",
-    "age": 17,
     "ville": "Auxerre",
     "taille": "1m90",
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 17
   },
   {
     "nom": "Clément Akpa",
@@ -201,11 +201,11 @@
     "fiche_url": "https://www.aja.fr/joueur/clement-akpa-2/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/07/92_AKPA.png",
     "date_naissance": "24/11/2001",
-    "age": 24,
     "ville": "Meudon",
     "taille": "1m81",
     "poids": "68Kg",
-    "pied": "Gauche"
+    "pied": "Gauche",
+    "age": 24
   },
   {
     "nom": "Sékou Fofana",
@@ -214,11 +214,11 @@
     "fiche_url": "https://www.aja.fr/joueur/sekou-fofana/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/07/93_FOFANA.png",
     "date_naissance": "25/03/2003",
-    "age": 23,
     "ville": null,
     "taille": "1m78",
     "poids": "78Kg",
-    "pied": "Gauche"
+    "pied": "Gauche",
+    "age": 23
   },
   {
     "nom": "Kevin Danois",
@@ -227,11 +227,11 @@
     "fiche_url": "https://www.aja.fr/joueur/kevin-danois/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2023/08/5_DANOIS.png",
     "date_naissance": "28/06/2004",
-    "age": 22,
     "ville": "Basse-Terre",
     "taille": "1m83",
     "poids": "72Kg",
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 22
   },
   {
     "nom": "Assane Dioussé",
@@ -240,11 +240,11 @@
     "fiche_url": "https://www.aja.fr/joueur/assane-diousse/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2023/08/6_DIOUUSE.png",
     "date_naissance": "20/09/1997",
-    "age": 29,
     "ville": "Dakar",
     "taille": "1m75",
     "poids": "68Kg",
-    "pied": "Gauche"
+    "pied": "Gauche",
+    "age": 29
   },
   {
     "nom": "Naouirou Ahamada",
@@ -253,11 +253,11 @@
     "fiche_url": "https://www.aja.fr/joueur/naouirou-ahamada/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/01/8_AHAMADA.png",
     "date_naissance": "29/03/2002",
-    "age": 24,
     "ville": "Marseille",
     "taille": "1m83",
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 24
   },
   {
     "nom": "Pierre Ekwah",
@@ -266,11 +266,11 @@
     "fiche_url": "https://www.aja.fr/joueur/pierre-ekwah-2/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/08/17_EKWAH-2.png",
     "date_naissance": "15/01/2002",
-    "age": 24,
     "ville": "Massy",
     "taille": "1m89",
     "poids": "80Kg",
-    "pied": "Gauche"
+    "pied": "Gauche",
+    "age": 24
   },
   {
     "nom": "Romain Faivre",
@@ -279,11 +279,11 @@
     "fiche_url": "https://www.aja.fr/joueur/romain-faivre/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/01/28_FAIVRE.png",
     "date_naissance": "14/07/1998",
-    "age": 28,
     "ville": "Asnières-sur-Seine",
     "taille": "1m80",
     "poids": "75Kg",
-    "pied": "Gauche"
+    "pied": "Gauche",
+    "age": 28
   },
   {
     "nom": "Lamfia Dioubaté",
@@ -292,11 +292,11 @@
     "fiche_url": "https://www.aja.fr/joueur/lamfia-dioubate/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2025/12/34_DIOUBATE.png",
     "date_naissance": "20/07/2007",
-    "age": 19,
     "ville": null,
     "taille": null,
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 19
   },
   {
     "nom": "Tidiane Devernois",
@@ -305,11 +305,11 @@
     "fiche_url": "https://www.aja.fr/joueur/tidiane-devernois-2/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2025/08/36_DEVERNOIS.png",
     "date_naissance": "18/10/2007",
-    "age": 18,
     "ville": "Évry-Courcouronnes",
     "taille": "1m87",
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 19
   },
   {
     "nom": "Yvan Zaddy",
@@ -318,11 +318,11 @@
     "fiche_url": "https://www.aja.fr/joueur/yvan-zaddy/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2025/11/41_ZADDY.png",
     "date_naissance": "01/05/2006",
-    "age": 20,
     "ville": "Abidjan",
     "taille": "1m80",
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 20
   },
   {
     "nom": "Arthur Piedfort",
@@ -331,11 +331,11 @@
     "fiche_url": "https://www.aja.fr/joueur/arthur-piedfort/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/07/46_PIEDFORT.png",
     "date_naissance": "01/02/2005",
-    "age": 21,
     "ville": "Herenthals",
     "taille": "1m86",
     "poids": "70Kg",
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 21
   },
   {
     "nom": "Aristide Zossou",
@@ -344,11 +344,11 @@
     "fiche_url": "https://www.aja.fr/joueur/aristide-zossou-2/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/06/77_ZOSSOU.png",
     "date_naissance": "14/06/2005",
-    "age": 21,
     "ville": "Abobo",
     "taille": "1m78",
     "poids": "70Kg",
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 21
   },
   {
     "nom": "Rémy Labeau Lascary",
@@ -357,11 +357,11 @@
     "fiche_url": "https://www.aja.fr/joueur/remy-labeau-lascary/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/07/3_LABEAU_LASCARY-1.png",
     "date_naissance": "03/03/2003",
-    "age": 23,
     "ville": "Les Abymes",
     "taille": "1m84",
     "poids": "72Kg",
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 23
   },
   {
     "nom": "Cameron Archer",
@@ -370,11 +370,11 @@
     "fiche_url": "https://www.aja.fr/joueur/cameron-archer/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/09/9_ARCHER.png",
     "date_naissance": "09/12/2001",
-    "age": 24,
     "ville": "Walsall",
     "taille": "1m81",
     "poids": "72Kg",
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 24
   },
   {
     "nom": "Danny Namaso",
@@ -383,11 +383,11 @@
     "fiche_url": "https://www.aja.fr/joueur/danny-namaso-2/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2025/08/19_NAMASO.png",
     "date_naissance": "28/08/2000",
-    "age": 26,
     "ville": "Reading",
     "taille": "1m82",
     "poids": "77Kg",
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 26
   },
   {
     "nom": "Ryan Rodin",
@@ -396,11 +396,11 @@
     "fiche_url": "https://www.aja.fr/joueur/ryan-rodin-2/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2025/08/31_RODIN.png",
     "date_naissance": "02/03/2006",
-    "age": 20,
     "ville": "Bourg-la-Reine",
     "taille": "1m94",
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 20
   },
   {
     "nom": "Mamoudou Cissokho",
@@ -409,11 +409,11 @@
     "fiche_url": "https://www.aja.fr/joueur/mamoudou-cissokho/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2025/12/cissokoho.png",
     "date_naissance": "20/12/2007",
-    "age": 18,
     "ville": "Paris",
     "taille": "1m81",
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 18
   },
   {
     "nom": "Xiangxin Wei",
@@ -422,11 +422,11 @@
     "fiche_url": "https://www.aja.fr/joueur/xiangxin-wei-2/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/08/49_WEI.png",
     "date_naissance": "05/03/2008",
-    "age": 18,
     "ville": null,
     "taille": "1m78",
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": 18
   },
   {
     "nom": "Will Still",
@@ -435,11 +435,11 @@
     "fiche_url": "https://www.aja.fr/joueur/will-still-2/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/08/Still_Will.png",
     "date_naissance": null,
-    "age": null,
     "ville": null,
     "taille": null,
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": null
   },
   {
     "nom": "Nicolas Still",
@@ -448,11 +448,11 @@
     "fiche_url": "https://www.aja.fr/joueur/nicolas-still/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/08/Pleux_Cedric.png",
     "date_naissance": null,
-    "age": null,
     "ville": null,
     "taille": null,
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": null
   },
   {
     "nom": "Djibril Cissé",
@@ -461,11 +461,11 @@
     "fiche_url": "https://www.aja.fr/joueur/djibril-cisse-2/",
     "image_url": null,
     "date_naissance": null,
-    "age": null,
     "ville": null,
     "taille": null,
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": null
   },
   {
     "nom": "Simon Pouplin",
@@ -474,11 +474,11 @@
     "fiche_url": "https://www.aja.fr/joueur/simon-pouplin/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/08/Pouplin_Simon.png",
     "date_naissance": null,
-    "age": null,
     "ville": null,
     "taille": null,
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": null
   },
   {
     "nom": "Cyril Jeunechamp",
@@ -487,11 +487,11 @@
     "fiche_url": "https://www.aja.fr/joueur/cyril-jeunechamp/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/08/Jeunechamp_Cyri.png",
     "date_naissance": null,
-    "age": null,
     "ville": null,
     "taille": null,
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": null
   },
   {
     "nom": "Barthélémy Delecroix",
@@ -500,11 +500,11 @@
     "fiche_url": "https://www.aja.fr/joueur/barthelemy-delecroix/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/08/Delecroix_Barthelemy.png",
     "date_naissance": null,
-    "age": null,
     "ville": null,
     "taille": null,
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": null
   },
   {
     "nom": "Thomas Wilzius",
@@ -513,11 +513,11 @@
     "fiche_url": "https://www.aja.fr/joueur/thomas-wilzius/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/08/Wilzius_Thomas.png",
     "date_naissance": null,
-    "age": null,
     "ville": null,
     "taille": null,
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": null
   },
   {
     "nom": "Clément Lemaitre",
@@ -526,11 +526,11 @@
     "fiche_url": "https://www.aja.fr/joueur/clement-lemaitre/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/08/Lemaitre_Clement.png",
     "date_naissance": null,
-    "age": null,
     "ville": null,
     "taille": null,
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": null
   },
   {
     "nom": "Joackim Cajado",
@@ -539,11 +539,11 @@
     "fiche_url": "https://www.aja.fr/joueur/joackim-cajado/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/08/Cajado_Joackim__31.png",
     "date_naissance": null,
-    "age": null,
     "ville": null,
     "taille": null,
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": null
   },
   {
     "nom": "Christophe Grosso",
@@ -552,11 +552,11 @@
     "fiche_url": "https://www.aja.fr/joueur/christophe-grosso-2/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/08/Grosso_Christophe.png",
     "date_naissance": null,
-    "age": null,
     "ville": null,
     "taille": null,
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": null
   },
   {
     "nom": "Sébastien Barassin",
@@ -565,11 +565,11 @@
     "fiche_url": "https://www.aja.fr/joueur/sebastien-barassin-2/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/08/Barassin_Sebastien.png",
     "date_naissance": null,
-    "age": null,
     "ville": null,
     "taille": null,
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": null
   },
   {
     "nom": "Cédric Pleux",
@@ -578,11 +578,11 @@
     "fiche_url": "https://www.aja.fr/joueur/cedric-pleux-2/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/08/Moreno_Antoine.png",
     "date_naissance": null,
-    "age": null,
     "ville": null,
     "taille": null,
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": null
   },
   {
     "nom": "Antoine Moreno",
@@ -591,11 +591,11 @@
     "fiche_url": "https://www.aja.fr/joueur/antoine-moreno/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/08/Lanier_Matisse.png",
     "date_naissance": null,
-    "age": null,
     "ville": null,
     "taille": null,
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": null
   },
   {
     "nom": "Julien Vaur",
@@ -604,11 +604,11 @@
     "fiche_url": "https://www.aja.fr/joueur/julien-vaur/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/09/Julien_Vaur.png",
     "date_naissance": null,
-    "age": null,
     "ville": null,
     "taille": null,
     "poids": null,
-    "pied": null
+    "pied": null,
+    "age": null
   },
   {
     "nom": "Samba Diawara",
@@ -617,10 +617,10 @@
     "fiche_url": "https://www.aja.fr/joueur/samba-diawara-2/",
     "image_url": "https://www.aja.fr/wp-content/uploads/2026/09/samba.png",
     "date_naissance": null,
-    "age": null,
     "ville": null,
     "taille": null,
     "poids": null,
-    "pied": "Droit"
+    "pied": "Droit",
+    "age": null
   }
 ]
