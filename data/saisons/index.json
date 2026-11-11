@@ -9,14 +9,14 @@
     },
     "equipes": 18,
     "aja": {
-      "position": 12,
-      "points": 9,
-      "matchs_joues": 7,
+      "position": 14,
+      "points": 10,
+      "matchs_joues": 10,
       "gagnes": 3,
-      "nuls": 0,
-      "perdus": 4,
-      "buts_marques": 11,
-      "buts_encaisses": 17
+      "nuls": 1,
+      "perdus": 6,
+      "buts_marques": 13,
+      "buts_encaisses": 24
     }
   },
   {
