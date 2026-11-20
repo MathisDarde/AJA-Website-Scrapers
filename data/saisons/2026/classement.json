@@ -181,6 +181,21 @@
   },
   {
     "position": 13,
+    "equipe": "Troyes",
+    "club_id": "1095",
+    "nom_complet": "ESTAC Troyes",
+    "matchs_joues": 11,
+    "gagnes": 3,
+    "nuls": 2,
+    "perdus": 6,
+    "buts_marques": 10,
+    "buts_encaisses": 18,
+    "difference": -8,
+    "points": 11,
+    "positionStatus": ""
+  },
+  {
+    "position": 14,
     "equipe": "R. Strasbourg",
     "club_id": "667",
     "nom_complet": "RC Strasbourg Alsace",
@@ -195,7 +210,7 @@
     "positionStatus": ""
   },
   {
-    "position": 14,
+    "position": 15,
     "equipe": "AJ Auxerre",
     "club_id": "290",
     "nom_complet": "AJ Auxerre",
@@ -210,7 +225,7 @@
     "positionStatus": ""
   },
   {
-    "position": 15,
+    "position": 16,
     "equipe": "Le Mans FC",
     "club_id": "1164",
     "nom_complet": "Le Mans FC",
@@ -225,7 +240,7 @@
     "positionStatus": ""
   },
   {
-    "position": 16,
+    "position": 17,
     "equipe": "Angers SCO",
     "club_id": "1420",
     "nom_complet": "Angers SCO",
@@ -240,32 +255,17 @@
     "positionStatus": ""
   },
   {
-    "position": 17,
-    "equipe": "Troyes",
-    "club_id": "1095",
-    "nom_complet": "ESTAC Troyes",
-    "matchs_joues": 10,
-    "gagnes": 2,
-    "nuls": 2,
-    "perdus": 6,
-    "buts_marques": 7,
-    "buts_encaisses": 17,
-    "difference": -10,
-    "points": 8,
-    "positionStatus": ""
-  },
-  {
     "position": 18,
     "equipe": "Le Havre AC",
     "club_id": "738",
     "nom_complet": "Le Havre AC",
-    "matchs_joues": 10,
+    "matchs_joues": 11,
     "gagnes": 0,
     "nuls": 2,
-    "perdus": 8,
-    "buts_marques": 9,
-    "buts_encaisses": 22,
-    "difference": -13,
+    "perdus": 9,
+    "buts_marques": 10,
+    "buts_encaisses": 25,
+    "difference": -15,
     "points": 2,
     "positionStatus": ""
   }
