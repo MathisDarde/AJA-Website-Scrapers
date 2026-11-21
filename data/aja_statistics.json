@@ -21,15 +21,15 @@
     "age": "32",
     "position": "Gardien de but",
     "matches": "10",
-    "titularisations": "4",
+    "titularisations": "5",
     "goals": "0",
     "assists": "0",
     "yellow_cards": "1",
     "red_cards": 0,
     "substitutions_in": "0",
     "substitutions_out": "0",
-    "points_per_match": "1,00",
-    "minutes": "360'"
+    "points_per_match": "0,80",
+    "minutes": "370'"
   },
   {
     "numero": "37",
@@ -69,7 +69,7 @@
     "age": "25",
     "position": "Défenseur central",
     "matches": "10",
-    "titularisations": "3",
+    "titularisations": "4",
     "goals": "0",
     "assists": "0",
     "yellow_cards": "2",
@@ -77,7 +77,7 @@
     "substitutions_in": "0",
     "substitutions_out": "0",
     "points_per_match": "0,00",
-    "minutes": "270'"
+    "minutes": "280'"
   },
   {
     "numero": "4",
@@ -85,15 +85,15 @@
     "age": "29",
     "position": "Défenseur central",
     "matches": "7",
-    "titularisations": "7",
+    "titularisations": "8",
     "goals": "0",
     "assists": "0",
     "yellow_cards": "0",
     "red_cards": 0,
     "substitutions_in": "0",
     "substitutions_out": "0",
-    "points_per_match": "1,43",
-    "minutes": "630'"
+    "points_per_match": "1,25",
+    "minutes": "640'"
   },
   {
     "numero": "24",
@@ -117,7 +117,7 @@
     "age": "25",
     "position": "Arrière droit",
     "matches": "2",
-    "titularisations": "2",
+    "titularisations": "3",
     "goals": "0",
     "assists": "0",
     "yellow_cards": "0",
@@ -125,7 +125,7 @@
     "substitutions_in": "1",
     "substitutions_out": "1",
     "points_per_match": "0,00",
-    "minutes": "92'"
+    "minutes": "102'"
   },
   {
     "numero": "27",
@@ -181,15 +181,15 @@
     "age": "24",
     "position": "Arrière gauche",
     "matches": "9",
-    "titularisations": "8",
+    "titularisations": "9",
     "goals": "0",
     "assists": "0",
     "yellow_cards": "0",
     "red_cards": 0,
     "substitutions_in": "1",
     "substitutions_out": "2",
-    "points_per_match": "1,25",
-    "minutes": "650'"
+    "points_per_match": "1,11",
+    "minutes": "660'"
   },
   {
     "numero": "93",
@@ -213,7 +213,7 @@
     "age": "21",
     "position": "Défenseur central",
     "matches": "3",
-    "titularisations": "1",
+    "titularisations": "2",
     "goals": "0",
     "assists": "0",
     "yellow_cards": "0",
@@ -221,7 +221,7 @@
     "substitutions_in": "0",
     "substitutions_out": "1",
     "points_per_match": "0,00",
-    "minutes": "65'"
+    "minutes": "75'"
   },
   {
     "numero": "-",
@@ -325,15 +325,15 @@
     "age": "28",
     "position": "Milieu offensif",
     "matches": "10",
-    "titularisations": "10",
+    "titularisations": "11",
     "goals": "1",
     "assists": "3",
     "yellow_cards": "1",
     "red_cards": 0,
     "substitutions_in": "3",
     "substitutions_out": "3",
-    "points_per_match": "1,00",
-    "minutes": "662'"
+    "points_per_match": "0,91",
+    "minutes": "672'"
   },
   {
     "numero": "8",
@@ -341,15 +341,15 @@
     "age": "24",
     "position": "Milieu central",
     "matches": "10",
-    "titularisations": "10",
+    "titularisations": "11",
     "goals": "0",
     "assists": "0",
     "yellow_cards": "1",
     "red_cards": 0,
     "substitutions_in": "2",
     "substitutions_out": "7",
-    "points_per_match": "1,00",
-    "minutes": "683'"
+    "points_per_match": "0,91",
+    "minutes": "693'"
   },
   {
     "numero": "17",
@@ -357,15 +357,15 @@
     "age": "24",
     "position": "Milieu défensif",
     "matches": "8",
-    "titularisations": "6",
+    "titularisations": "7",
     "goals": "0",
     "assists": "0",
     "yellow_cards": "0",
     "red_cards": 0,
     "substitutions_in": "5",
     "substitutions_out": "0",
-    "points_per_match": "1,17",
-    "minutes": "142'"
+    "points_per_match": "1,00",
+    "minutes": "152'"
   },
   {
     "numero": "18",
@@ -437,15 +437,15 @@
     "age": "24",
     "position": "Avant-centre",
     "matches": "8",
-    "titularisations": "8",
+    "titularisations": "9",
     "goals": "6",
     "assists": "0",
     "yellow_cards": "1",
     "red_cards": 0,
     "substitutions_in": "0",
     "substitutions_out": "3",
-    "points_per_match": "1,25",
-    "minutes": "704'"
+    "points_per_match": "1,11",
+    "minutes": "714'"
   },
   {
     "numero": "19",
@@ -469,15 +469,15 @@
     "age": "23",
     "position": "Avant-centre",
     "matches": "6",
-    "titularisations": "6",
+    "titularisations": "7",
     "goals": "1",
     "assists": "0",
     "yellow_cards": "0",
     "red_cards": 0,
     "substitutions_in": "2",
     "substitutions_out": "4",
-    "points_per_match": "1,00",
-    "minutes": "272'"
+    "points_per_match": "0,86",
+    "minutes": "282'"
   },
   {
     "numero": "-",
