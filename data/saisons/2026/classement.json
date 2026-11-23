@@ -31,21 +31,6 @@
   },
   {
     "position": 3,
-    "equipe": "Marseille",
-    "club_id": "244",
-    "nom_complet": "Olympique de Marseille",
-    "matchs_joues": 11,
-    "gagnes": 7,
-    "nuls": 0,
-    "perdus": 4,
-    "buts_marques": 24,
-    "buts_encaisses": 14,
-    "difference": 10,
-    "points": 21,
-    "positionStatus": ""
-  },
-  {
-    "position": 4,
     "equipe": "LOSC Lille",
     "club_id": "1082",
     "nom_complet": "LOSC Lille",
@@ -60,7 +45,7 @@
     "positionStatus": ""
   },
   {
-    "position": 5,
+    "position": 4,
     "equipe": "Ol. Lyonnais",
     "club_id": "1041",
     "nom_complet": "Olympique Lyonnais",
@@ -72,6 +57,21 @@
     "buts_encaisses": 9,
     "difference": 7,
     "points": 20,
+    "positionStatus": ""
+  },
+  {
+    "position": 5,
+    "equipe": "Marseille",
+    "club_id": "244",
+    "nom_complet": "Olympique de Marseille",
+    "matchs_joues": 11,
+    "gagnes": 6,
+    "nuls": 0,
+    "perdus": 5,
+    "buts_marques": 24,
+    "buts_encaisses": 17,
+    "difference": 7,
+    "points": 18,
     "positionStatus": ""
   },
   {
@@ -181,6 +181,21 @@
   },
   {
     "position": 13,
+    "equipe": "Le Mans FC",
+    "club_id": "1164",
+    "nom_complet": "Le Mans FC",
+    "matchs_joues": 11,
+    "gagnes": 2,
+    "nuls": 5,
+    "perdus": 4,
+    "buts_marques": 15,
+    "buts_encaisses": 21,
+    "difference": -6,
+    "points": 11,
+    "positionStatus": ""
+  },
+  {
+    "position": 14,
     "equipe": "Troyes",
     "club_id": "1095",
     "nom_complet": "ESTAC Troyes",
@@ -195,7 +210,7 @@
     "positionStatus": ""
   },
   {
-    "position": 14,
+    "position": 15,
     "equipe": "AJ Auxerre",
     "club_id": "290",
     "nom_complet": "AJ Auxerre",
@@ -210,7 +225,7 @@
     "positionStatus": ""
   },
   {
-    "position": 15,
+    "position": 16,
     "equipe": "R. Strasbourg",
     "club_id": "667",
     "nom_complet": "RC Strasbourg Alsace",
@@ -222,21 +237,6 @@
     "buts_encaisses": 23,
     "difference": -5,
     "points": 10,
-    "positionStatus": ""
-  },
-  {
-    "position": 16,
-    "equipe": "Le Mans FC",
-    "club_id": "1164",
-    "nom_complet": "Le Mans FC",
-    "matchs_joues": 11,
-    "gagnes": 1,
-    "nuls": 5,
-    "perdus": 5,
-    "buts_marques": 12,
-    "buts_encaisses": 21,
-    "difference": -9,
-    "points": 8,
     "positionStatus": ""
   },
   {
