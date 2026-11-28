@@ -19,18 +19,33 @@
     "equipe": "Paris FC",
     "club_id": "10004",
     "nom_complet": "Paris FC",
-    "matchs_joues": 11,
+    "matchs_joues": 12,
     "gagnes": 7,
     "nuls": 2,
-    "perdus": 2,
+    "perdus": 3,
     "buts_marques": 21,
-    "buts_encaisses": 10,
-    "difference": 11,
+    "buts_encaisses": 11,
+    "difference": 10,
     "points": 23,
     "positionStatus": "UEFA Champions League"
   },
   {
     "position": 3,
+    "equipe": "Stade Brestois",
+    "club_id": "3911",
+    "nom_complet": "Stade Brestois 29",
+    "matchs_joues": 12,
+    "gagnes": 6,
+    "nuls": 3,
+    "perdus": 3,
+    "buts_marques": 20,
+    "buts_encaisses": 12,
+    "difference": 8,
+    "points": 21,
+    "positionStatus": "UEFA Champions League"
+  },
+  {
+    "position": 4,
     "equipe": "LOSC Lille",
     "club_id": "1082",
     "nom_complet": "LOSC Lille",
@@ -42,10 +57,10 @@
     "buts_encaisses": 8,
     "difference": 6,
     "points": 21,
-    "positionStatus": "UEFA Champions League"
+    "positionStatus": "Barrages Champions League"
   },
   {
-    "position": 4,
+    "position": 5,
     "equipe": "Ol. Lyonnais",
     "club_id": "1041",
     "nom_complet": "Olympique Lyonnais",
@@ -57,10 +72,10 @@
     "buts_encaisses": 9,
     "difference": 7,
     "points": 20,
-    "positionStatus": "Barrages Champions League"
+    "positionStatus": "UEFA Europa League"
   },
   {
-    "position": 5,
+    "position": 6,
     "equipe": "Marseille",
     "club_id": "244",
     "nom_complet": "Olympique de Marseille",
@@ -70,21 +85,6 @@
     "perdus": 5,
     "buts_marques": 24,
     "buts_encaisses": 17,
-    "difference": 7,
-    "points": 18,
-    "positionStatus": "UEFA Europa League"
-  },
-  {
-    "position": 6,
-    "equipe": "Stade Brestois",
-    "club_id": "3911",
-    "nom_complet": "Stade Brestois 29",
-    "matchs_joues": 11,
-    "gagnes": 5,
-    "nuls": 3,
-    "perdus": 3,
-    "buts_marques": 19,
-    "buts_encaisses": 12,
     "difference": 7,
     "points": 18,
     "positionStatus": "Barrages Conference League"
